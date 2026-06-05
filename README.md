@@ -1,8 +1,8 @@
-# INFO 4340 — Course Site
+# INFO 4340 Analytics and AI
 
-Jekyll site for INFO 4340: Generative AI for Analysts, University of Denver.
+Jekyll site for INFO 4340 Analytics and AI at the University of Denver's Daniels College of Business.
 
-Live at: `https://yourusername.github.io/info4340`
+Live at: `https://steflangehennig.github.io/info4340`
 
 ## Adding content
 
