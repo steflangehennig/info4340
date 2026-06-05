@@ -5,7 +5,7 @@ layout: default
 <div class="home-hero">
   <div class="home-hero-inner">
     <div class="home-label">University of Denver · Daniels College of Business</div>
-    <h1 class="home-title">Generative AI for Analysts: Workflows, Evaluation, and Governance</h1>
+    <h1 class="home-title">INFO 4340: Analytics and AI</h1>
     <p class="home-desc">A graduate course on using, evaluating, and governing AI tools in applied professional settings. Designed for analysts and decision-makers in business, policy, and data-intensive fields.</p>
     <div class="home-meta">
       <span class="meta-pill">{{ site.term }}</span>
@@ -48,7 +48,7 @@ layout: default
     <div class="sidebar-card">
       <div class="sidebar-card-head">This week</div>
       <div class="sidebar-card-body">
-        <p><strong>Week 1</strong> — Generative AI for analysts</p>
+        <p><strong>Week 1</strong> - Generative AI for analysts</p>
         <p>Risk-ranking activity and use case reflection. Come ready to discuss where you've already encountered AI in your work.</p>
       </div>
     </div>

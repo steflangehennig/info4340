@@ -1,16 +1,16 @@
 title: "INFO 4340"
-tagline: "Generative AI for Analysts: Workflows, Evaluation, and Governance"
-description: "Graduate course · University of Denver · Daniels College of Business"
+tagline: "Analytics and AI"
+description: "University of Denver · Daniels College of Business"
 baseurl: "/info4340"
-url: "https://yourusername.github.io"
+url: "https://steflangehennig.github.io"
 
-instructor: "Your Name"
+instructor: "Stefani Langehennig, PhD"
 term: "Fall 2026"
-credits: "3 credits"
+credits: "4 credits"
 meeting: "TBD"
 location: "TBD"
 office_hours: "TBD"
-contact: "you@du.edu"
+contact: "stefani.langehennig@du.edu"
 
 nav:
   - title: "Syllabus"
