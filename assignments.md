@@ -26,8 +26,9 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 <div class="assignment-row">
   <div class="assignment-week">Wk 2</div>
   <div class="assignment-content">
-    <div class="assignment-title">Tool setup and comparison note</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-2-comparison/">Tool setup and comparison note</a></div>
+    <div class="assignment-meta">~1–2 pages · 25 points · Due before Week 3 Monday</div>
+    <div class="assignment-desc">Confirm your dev environment works, compare AI tool surfaces on the same data task, and reflect on which surface fits which kind of analytic work.</div>
   </div>
 </div>
 

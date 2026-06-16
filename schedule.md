@@ -26,8 +26,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 2</div>
   <div class="week-content">
-    <div class="week-title">LLMs, harnesses, and setup <span class="badge badge-blue">Understand</span></div>
-    <div class="week-meta">Deliverable: tool setup and comparison note · <a href="{{ site.baseurl }}/guides/dev-setup/">See setup guide →</a></div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-2/">LLMs, harnesses, and setup</a> <span class="badge badge-blue">Understand</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-2-comparison/">tool setup and comparison note</a> · <a href="{{ site.baseurl }}/guides/dev-setup/">setup guide →</a></div>
   </div>
 </div>
 
