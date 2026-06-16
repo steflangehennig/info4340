@@ -5,7 +5,7 @@ subtitle: "Understand · What does GenAI change about analytic work?"
 permalink: /schedule/week-1/
 ---
 
-<div class="note">
+<div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-blue">Understand</span> &nbsp;·&nbsp;
   <strong>Deliverable:</strong> Use case reflection (due before Week 2 Monday) &nbsp;·&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-1-reflection/">See assignment →</a>
@@ -24,7 +24,7 @@ By the end of this week, you should be able to:
 
 ## Sessions
 
-<div class="session-block">
+<div class="session-block" markdown="0">
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">What does GenAI change about analytic work?</div>
@@ -38,7 +38,7 @@ By the end of this week, you should be able to:
   </div>
 </div>
 
-<div class="session-block">
+<div class="session-block" markdown="0">
   <div class="session-label">Wednesday</div>
   <div class="session-content">
     <div class="session-title">First hands-on: seeing what GenAI does</div>
@@ -55,10 +55,12 @@ By the end of this week, you should be able to:
 ## Prepare before class
 
 **Before Monday:**
+
 - No readings this week — come ready to discuss where you've already used AI tools (ChatGPT, Claude, Copilot, Gemini, or others)
 - Think about one time AI was useful and one time it failed or surprised you
 
 **Before Wednesday:**
+
 - Check that you can access [Google Colab](https://colab.research.google.com) with your DU account
 - The Python notebook link will be posted on Canvas
 
@@ -80,7 +82,7 @@ This week's readings are optional background — the main learning happens in cl
 
 ## Deliverable
 
-<div class="assignment-preview">
+<div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">GenAI Use Case Reflection</div>
   <div class="assignment-preview-meta">~1 page · Due before class, Week 2 Monday · Submit via Canvas</div>
   <p>Describe one realistic GenAI use case in a future analyst role. Explain what AI would do, what the human analyst would still be responsible for, what would need to be verified, and the risk level.</p>

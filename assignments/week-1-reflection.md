@@ -12,13 +12,9 @@ Describe one realistic GenAI use case in a future analyst role. This should be a
 Your reflection should address all five of the following:
 
 1. **The task.** What analytic work would GenAI support? Be specific about the domain, the data or inputs, and what the work product would be.
-
 2. **AI's role.** What specifically would the AI do? (e.g., generate code, classify text, draft a summary, suggest an approach). Don't just say "help with analysis" — describe the actual interaction.
-
 3. **Human responsibility.** What would the analyst still be responsible for? Think about judgment calls, verification, interpretation, and decisions that shouldn't be delegated.
-
 4. **Verification.** What would need to be checked before using the AI output in a professional setting? What could go wrong, and how would you catch it?
-
 5. **Risk level.** Is this use case low, medium, or high risk? Justify your answer using the risk dimensions from class: stakes, data sensitivity, affected population, reversibility, and degree of automation.
 
 ## Format
