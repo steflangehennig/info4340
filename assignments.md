@@ -4,13 +4,90 @@ title: Assignments
 subtitle: Deliverables, rubrics, and submission details
 ---
 
-Assignments will be posted here as the course progresses. All submissions go through Canvas unless otherwise noted.
+Assignments are posted here as the course progresses. All submissions go through Canvas unless otherwise noted.
 
 ## Weekly deliverables
 
 Each week has a short deliverable due before class. These are designed to be completed in 1–2 hours and build toward the final project. See the [schedule]({{ site.baseurl }}/schedule/) for topics and due dates.
 
 All weekly deliverables must include an **AI use log** — a brief record of what you prompted, what the tool produced, and what decisions you made yourself.
+
+---
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 1</div>
+  <div class="assignment-content">
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-1-reflection/">Use case reflection</a></div>
+    <div class="assignment-meta">~1 page · 30 points · Due before Week 2 Monday</div>
+    <div class="assignment-desc">Describe a realistic GenAI use case in a future analyst role. Address the task, AI's role, human responsibility, verification, and risk level.</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 2</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Tool setup and comparison note</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 3</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Directed report with AI use log</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 4</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Debugging and review log</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 5</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Analytic design critique + Python implementation</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 6</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Text classification pipeline</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 7</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Prompt and output evaluation memo</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 8</div>
+  <div class="assignment-content">
+    <div class="assignment-title">AI incident brief</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+<div class="assignment-row">
+  <div class="assignment-week">Wk 9</div>
+  <div class="assignment-content">
+    <div class="assignment-title">Governance memo</div>
+    <div class="assignment-meta">Coming soon</div>
+  </div>
+</div>
+
+---
 
 ## Final project
 

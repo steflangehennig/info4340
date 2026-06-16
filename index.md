@@ -48,8 +48,9 @@ layout: default
     <div class="sidebar-card">
       <div class="sidebar-card-head">This week</div>
       <div class="sidebar-card-body">
-        <p><strong>Week 1</strong> - Generative AI for analysts</p>
-        <p>Risk-ranking activity and use case reflection. Come ready to discuss where you've already encountered AI in your work.</p>
+        <p><strong>Week 1</strong> — <a href="{{ site.baseurl }}/schedule/week-1/">Generative AI for analysts</a></p>
+        <p>Risk-ranking activity, your first LLM API call, and a prompt diagnosis exercise. Come ready to discuss where you've already used AI.</p>
+        <p style="margin-top:8px;"><a href="{{ site.baseurl }}/assignments/week-1-reflection/" style="font-size:12px;">Deliverable: use case reflection →</a></p>
       </div>
     </div>
 

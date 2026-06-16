@@ -18,8 +18,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 1</div>
   <div class="week-content">
-    <div class="week-title">Generative AI for analysts <span class="badge badge-blue">Understand</span></div>
-    <div class="week-meta">Deliverable: risk-ranking activity and use case reflection</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-1/">Generative AI for analysts</a> <span class="badge badge-blue">Understand</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-1-reflection/">use case reflection</a> · risk-ranking activity</div>
   </div>
 </div>
 
