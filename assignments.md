@@ -35,8 +35,9 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 <div class="assignment-row">
   <div class="assignment-week">Wk 3</div>
   <div class="assignment-content">
-    <div class="assignment-title">Directed report with AI use log</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-3-report/">Directed report with AI use log</a></div>
+    <div class="assignment-meta">4 components · 30 points · Due before Week 4 Monday</div>
+    <div class="assignment-desc">Explore a messy dataset, build a verified data dictionary, clean and analyze the data, and write a directed report with a specific question, evidence, interpretation, and limitations.</div>
   </div>
 </div>
 

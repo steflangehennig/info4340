@@ -34,8 +34,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 3</div>
   <div class="week-content">
-    <div class="week-title">From raw data to report <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: directed report with AI use log · Python: pandas, statsmodels</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-3/">From raw data to report</a> <span class="badge badge-green">Use</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-3-report/">directed report with AI use log</a> · Python: pandas, data cleaning</div>
   </div>
 </div>
 
