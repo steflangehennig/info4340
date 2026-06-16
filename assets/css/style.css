@@ -436,3 +436,138 @@ main.page-content {
   .page-wrap { padding: 32px 16px 60px; }
   .footer-inner { flex-direction: column; }
 }
+
+/* ── Session blocks (weekly detail pages) ── */
+.session-block {
+  display: flex;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.session-block:last-of-type { border-bottom: none; }
+
+.session-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--muted);
+  width: 80px;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+.session-content { flex: 1; }
+
+.session-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.session-content p {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+
+.session-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.topic-tag {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--blue-bg);
+  color: #1a4080;
+}
+
+/* ── Assignment preview card (weekly detail pages) ── */
+.assignment-preview {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin: 16px 0;
+}
+
+.assignment-preview-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.assignment-preview-meta {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.assignment-preview p {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.assignment-link {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* ── Assignment rows (assignments index page) ── */
+.assignment-row {
+  display: flex;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.assignment-row:last-of-type { border-bottom: none; }
+
+.assignment-week {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--muted);
+  width: 44px;
+  flex-shrink: 0;
+  padding-top: 3px;
+}
+
+.assignment-content { flex: 1; }
+
+.assignment-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.assignment-title a { color: var(--text); }
+.assignment-title a:hover { color: var(--accent); }
+
+.assignment-meta {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.assignment-desc {
+  font-size: 12.5px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* ── Week detail page: linked week title on schedule ── */
+.week-title a { color: var(--text); }
+.week-title a:hover { color: var(--accent); }
