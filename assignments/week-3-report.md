@@ -7,7 +7,7 @@ permalink: /assignments/week-3-report/
 
 ## Assignment
 
-Using the orders dataset from class (or a dataset you choose with instructor approval), produce a directed report with four components.
+Using the orders dataset from class (or a dataset you choose with my approval), produce a directed report with four components.
 
 ### Component 1: README and data dictionary
 
