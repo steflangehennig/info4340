@@ -8,9 +8,9 @@ Assignments are posted here as the course progresses. All submissions go through
 
 ## Weekly deliverables
 
-Each week has a short deliverable due before class. These are designed to be completed in 1–2 hours and build toward the final project. See the [schedule]({{ site.baseurl }}/schedule/) for topics and due dates.
+Each week has a short deliverable due before class. These are designed to be completed in 1-2 hours and build toward the final project. See the [schedule]({{ site.baseurl }}/schedule/) for topics and due dates.
 
-All weekly deliverables must include an **AI use log** — a brief record of what you prompted, what the tool produced, and what decisions you made yourself. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/) for format and examples.
+All weekly deliverables must include an **AI use log**, a brief record of what you prompted, what the tool produced, and what decisions you made yourself. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/) for format and examples.
 
 ---
 
@@ -27,7 +27,7 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
   <div class="assignment-week">Wk 2</div>
   <div class="assignment-content">
     <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-2-comparison/">Tool setup and comparison note</a></div>
-    <div class="assignment-meta">~1–2 pages · 25 points · Due before Week 3 Monday</div>
+    <div class="assignment-meta">~1-2 pages · 25 points · Due before Week 3 Monday</div>
     <div class="assignment-desc">Confirm your dev environment works, compare AI tool surfaces on the same data task, and reflect on which surface fits which kind of analytic work.</div>
   </div>
 </div>
@@ -97,12 +97,12 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 
 The final project is a reproducible workflow package demonstrating your ability to use, evaluate, and reflect on GenAI in an applied analytic context. It includes:
 
-- A Python notebook (reproducible, with clear outputs)
-- A short written summary (3–5 pages)
+- A Python notebook (reproducible with clear outputs)
+- A short written summary (3-5 pages)
 - A 10-minute in-class presentation (Week 10)
 
 More details posted Week 4.
 
 ## Submission
 
-Submit all work through Canvas by the deadline listed on the assignment. Late work loses 10% per day; contact the instructor 48+ hours in advance if you need an extension.
+Submit all work through Canvas by the deadline listed on the assignment. Late work loses 10% per day; contact me at least 48+ hours in advance if you need an extension.
