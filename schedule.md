@@ -42,8 +42,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 4</div>
   <div class="week-content">
-    <div class="week-title">Debugging AI's work <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: debugging and review log · Python: code review, unit testing</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-4/">Debugging AI's work</a> <span class="badge badge-green">Use</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-4-debugging/">debugging and review log</a> · Python: assertions, code review</div>
   </div>
 </div>
 

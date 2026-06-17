@@ -10,7 +10,7 @@ Assignments are posted here as the course progresses. All submissions go through
 
 Each week has a short deliverable due before class. These are designed to be completed in 1–2 hours and build toward the final project. See the [schedule]({{ site.baseurl }}/schedule/) for topics and due dates.
 
-All weekly deliverables must include an **AI use log** — a brief record of what you prompted, what the tool produced, and what decisions you made yourself.
+All weekly deliverables must include an **AI use log** — a brief record of what you prompted, what the tool produced, and what decisions you made yourself. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/) for format and examples.
 
 ---
 
@@ -44,8 +44,9 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 <div class="assignment-row">
   <div class="assignment-week">Wk 4</div>
   <div class="assignment-content">
-    <div class="assignment-title">Debugging and review log</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-4-debugging/">Debugging and review log</a></div>
+    <div class="assignment-meta">3 components · 30 points · Due before Week 5 Monday</div>
+    <div class="assignment-desc">Find and document bugs in AI-generated code, fix them with assertions, and conduct a peer review of a classmate's Week 3 notebook.</div>
   </div>
 </div>
 
