@@ -36,7 +36,7 @@ You can use the dataset from class, a dataset from your own work, or any small p
 
 ### Part 3: Reflection
 
-In 3–5 sentences, reflect: based on your experience this week, which AI surface would you choose for each of these analyst tasks, and why?
+In 3-5 sentences, reflect: based on your experience this week, which AI surface would you choose for each of these analyst tasks, and why?
 
 - Brainstorming column names or analysis approaches
 - Writing and debugging a Python data pipeline
@@ -45,7 +45,7 @@ In 3–5 sentences, reflect: based on your experience this week, which AI surfac
 
 ## Format
 
-- 1–2 pages total
+- 1-2 pages total
 - Can include screenshots, code snippets, or prompt/output examples
 - Include an AI use log: what tools you used, what you prompted, and what you changed
 

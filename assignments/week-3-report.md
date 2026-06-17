@@ -11,7 +11,7 @@ Using the orders dataset from class (or a dataset you choose with my approval), 
 
 ### Component 1: README and data dictionary
 
-Document the dataset: source and context, unit of observation, variable descriptions (name, type, description, issues, cleaning applied), missingness patterns, and any transformations or computed columns.
+Document the dataset: source and context, unit of analysis, variable descriptions (name, type, description, issues, cleaning applied), missingness patterns, and any transformations or computed columns.
 
 You may use AI to draft the data dictionary, but you must verify every entry. Note what the draft got wrong in your AI use log.
 
@@ -19,14 +19,14 @@ You may use AI to draft the data dictionary, but you must verify every entry. No
 
 A notebook or script that runs end-to-end: data import, cleaning steps with comments explaining each decision, aggregation or analysis, at least one visualization, and output generation.
 
-### Component 3: Directed report (1–2 pages)
+### Component 3: Directed report (1-2 pages)
 
 A short report with four elements:
 
-1. **Question** — a specific, answerable question driving the analysis
-2. **Evidence** — descriptive statistics, aggregations, or visualizations tied to the question
-3. **Interpretation** — what the evidence means, in context, with appropriate caveats
-4. **Limitations** — what the data can't tell you, what assumptions you made
+1. **Question** - a specific, answerable question driving the analysis
+2. **Evidence** - descriptive statistics, aggregations, or visualizations tied to the question
+3. **Interpretation** - what the evidence means, in context, with appropriate caveats
+4. **Limitations** - what the data can't tell you, what assumptions you made
 
 This is not a "dump everything you found" report. Stay focused on your question.
 
