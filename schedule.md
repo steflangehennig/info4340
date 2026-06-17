@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Schedule
-subtitle: 10-week course plan · Fall 2026
+subtitle: INFO 4340 · Fall 2026
 ---
 
 Readings and materials for each week are posted to Canvas. This page shows the topic, module, and deliverable due before each class session.
 
 ## Module overview
 
-<span class="badge badge-blue">Understand</span> weeks 1–2 &nbsp;·&nbsp;
-<span class="badge badge-green">Use</span> weeks 3–6 &nbsp;·&nbsp;
-<span class="badge badge-orange">Evaluate</span> weeks 7–8 &nbsp;·&nbsp;
-<span class="badge badge-orange">Govern + Integrate</span> weeks 9–10
+<span class="badge badge-blue">Understand</span> weeks 1-2 &nbsp;·&nbsp;
+<span class="badge badge-green">Use</span> weeks 3-6 &nbsp;·&nbsp;
+<span class="badge badge-orange">Evaluate</span> weeks 7-8 &nbsp;·&nbsp;
+<span class="badge badge-orange">Govern + Integrate</span> weeks 9-10
 
 ---
 
