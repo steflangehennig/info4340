@@ -104,4 +104,4 @@ More details posted Week 4.
 
 ## Submission
 
-Submit all work through Canvas by the deadline listed on the assignment. Late work loses 10% per day; contact the instructor 48+ hours in advance if you need an extension.
+Submit all work through Canvas by the deadline listed on the assignment. Late work loses 10% per day; contact me at least 48+ hours in advance to discuss if you need an extension.
