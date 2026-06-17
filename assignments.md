@@ -53,8 +53,9 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 <div class="assignment-row">
   <div class="assignment-week">Wk 5</div>
   <div class="assignment-content">
-    <div class="assignment-title">Analytic design critique + Python implementation</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-5-design/">Analytic design critique + implementation</a></div>
+    <div class="assignment-meta">3 components · 30 points · Due before Week 6 Monday</div>
+    <div class="assignment-desc">Use AI's four prompt roles to propose and critique an analysis plan, reconcile the feedback, and implement a customer segmentation with evaluation.</div>
   </div>
 </div>
 
@@ -104,4 +105,4 @@ More details posted Week 4.
 
 ## Submission
 
-Submit all work through Canvas by the deadline listed on the assignment. Late work loses 10% per day; contact me at least 48+ hours in advance to discuss if you need an extension.
+Submit all work through Canvas by the deadline listed on the assignment. Late work loses 10% per day; contact the instructor 48+ hours in advance if you need an extension.

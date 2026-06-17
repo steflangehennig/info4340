@@ -50,8 +50,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 5</div>
   <div class="week-content">
-    <div class="week-title">AI as analytic/research companion <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: analytic design critique + Python implementation · Python: sklearn k-means, segmentation</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-5/">AI as analytic companion</a> <span class="badge badge-green">Use</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-5-design/">analytic design critique + implementation</a> · Python: sklearn k-means</div>
   </div>
 </div>
 
