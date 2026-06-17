@@ -16,6 +16,14 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
     <div class="guide-card-arrow">→</div>
   </a>
 
+  <a href="{{ site.baseurl }}/guides/ai-use-log/" class="guide-card">
+    <div class="guide-card-left">
+      <div class="guide-card-title">AI use log guide</div>
+      <div class="guide-card-desc">What an AI use log is, why it matters, what to include, and three format options with examples. Required for all weekly deliverables.</div>
+    </div>
+    <div class="guide-card-arrow">→</div>
+  </a>
+
   <div class="guide-card" style="opacity:.5; cursor:default;">
     <div class="guide-card-left">
       <div class="guide-card-title">Python for analysts — coming Week 3</div>
