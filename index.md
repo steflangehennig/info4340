@@ -11,7 +11,6 @@ layout: default
       <span class="meta-pill">{{ site.term }}</span>
       <span class="meta-pill">{{ site.instructor }}</span>
       <span class="meta-pill">{{ site.meeting }}</span>
-      <span class="meta-pill">{{ site.credits }}</span>
     </div>
   </div>
 </div>
