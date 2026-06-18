@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Schedule
-subtitle: INFO 4340 · Fall 2026
+subtitle: 10-week course plan · Fall 2026
 ---
 
 Readings and materials for each week are posted to Canvas. This page shows the topic, module, and deliverable due before each class session.
 
 ## Module overview
 
-<span class="badge badge-blue">Understand</span> weeks 1-2 &nbsp;·&nbsp;
-<span class="badge badge-green">Use</span> weeks 3-6 &nbsp;·&nbsp;
-<span class="badge badge-orange">Evaluate</span> weeks 7-8 &nbsp;·&nbsp;
-<span class="badge badge-orange">Govern + Integrate</span> weeks 9-10
+<span class="badge badge-blue">Understand</span> weeks 1–2 &nbsp;·&nbsp;
+<span class="badge badge-green">Use</span> weeks 3–6 &nbsp;·&nbsp;
+<span class="badge badge-orange">Evaluate</span> weeks 7–8 &nbsp;·&nbsp;
+<span class="badge badge-orange">Govern + Integrate</span> weeks 9–10
 
 ---
 
@@ -58,8 +58,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 6</div>
   <div class="week-content">
-    <div class="week-title">Text as data with LLMs <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: text classification pipeline · Python: sklearn baseline vs. LLM classifier</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-6/">Text as data with LLMs</a> <span class="badge badge-green">Use</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-6-text/">text classification pipeline</a> · Python: sklearn, LLM classifier, networkx</div>
   </div>
 </div>
 
