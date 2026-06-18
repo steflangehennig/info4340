@@ -4,7 +4,6 @@ layout: default
 
 <div class="home-hero">
   <div class="home-hero-inner">
-    <div class="home-label">University of Denver · Daniels College of Business</div>
     <h1 class="home-title">INFO 4340: Analytics and AI</h1>
     <p class="home-desc">A graduate course on using, evaluating, and governing AI tools in applied professional settings. Designed for analysts and decision-makers in business and data-intensive fields.</p>
     <div class="home-meta">
