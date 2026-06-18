@@ -66,8 +66,8 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 7</div>
   <div class="week-content">
-    <div class="week-title">Evaluating GenAI outputs <span class="badge badge-orange">Evaluate</span></div>
-    <div class="week-meta">Deliverable: prompt and output evaluation memo · Python: scoring scripts, Cohen's κ</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-7/">Evaluating GenAI outputs</a> <span class="badge badge-orange">Evaluate</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-7-evaluation/">prompt and output evaluation memo</a> · Python: scoring, Cohen's κ</div>
   </div>
 </div>
 

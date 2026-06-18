@@ -71,8 +71,9 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 <div class="assignment-row">
   <div class="assignment-week">Wk 7</div>
   <div class="assignment-content">
-    <div class="assignment-title">Prompt and output evaluation memo</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-7-evaluation/">Prompt and output evaluation memo</a></div>
+    <div class="assignment-meta">7 components · 30 points · Due before Week 8 Monday</div>
+    <div class="assignment-desc">Choose a task, generate three outputs, design a rubric, score with justifications, analyze failure modes, and recommend whether the workflow is acceptable.</div>
   </div>
 </div>
 
