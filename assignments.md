@@ -80,16 +80,18 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 <div class="assignment-row">
   <div class="assignment-week">Wk 8</div>
   <div class="assignment-content">
-    <div class="assignment-title">AI incident brief</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-8-incident/">AI incident brief</a></div>
+    <div class="assignment-meta">~2 pages · 30 points · Due before Week 9 Monday</div>
+    <div class="assignment-desc">Analyze a real AI incident: failure chain across technical, human, organizational, and governance layers, harm analysis, and one concrete recommended safeguard.</div>
   </div>
 </div>
 
 <div class="assignment-row">
   <div class="assignment-week">Wk 9</div>
   <div class="assignment-content">
-    <div class="assignment-title">Governance memo</div>
-    <div class="assignment-meta">Coming soon</div>
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/week-9-governance/">GenAI governance memo</a></div>
+    <div class="assignment-meta">~2 pages · 30 points · Due before Week 10 Monday</div>
+    <div class="assignment-desc">A practical governance memo for your final project workflow: risk level, data rules, evaluation requirements, human review, disclosure, prohibited uses, accountability, and escalation.</div>
   </div>
 </div>
 
@@ -97,13 +99,16 @@ All weekly deliverables must include an **AI use log** — a brief record of wha
 
 ## Final project
 
-The final project is a reproducible workflow package demonstrating your ability to use, evaluate, and reflect on GenAI in an applied analytic context. It includes:
+<div class="assignment-row">
+  <div class="assignment-week">Wk 10</div>
+  <div class="assignment-content">
+    <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/final-project/">Final workflow package + presentation</a></div>
+    <div class="assignment-meta">6 criteria · 60 points · Due Week 10</div>
+    <div class="assignment-desc">Reproducible Python notebook, written summary (3–5 pages), governance memo, 10-minute presentation, and comprehensive AI use log demonstrating all four competencies.</div>
+  </div>
+</div>
 
-- A Python notebook (reproducible, with clear outputs)
-- A short written summary (3–5 pages)
-- A 10-minute in-class presentation (Week 10)
-
-More details posted Week 4.
+The final project is a reproducible workflow package demonstrating your ability to use, evaluate, and reflect on GenAI in an applied analytic context. See the [full rubric]({{ site.baseurl }}/assignments/final-project/) for details.
 
 ## Submission
 

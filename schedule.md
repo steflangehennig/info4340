@@ -74,23 +74,23 @@ Readings and materials for each week are posted to Canvas. This page shows the t
 <div class="week-row">
   <div class="week-num">Wk 8</div>
   <div class="week-content">
-    <div class="week-title">Failures, incidents, and risk <span class="badge badge-orange">Evaluate</span></div>
-    <div class="week-meta">Deliverable: AI incident brief · Focus: subgroup error rates, bias metrics, precision/recall</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-8/">Failures, incidents, and risk</a> <span class="badge badge-orange">Evaluate</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-8-incident/">AI incident brief</a> · Python: subgroup error rates, precision/recall</div>
   </div>
 </div>
 
 <div class="week-row">
   <div class="week-num">Wk 9</div>
   <div class="week-content">
-    <div class="week-title">Governing GenAI in organizations <span class="badge badge-orange">Govern</span></div>
-    <div class="week-meta">Deliverable: governance memo · Framework: NIST AI RMF</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-9/">Governing GenAI in organizations</a> <span class="badge badge-orange">Govern</span></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-9-governance/">governance memo</a> · Framework: NIST AI RMF</div>
   </div>
 </div>
 
 <div class="week-row">
   <div class="week-num">Wk 10</div>
   <div class="week-content">
-    <div class="week-title">Final project presentations</div>
-    <div class="week-meta">Deliverable: final workflow package (reproducible Python notebook) + 10-min presentation</div>
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-10/">Final project presentations</a></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/final-project/">final workflow package</a> (reproducible notebook + presentation)</div>
   </div>
 </div>
