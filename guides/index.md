@@ -4,7 +4,7 @@ title: Guides
 subtitle: Setup references and technical resources for the course
 ---
 
-These guides support the technical work in INFO 4340. They're meant to be bookmarked and returned to, not just read once and forgotten!
+These guides support the technical work in INFO 4340. They're meant to be bookmarked and returned to — not read once and forgotten.
 
 <div class="guide-list">
 
@@ -24,28 +24,28 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
     <div class="guide-card-arrow">→</div>
   </a>
 
-  <div class="guide-card" style="opacity:.5; cursor:default;">
+  <a href="{{ site.baseurl }}/guides/python-analysts/" class="guide-card">
     <div class="guide-card-left">
-      <div class="guide-card-title">Python for analysts - coming Week 3</div>
-      <div class="guide-card-desc">pandas, statsmodels, and sklearn essentials with AI-assisted workflows.</div>
+      <div class="guide-card-title">Python for analysts</div>
+      <div class="guide-card-desc">pandas, statsmodels, sklearn, networkx, and Anthropic API essentials — the specific operations you need for AI-assisted analytic workflows.</div>
     </div>
     <div class="guide-card-arrow">→</div>
-  </div>
+  </a>
 
-  <div class="guide-card" style="opacity:.5; cursor:default;">
+  <a href="{{ site.baseurl }}/guides/prompt-engineering/" class="guide-card">
     <div class="guide-card-left">
-      <div class="guide-card-title">Prompt engineering for analysts - coming Week 4</div>
-      <div class="guide-card-desc">How to write, test, and iterate on prompts for analytic tasks.</div>
+      <div class="guide-card-title">Prompt engineering for analysts</div>
+      <div class="guide-card-desc">Six prompt patterns for analytic work (classification, exploration, code generation, summarization, helpful/adversarial, evaluation), iteration workflow, and common mistakes.</div>
     </div>
     <div class="guide-card-arrow">→</div>
-  </div>
+  </a>
 
-  <div class="guide-card" style="opacity:.5; cursor:default;">
+  <a href="{{ site.baseurl }}/guides/evaluation/" class="guide-card">
     <div class="guide-card-left">
-      <div class="guide-card-title">Evaluation frameworks - coming Week 7</div>
-      <div class="guide-card-desc">Rubrics, scoring scripts, and agreement metrics for evaluating AI outputs.</div>
+      <div class="guide-card-title">Evaluation frameworks</div>
+      <div class="guide-card-desc">Rubric design, Cohen's κ, precision/recall, test case templates, and when to trust LLM-as-judge. Everything you need for systematic AI output evaluation.</div>
     </div>
     <div class="guide-card-arrow">→</div>
-  </div>
+  </a>
 
 </div>
