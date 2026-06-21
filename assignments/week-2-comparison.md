@@ -1,62 +1,49 @@
 ---
 layout: page
-title: "Week 2: Tool Setup and Comparison Note"
-subtitle: "~1–2 pages · Due before class, Week 3 Monday · Submit via Canvas"
+title: "Week 2: Tool Setup and Benchmarking Report"
+subtitle: "~2 pages + code · Due before class, Week 3 Monday · Submit via Canvas"
 permalink: /assignments/week-2-comparison/
 ---
 
 ## Assignment
 
-Set up your development environment and compare AI tool surfaces on a real data task. This assignment ensures you have working tools and develops your intuition for which AI surface fits which kind of analytic work.
+Set up your development environment and run a systematic benchmarking experiment. Model and tool selection should be based on measured performance, not impressions.
 
 ### Part 1: Setup confirmation
 
-Confirm that your development environment is working. Include a brief description or screenshot showing:
+Confirm your tools are working: VS Code, Python, at least one AI coding tool, and API access. Include screenshots or descriptions. Note any unresolved issues.
 
-- VS Code is installed and the terminal works
-- Python runs successfully
-- At least one AI coding tool is configured (Claude Code, GitHub Copilot, or Codex CLI)
-- You can make an API call from Python (using the class API key or your own)
+### Part 2: Benchmarking experiment
 
-If you ran into setup issues, describe what happened and how you resolved it (or what's still unresolved).
+Run the systematic benchmarking experiment (5+ prompts × 2+ configurations). Report:
 
-### Part 2: Tool comparison
+| Metric | What to report |
+|---|---|
+| Response time | Mean and standard deviation (seconds per call) |
+| Token usage | Mean input, output, and total tokens per configuration |
+| Cost projection | Estimated cost per 1,000 calls based on actual usage |
+| Quality score | Mean score on each rubric dimension and overall |
 
-Run the same small data task using **at least two different AI surfaces** (e.g., chat interface + Python API, or chat interface + Claude Code in the terminal).
+Include the raw results table, not just aggregates.
 
-For each surface, document:
+### Part 3: Quantitative recommendation
 
-1. **What tool/surface did you use?** (e.g., Claude.ai chat, Python API with Claude Sonnet, Claude Code in VS Code terminal)
-2. **What did you ask it to do?** (Include the prompt or a summary)
-3. **Was the output correct?** How did you verify?
-4. **One thing the tool did well** for this task
-5. **One thing the tool didn't do well** or that surprised you
+Write a 3–5 sentence recommendation citing specific numbers: quality scores, response times, cost differences, and which configuration you'd choose for different task types.
 
-You can use the dataset from class, a dataset from your own work, or any small public dataset.
+### Part 4: Reflection
 
-### Part 3: Reflection
+Did quantitative results match your qualitative impressions? What would a rigorous production evaluation require beyond this 5-prompt experiment?
 
-In 3-5 sentences, reflect: based on your experience this week, which AI surface would you choose for each of these analyst tasks, and why?
-
-- Brainstorming column names or analysis approaches
-- Writing and debugging a Python data pipeline
-- Processing 500 records through a classification prompt
-- Drafting a short report from analysis results
-
-## Format
-
-- 1-2 pages total
-- Can include screenshots, code snippets, or prompt/output examples
-- Include an AI use log: what tools you used, what you prompted, and what you changed
+### Part 5: AI use log
 
 ## Rubric
 
 | Criterion | Excellent (5) | Adequate (3) | Needs revision (1) |
 |---|---|---|---|
-| Setup confirmation | All tools working with clear evidence | Most tools working, minor issues noted | Setup incomplete or not documented |
-| Comparison depth | 2+ surfaces compared on same task with specific observations | Comparison attempted but thin on detail | Only one surface used or no comparison |
-| Accuracy verification | Checked AI output against source data or documentation | Mentions verification but doesn't show evidence | No verification attempted |
-| Reflection quality | Connects surface choice to task type with clear reasoning | Some reasoning but generic | No reflection or disconnected from experience |
-| AI use log | Clear record of prompts, tools, and human decisions | Log present but incomplete | Missing |
+| Setup confirmation | All tools working with evidence | Most working | Incomplete |
+| Benchmarking execution | 5+ prompts × 2+ configs, complete metrics | Benchmark run but metrics missing | Incomplete |
+| Quality scoring | All outputs scored with justifications | Scores present but thin | No quality scoring |
+| Recommendation | Data-driven with specific numbers and task nuance | Present but vague | Purely qualitative |
+| Reflection | Connects data to impressions, identifies limitations | Some reflection | No reflection |
 
 **Total: 25 points**

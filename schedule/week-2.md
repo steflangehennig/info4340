@@ -7,7 +7,7 @@ permalink: /schedule/week-2/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-blue">Understand</span> &nbsp;·&nbsp;
-  <strong>Deliverable:</strong> Tool setup and comparison note (due before Week 3 Monday) &nbsp;·&nbsp;
+  <strong>Deliverable:</strong> Tool setup and benchmarking report (due before Week 3 Monday) &nbsp;·&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-2-comparison/">See assignment →</a>
 </div>
 
@@ -19,8 +19,9 @@ By the end of this week, you should be able to:
 2. Distinguish closed/frontier models from open-weights models
 3. Explain the harness concept: same model, different interface, different workflow
 4. Set up VS Code, Claude Code, and/or GitHub Copilot
-5. Compare AI tool surfaces on the same task and identify tradeoffs
-6. Estimate token counts and API costs for analytic tasks
+5. Design and run a controlled model benchmarking experiment
+6. Compute performance metrics (response time, token usage, cost) and quality scores with a rubric
+7. Make a data-driven tool recommendation with quantitative evidence
 
 ## Sessions
 
@@ -28,7 +29,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">What LLMs are and why it matters for your work</div>
-    <p>We'll look inside LLMs — tokens, next-token prediction, context windows — and explore the model landscape (closed vs. open-weights). Then we'll unpack the harness concept: same model, very different experience depending on the interface. Includes a hands-on tokenization activity in Python.</p>
+    <p>We'll look inside LLMs — tokens, next-token prediction, context windows — and explore the model landscape (closed vs. open-weights). Then we'll unpack the harness concept: same model, very different experience depending on the interface. Includes a tokenization activity and a qualitative surface comparison that previews Wednesday's quantitative benchmarking.</p>
     <div class="session-topics">
       <span class="topic-tag">Tokens and prediction</span>
       <span class="topic-tag">Context windows</span>
@@ -42,12 +43,13 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Wednesday</div>
   <div class="session-content">
-    <div class="session-title">Setting up and comparing your tools</div>
-    <p>We'll set up your development environment (VS Code, Claude Code, Copilot) following the setup guide, then do a hands-on comparison: same data task, different AI surfaces. You'll explore, clean, and summarize a dataset using multiple tools and document what works best for what.</p>
+    <div class="session-title">Setting up and benchmarking your tools</div>
+    <p>We'll finish setting up your development environment, then run a systematic benchmarking experiment: 5 analytic prompts × 2 model configurations, measuring response time, token usage, cost, and output quality scored against a rubric. You'll compute summary statistics and make a data-driven tool recommendation.</p>
     <div class="session-topics">
       <span class="topic-tag">Tool setup workshop</span>
-      <span class="topic-tag">Hands-on: tool comparison task</span>
-      <span class="topic-tag">Discussion: surface → task fit</span>
+      <span class="topic-tag">Python: systematic model benchmarking</span>
+      <span class="topic-tag">Quality scoring with rubric</span>
+      <span class="topic-tag">Data-driven recommendation</span>
     </div>
   </div>
 </div>
@@ -61,19 +63,19 @@ By the end of this week, you should be able to:
 
 **Before Wednesday:**
 
-- Start the [developer setup guide]({{ site.baseurl }}/guides/dev-setup/) — install VS Code and get Python working. We'll finish the AI tool setup in class, but having the basics ready saves time.
-- If you have trouble with any step, note where you got stuck — we'll troubleshoot together.
+- **Start the [developer setup guide]({{ site.baseurl }}/guides/dev-setup/)** — install VS Code and get Python working before class. We'll finish the AI tool setup and troubleshoot in class, but arriving with the basics ready saves time for the benchmarking experiment.
 
 ## Key concepts
 
 | Concept | What it means |
 |---|---|
-| **Tokens** | Subword pieces that LLMs process. Not words — "unhappiness" might become ["un", "happiness"]. Token count determines cost and what fits in a prompt. |
-| **Next-token prediction** | The core mechanism: given all preceding tokens, predict the most probable next one. The model computes probabilities, not truth. |
-| **Context window** | Everything the model can see at once: your prompt, pasted documents, conversation history, and its response. Typically 128K–200K tokens. |
-| **Closed / frontier models** | Models like Claude, GPT-4o, Gemini — accessed via API, weights not available, strongest general capabilities. |
-| **Open-weights models** | Models like Llama, Mistral, Qwen — weights downloadable, can run locally, more control but often smaller. |
-| **Harness** | The interface wrapping the model. "The model is the engine; the harness is the car." Chat, API, IDE agent, and CLI are different harnesses for the same engine. |
+| **Tokens** | Subword pieces that LLMs process. Token count determines cost and what fits in a prompt. |
+| **Next-token prediction** | The core mechanism: given preceding tokens, predict the most probable next one. The model computes probabilities, not truth. |
+| **Context window** | Everything the model can see at once: prompt, documents, conversation, response. Typically 128K–200K tokens. |
+| **Closed / frontier models** | Claude, GPT-4o, Gemini — accessed via API, strongest general capabilities. |
+| **Open-weights models** | Llama, Mistral, Qwen — weights downloadable, more control, often smaller. |
+| **Harness** | The interface wrapping the model. Chat, API, IDE agent, and CLI are different harnesses for the same engine. |
+| **Benchmarking** | Systematic comparison of model configurations using controlled inputs and measured outputs — not impressions. |
 
 ## Readings and resources
 
@@ -84,12 +86,12 @@ By the end of this week, you should be able to:
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
-  <div class="assignment-preview-title">Tool Setup and Comparison Note</div>
-  <div class="assignment-preview-meta">~1–2 pages · Due before class, Week 3 Monday · Submit via Canvas</div>
-  <p>Confirm your dev environment works, compare AI tool surfaces on the same data task, and reflect on which surface fits which kind of analytic work.</p>
+  <div class="assignment-preview-title">Tool Setup and Benchmarking Report</div>
+  <div class="assignment-preview-meta">~2 pages + code · 25 points · Due before class, Week 3 Monday · Submit via Canvas</div>
+  <p>Confirm your dev environment works, run a systematic benchmarking experiment with quantitative metrics (response time, token usage, cost, quality scores), and make a data-driven tool recommendation citing specific numbers.</p>
   <a href="{{ site.baseurl }}/assignments/week-2-comparison/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week we move into the **Use** module with **From Raw Data to Report** — you'll use AI to explore a messy dataset, document it, clean it, and produce a short directed report. The tools you set up this week are the foundation for everything from Week 3 onward.
+Next week we move into the **Use** module with **From Raw Data to Report** — you'll use AI to explore a real dataset, document it, clean it, and produce a directed report with formal statistical analysis. The tools you set up this week are the foundation for everything from Week 3 onward.
