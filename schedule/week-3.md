@@ -16,23 +16,23 @@ permalink: /schedule/week-3/
 By the end of this week, you should be able to:
 
 1. Distinguish a vibe report from a directed report
-2. Use AI to explore, describe, and document a dataset — then verify its output
-3. Identify common data quality issues: mixed formats, inconsistent categories, missing values, duplicates, data entry errors
-4. Build a verified data dictionary
-5. Clean and aggregate data using pandas with AI assistance
-6. Write a directed report with a specific question, evidence, interpretation, and limitations
+2. Explore a 2,000-row dataset using AI + pandas, identifying data quality issues that require code — not just eyeballing
+3. Build a verified data dictionary documenting variables, missingness patterns, and cleaning decisions
+4. Clean data at scale with assertions after every step
+5. Conduct a formal statistical test and report results with effect sizes and confidence intervals
+6. Write a directed report with a methods section, results, interpretation, and limitations
 
 ## Sessions
 
 <div class="session-block" markdown="0">
   <div class="session-label">Monday</div>
   <div class="session-content">
-    <div class="session-title">From messy data to understanding</div>
-    <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. Then you'll get a messy dataset and use AI + pandas to discover what's in it, what's wrong with it, and how to document it. The central lesson: AI accelerates discovery, but the analyst verifies.</p>
+    <div class="session-title">From messy data to understanding — at scale</div>
+    <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. You'll work with a 2,000-row business orders dataset — large enough that you can't eyeball every row. Use AI + pandas to discover data quality issues, compare what AI finds to what your code reveals, and build a verified data dictionary.</p>
     <div class="session-topics">
       <span class="topic-tag">Vibe vs. directed reports</span>
       <span class="topic-tag">Data-to-report pipeline</span>
-      <span class="topic-tag">Dataset discovery with AI</span>
+      <span class="topic-tag">AI vs. code discovery at scale</span>
       <span class="topic-tag">Data dictionary workshop</span>
     </div>
   </div>
@@ -41,12 +41,12 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Wednesday</div>
   <div class="session-content">
-    <div class="session-title">Building the directed report</div>
-    <p>We'll clean the dataset (standardize dates, fix categories, handle missing values, resolve anomalies), then learn what makes a report "directed" — question, evidence, interpretation, limitations, reproducibility. You'll start writing your report in class.</p>
+    <div class="session-title">Cleaning, analysis, and statistical evidence</div>
+    <p>You'll write your own cleaning pipeline (the notebook gives requirements, not step-by-step code), learn how to include formal statistical tests in a directed report (t-test, ANOVA, chi-square, confidence intervals), and start building the report with a proper methods section.</p>
     <div class="session-topics">
-      <span class="topic-tag">Python: cleaning and aggregation</span>
-      <span class="topic-tag">Anatomy of a directed report</span>
-      <span class="topic-tag">Work session: write the report</span>
+      <span class="topic-tag">Python: cleaning at scale</span>
+      <span class="topic-tag">Statistical evidence in reports</span>
+      <span class="topic-tag">Work session: analysis and drafting</span>
     </div>
   </div>
 </div>
@@ -57,36 +57,33 @@ By the end of this week, you should be able to:
 
 - Skim Békés, [Data Analysis with AI, Week 2](https://gabors-data-analysis.com/ai-course/) — focus on the discover → document → clean → report pipeline
 - Make sure your Python environment and AI tools are working (see the [setup guide]({{ site.baseurl }}/guides/dev-setup/) if needed)
+- Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) for pandas reference
 
 **Before Wednesday:**
 
-- Review your Monday data quality findings — you'll build on them
-- Think about which analysis question you want to pursue for your report
+- Review your Monday data quality findings
+- Choose which analysis question you want to pursue
+- Brush up on basic hypothesis testing if needed (t-test, ANOVA, chi-square)
 
 ## Key concepts
 
 | Concept | What it means |
 |---|---|
 | **Vibe report** | An unfocused "analysis" with no clear question — what AI produces when you say "analyze this data" |
-| **Directed report** | Analysis driven by a specific question, with verified evidence, interpretation in context, and stated limitations |
-| **Data dictionary** | Documentation of every variable: name, type, description, issues, and cleaning decisions |
-| **AI use log** | A record of what you prompted, what AI produced, and what you changed — the accountability trail |
-| **Reproducibility** | Code and documentation that let someone else verify your work end-to-end |
-
-## Readings and resources
-
-- Békés, Gábor. [Data Analysis with AI, Week 2](https://gabors-data-analysis.com/ai-course/) — data discovery, documentation, cleaning, and reporting with AI
-- Dataset for this week posted on Canvas
+| **Directed report** | Analysis driven by a specific question, with a methods section, verified evidence, formal statistical tests, and stated limitations |
+| **Data dictionary** | Documentation of every variable: name, type, description, missingness pattern, issues, and cleaning decisions |
+| **Methods section** | How you cleaned the data, what you computed, what test you used and why, sample size, and exclusions |
+| **Effect size** | How large the difference or relationship is — not just whether it's statistically significant |
 
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Directed Report with AI Use Log</div>
   <div class="assignment-preview-meta">4 components · 30 points · Due before class, Week 4 Monday · Submit via Canvas</div>
-  <p>Submit a README + data dictionary, a reproducible Python notebook, a directed report (1–2 pages), and an AI use log documenting your workflow.</p>
+  <p>README + data dictionary, reproducible notebook with assertions, a 3–4 page directed report with methods section and formal statistical test, and an AI use log.</p>
   <a href="{{ site.baseurl }}/assignments/week-3-report/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week: **Debugging AI's Work** — you'll learn to inspect, test, and document AI-written code. The central lesson: output that looks right is not necessarily right.
+Next week: **Debugging AI's Work** — you'll learn to find bugs in AI-generated code, quantify their impact, and build an automated test suite. The central lesson: output that looks right is not necessarily right.
