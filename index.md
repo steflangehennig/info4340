@@ -20,19 +20,19 @@ layout: default
     <div class="card-grid">
       <a href="{{ site.baseurl }}/syllabus/" class="nav-card">
         <div class="nav-card-title">Syllabus</div>
-        <div class="nav-card-desc">Course overview, policies, and learning outcomes</div>
+        <div class="nav-card-desc">Course overview, policies, & learning outcomes</div>
       </a>
       <a href="{{ site.baseurl }}/schedule/" class="nav-card">
         <div class="nav-card-title">Schedule</div>
-        <div class="nav-card-desc">10-week plan with topics and deliverables</div>
+        <div class="nav-card-desc">10-week plan with topics & deliverables</div>
       </a>
       <a href="{{ site.baseurl }}/guides/" class="nav-card">
         <div class="nav-card-title">Guides</div>
-        <div class="nav-card-desc">Setup, tools, and technical references</div>
+        <div class="nav-card-desc">Setup, tools, & technical references</div>
       </a>
       <a href="{{ site.baseurl }}/assignments/" class="nav-card">
         <div class="nav-card-title">Assignments</div>
-        <div class="nav-card-desc">Deliverables, rubrics, and submission info</div>
+        <div class="nav-card-desc">Deliverables, rubrics, & submission info</div>
       </a>
     </div>
 
