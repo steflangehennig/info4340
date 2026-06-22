@@ -7,29 +7,29 @@ permalink: /assignments/week-5-design/
 
 ## Assignment
 
-Use AI as an analytic design partner. Propose an approach, critique it using multiple prompt roles, reconcile the feedback, and implement the result.
+Use AI as a design partner, then implement with formal model selection and validation.
 
 ### Component 1: Design document (1–2 pages)
 
-Present your business question, the AI-proposed analysis plan, the adversarial critique (and optionally domain expert and methods reviewer perspectives), and your reconciliation — what you kept, changed, and why.
+Business question, AI-proposed plan (helpful analyst), adversarial critique, your reconciliation with reasoning.
 
 ### Component 2: Python implementation
 
-A notebook implementing your final approach: feature engineering, analysis (e.g., k-means clustering), evaluation metrics, interpretation, and at least one visualization. Include assertions and verification checks.
+**Segmentation track:** RFM features from 185 customers, outlier analysis, train/holdout split, model selection with three metrics (elbow, silhouette, gap), justified k, holdout validation, ANOVA, cluster profiles.
+
+**LMM track:** 4+ specifications, AIC/BIC comparison table, justified final model, residual diagnostics, ICC, effect sizes with 95% confidence intervals.
 
 ### Component 3: AI use log
-
-Document all four prompt roles, what each surfaced, where AI fell short, and which role was most valuable.
 
 ## Rubric
 
 | Criterion | Excellent (5) | Adequate (3) | Needs revision (1) |
 |---|---|---|---|
-| Business question | Specific, answerable, well-scoped | Present but vague | Missing or trivial |
-| Design process | All four roles used with substantive reconciliation | Some roles, thin reconciliation | No design process visible |
-| Adversarial quality | Specific critiques addressed with clear reasoning | Generic critiques acknowledged | No adversarial perspective |
-| Implementation | Runs, addresses the question, evaluation included | Runs but evaluation thin | Doesn't run or disconnected from design |
-| Evaluation | Multiple criteria (statistical + business judgment) | Some evaluation | No evaluation |
-| AI use log | Detailed with all roles and reconciliation decisions | Present but incomplete | Missing |
+| Design process | All four roles, substantive reconciliation | Some roles | No design process |
+| Model selection | 3+ metrics or AIC/BIC with justified choice | One metric | No formal selection |
+| Validation | Holdout or diagnostics | Some validation | None |
+| Statistical rigor | ANOVA/CI/effect sizes, assumptions checked | Some statistics | Descriptive only |
+| Interpretation | Named clusters or interpreted effects in context | Some interpretation | None |
+| AI use log | Detailed | Present but incomplete | Missing |
 
 **Total: 30 points**

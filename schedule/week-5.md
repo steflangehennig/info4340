@@ -15,12 +15,12 @@ permalink: /schedule/week-5/
 
 By the end of this week, you should be able to:
 
-1. Use AI to propose, critique, and refine an analytic design
-2. Apply four prompt roles: helpful analyst, adversarial reviewer, domain expert, methods reviewer
-3. Use the helpful/adversarial pairing technique to stress-test an analysis plan
-4. Implement a customer segmentation with sklearn k-means
-5. Evaluate clusters using both statistical metrics and business judgment
-6. Conduct a structured group design critique
+1. Use AI to propose, critique, and refine an analytic design (four prompt roles)
+2. Apply the helpful/adversarial pairing technique
+3. Conduct outlier analysis and determine appropriate data transformations
+4. Implement customer segmentation with formal model selection (elbow + silhouette + gap statistic) and holdout validation
+5. *Or* implement a linear mixed model with AIC/BIC comparison, residual diagnostics, and confidence intervals
+6. Report results with effect sizes and statistical evidence, not just point estimates
 
 ## Sessions
 
@@ -28,7 +28,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">AI as design critic</div>
-    <p>The shift from "write me code" to "help me think." You'll learn four prompt roles for analytic design (helpful analyst, adversarial reviewer, domain expert, methods reviewer), practice the helpful/adversarial pairing technique, and use AI to propose and attack an analysis plan for a real business question.</p>
+    <p>The shift from "write me code" to "help me think." Four prompt roles (helpful analyst, adversarial reviewer, domain expert, methods reviewer), the helpful/adversarial pairing technique, and an activity where you propose and attack an analysis plan.</p>
     <div class="session-topics">
       <span class="topic-tag">Four prompt roles</span>
       <span class="topic-tag">Helpful/adversarial pairing</span>
@@ -40,11 +40,12 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Wednesday</div>
   <div class="session-content">
-    <div class="session-title">From design to implementation</div>
-    <p>We'll implement a customer segmentation with sklearn k-means — building RFM features, clustering, and evaluating whether the segments are statistically valid, interpretable, stable, and actionable. Then a group design critique where your classmates play the adversarial roles.</p>
+    <div class="session-title">From design to rigorous implementation</div>
+    <p>Implement your analysis with formal model selection: for clustering, that means three metrics (elbow, silhouette, gap statistic), outlier analysis, and holdout validation. For the LMM track, AIC/BIC comparison across 4+ specifications with residual diagnostics and confidence intervals. Then a group design critique.</p>
     <div class="session-topics">
-      <span class="topic-tag">Python: k-means segmentation</span>
-      <span class="topic-tag">Evaluating clusters</span>
+      <span class="topic-tag">Python: segmentation or LMM</span>
+      <span class="topic-tag">Formal model selection</span>
+      <span class="topic-tag">Holdout validation</span>
       <span class="topic-tag">Group design critique</span>
     </div>
   </div>
@@ -54,32 +55,33 @@ By the end of this week, you should be able to:
 
 **Before Monday:**
 
-- Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) — focus on AI as research companion and the helpful/adversarial prompt pattern
-- Think about a business or analytic question you'd like to explore (from your work, interests, or the course dataset)
+- Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) — focus on the helpful/adversarial prompt pattern
+- Think about a business question for the 185-customer dataset
 
 **Before Wednesday:**
 
-- Review your Monday reconciliation — you'll present it to a group
-- Skim the [sklearn KMeans documentation](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) if you haven't used it before
+- Review your Monday reconciliation
+- Skim the [sklearn KMeans docs](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) or [statsmodels mixedlm docs](https://www.statsmodels.org/stable/mixed_linear.html) depending on your track
 
 ## Key concepts
 
 | Concept | What it means |
 |---|---|
-| **Helpful/adversarial pairing** | Two separate AI interactions: one proposes an approach, the other attacks it. The analyst reconciles. |
-| **Four prompt roles** | Helpful analyst (proposes), adversarial reviewer (critiques), domain expert (adds context), methods reviewer (asks about validation) |
-| **RFM features** | Recency (days since last purchase), Frequency (number of purchases), Monetary (total spend) — standard customer segmentation features |
-| **Cluster evaluation** | Not just silhouette scores — also interpretability, stability, fairness, and domain validity |
+| **Helpful/adversarial pairing** | Two separate AI interactions: one proposes, the other attacks. You reconcile. |
+| **Gap statistic** | Compares clustering quality to random data — tests whether clusters are real or noise |
+| **Holdout validation** | Fit on 70%, evaluate on 30% — tests whether clusters generalize |
+| **AIC/BIC** | Information criteria for model comparison: lower is better, BIC penalizes complexity more |
+| **ICC** | Intraclass correlation: proportion of variance that's between-group vs. within-group |
 
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
-  <div class="assignment-preview-title">Analytic Design Critique + Python Implementation</div>
+  <div class="assignment-preview-title">Analytic Design Critique + Implementation</div>
   <div class="assignment-preview-meta">3 components · 30 points · Due before class, Week 6 Monday · Submit via Canvas</div>
-  <p>Design document with AI-proposed plan and adversarial critique, Python implementation with evaluation, and an AI use log documenting all four prompt roles.</p>
+  <p>Design document with adversarial critique, Python implementation with formal model selection (3 metrics or AIC/BIC), holdout validation, and AI use log.</p>
   <a href="{{ site.baseurl }}/assignments/week-5-design/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week closes out the Use module with **Text as Data with LLMs** — you'll build a text classification pipeline comparing a traditional sklearn approach with an LLM-based classifier. The question: when does an LLM add value over a simpler method?
+Next week closes out the Use module with **Text as Data with LLMs** — classification, network analysis, and the question of when an LLM adds value over a simpler method.
