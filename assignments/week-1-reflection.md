@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 1: Use Case Reflection"
-subtitle: "~1 page · Due before class, Week 2 Monday · Submit via Canvas"
+subtitle: "~1 page | Due before class, Week 2 Monday | Submit via Canvas"
 permalink: /assignments/week-1-reflection/
 ---
 
@@ -19,7 +19,7 @@ Your reflection should address all five of the following:
 
 ## Format
 
-- Approximately 1 page (400–600 words)
+- Approximately 1 page (400-600 words)
 - Prose, not bullet points. Write this as a short professional memo
 - No AI use log required for this assignment, but you may use AI to help. If you do, note what you used and what you changed.
 
