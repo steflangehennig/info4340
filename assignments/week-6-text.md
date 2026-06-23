@@ -7,33 +7,33 @@ permalink: /assignments/week-6-text/
 
 ## Assignment
 
-Build a complete text-as-data pipeline: hand-code ground truth, compare classification approaches, construct a topic co-occurrence network, and analyze what each lens reveals.
+Build a complete text-as-data pipeline with formal evaluation, cost analysis, and network analysis.
 
-### Component 1: Hand-coded validation set (15–20 texts)
+### Component 1: Hand-coded validation (25+ texts) + inter-annotator kappa
 
-Define your categories clearly, hand-code at least 15 texts with primary and secondary labels, and note any ambiguous cases.
+Define categories, hand-code 25+ texts, compute Cohen's κ with a partner on 20 shared texts. If κ < 0.6, revise and document.
 
-### Component 2: Classification pipeline
+### Component 2: Classification pipeline with formal evaluation
 
-sklearn baseline (TF-IDF + classifier) and LLM classifier with structured output. Include agreement metrics and analysis of disagreements.
+sklearn baseline with cross-validation, LLM classifier on full corpus, precision/recall/F1 per class, confusion matrix, weakest-class analysis, and cost analysis (per-text cost projected to 10K/100K, compared to human coding).
 
 ### Component 3: Network analysis
 
-Topic co-occurrence network from multi-label classifications: degree and betweenness centrality, community detection, visualization, and interpretation.
+Co-occurrence network, weighted centrality, community detection, modularity significance tested against 100-permutation null model, visualization.
 
-### Component 4: Comparison memo (1–2 pages) + AI use log
+### Component 4: Comparison memo (2–3 pages) + AI use log
 
-What did classification show? What did the network add? Where did they agree or diverge? What would you recommend to the product team?
+What classification revealed, what the network added, cost-effectiveness analysis, actionable recommendation.
 
 ## Rubric
 
 | Criterion | Excellent (5) | Adequate (3) | Needs revision (1) |
 |---|---|---|---|
-| Ground truth | 15+ texts with clear categories, ambiguities documented | Present but categories vague | Fewer than 15 or no definitions |
-| Classification comparison | Both approaches with agreement metrics and disagreement analysis | Both run but comparison thin | Only one approach |
-| Network construction | Correct graph with centrality and communities | Graph built but analysis limited | No network |
-| Network interpretation | Specific insights about co-occurrence patterns | Some interpretation but generic | No interpretation |
-| Comparison memo | Clear argument for what each lens reveals | Describes both but doesn't compare | Missing |
-| AI use log | Detailed: prompts, structured output, evaluation | Present but vague | Missing |
+| Ground truth + kappa | 25+ coded, κ with partner, scheme documented | Some coding, κ missing | < 25 or no kappa |
+| Classifier evaluation | P/R/F1 per class, confusion matrix, weakest class | Overall metrics only | No formal evaluation |
+| Cost analysis | Per-text cost, projections, human comparison | Some cost | None |
+| Network quality | Weighted centrality, communities, modularity vs. null | Basic network | No network |
+| Comparison memo | Specific insights, actionable recommendation | Describes but doesn't compare | Missing |
+| AI use log | Detailed | Incomplete | Missing |
 
 **Total: 30 points**

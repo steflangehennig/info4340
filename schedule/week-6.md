@@ -15,12 +15,12 @@ permalink: /schedule/week-6/
 
 By the end of this week, you should be able to:
 
-1. Explain the text-as-data pipeline: human coding → keywords → classical ML → LLM
-2. Hand-code a validation set and define classification categories
-3. Build and compare an sklearn baseline and an LLM text classifier
-4. Design structured LLM output with category, confidence, and evidence
-5. Construct a topic co-occurrence network from multi-label classifications
-6. Apply centrality metrics and community detection to text data
+1. Hand-code a validation set and compute inter-annotator reliability (Cohen's κ)
+2. Build and cross-validate an sklearn text classifier
+3. Run an LLM classifier with structured JSON output at scale (143 texts)
+4. Evaluate classifiers formally: precision, recall, F1 per class, confusion matrix
+5. Compute LLM classification costs and project to production scale
+6. Construct a topic co-occurrence network and test community structure against a null model
 7. Compare what classification reveals vs. what network analysis reveals
 
 ## Sessions
@@ -29,12 +29,11 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">Turning text into data</div>
-    <p>The text-as-data pipeline: hand-coding ground truth, building an sklearn baseline, and running an LLM classifier with structured output. You'll compare all three approaches on the same customer feedback corpus and see where they agree and disagree.</p>
+    <p>The text-as-data pipeline with a 143-text corpus: hand-code 25+ texts for validation, build an sklearn baseline with cross-validation, and run an LLM classifier with structured output — tracking tokens and timing for Wednesday's cost analysis.</p>
     <div class="session-topics">
-      <span class="topic-tag">Text-as-data pipeline</span>
-      <span class="topic-tag">Hand-coding ground truth</span>
-      <span class="topic-tag">Python: sklearn baseline</span>
-      <span class="topic-tag">Python: LLM classifier</span>
+      <span class="topic-tag">Hand-coding + calibration</span>
+      <span class="topic-tag">Python: sklearn with cross-validation</span>
+      <span class="topic-tag">Python: LLM structured classifier</span>
     </div>
   </div>
 </div>
@@ -42,13 +41,13 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Wednesday</div>
   <div class="session-content">
-    <div class="session-title">Structure in text: networks and scale</div>
-    <p>We'll scale the classification pipeline to the full corpus, then apply a second analytical lens: network analysis. You'll build a topic co-occurrence network from multi-label classifications, compute centrality metrics, detect communities, and compare what the network reveals that classification alone doesn't.</p>
+    <div class="session-title">Evaluation, costs, and networks</div>
+    <p>Compute inter-annotator reliability with a partner, run formal evaluation (precision/recall/F1 per class), analyze LLM costs projected to production scale, then build a topic co-occurrence network with community detection tested against a random null model.</p>
     <div class="session-topics">
-      <span class="topic-tag">Scaling the pipeline</span>
-      <span class="topic-tag">Topic co-occurrence networks</span>
-      <span class="topic-tag">Centrality and community detection</span>
-      <span class="topic-tag">Classification vs. networks</span>
+      <span class="topic-tag">Inter-annotator kappa</span>
+      <span class="topic-tag">Precision/recall/F1 per class</span>
+      <span class="topic-tag">Cost analysis and projections</span>
+      <span class="topic-tag">Network modularity vs. null model</span>
     </div>
   </div>
 </div>
@@ -57,33 +56,32 @@ By the end of this week, you should be able to:
 
 **Before Monday:**
 
-- Read Békés, [Data Analysis with AI, Week 5](https://gabors-data-analysis.com/ai-course/) — focus on text-to-data pipelines and evaluation
-- Skim Ziems et al., "Can Large Language Models Transform Computational Social Science?" — for context on LLMs as zero-shot annotators
+- Read Békés, [Data Analysis with AI, Week 5](https://gabors-data-analysis.com/ai-course/) — text-to-data pipelines and evaluation
+- Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) sections on sklearn and networkx
 
 **Before Wednesday:**
 
-- Review your Monday classification results — you'll build on them
-- If unfamiliar with networkx, skim the [basic tutorial](https://networkx.org/documentation/stable/tutorial.html)
+- Review your Monday classification results
+- Coordinate with a partner: you'll both need to independently code the same 20 texts for the kappa exercise
 
 ## Key concepts
 
 | Concept | What it means |
 |---|---|
-| **Ground truth** | Hand-coded labels you create before automating — the benchmark for every classifier |
-| **Structured output** | LLM responses in JSON with category, confidence, and evidence — parseable and auditable |
-| **Multi-label classification** | Assigning primary + secondary categories to each text — enables network analysis |
-| **Topic co-occurrence network** | Nodes = categories, edges = categories that appear together in the same text, weighted by frequency |
-| **Community detection** | Algorithmic grouping of network nodes — may reveal structure your categories missed |
+| **Inter-annotator reliability** | Cohen's κ between two human coders on the same texts — if κ < 0.6, the coding scheme needs revision |
+| **Precision/recall/F1 per class** | Not just overall accuracy — performance broken down by category to identify systematic weaknesses |
+| **Cost analysis** | Per-text LLM cost from actual token counts, projected to production scale, compared to human coding |
+| **Modularity** | How well a network's communities separate — tested against a random null model to check significance |
 
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Text Classification Pipeline</div>
   <div class="assignment-preview-meta">4 components · 30 points · Due before class, Week 7 Monday · Submit via Canvas</div>
-  <p>Hand-coded validation set, sklearn + LLM classification comparison, topic co-occurrence network analysis, and a comparison memo on what each lens reveals.</p>
+  <p>Hand-coded validation with inter-annotator kappa, sklearn + LLM classifiers with formal per-class evaluation, cost analysis projected to production scale, topic co-occurrence network with modularity significance testing, and comparison memo.</p>
   <a href="{{ site.baseurl }}/assignments/week-6-text/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week we enter the **Evaluate** module with **Evaluating GenAI Outputs** — you'll learn systematic methods for scoring AI output quality, including inter-rater reliability, precision/recall, and rubric design.
+Next week we enter the **Evaluate** module with **Evaluating GenAI Outputs** — rubric design, systematic scoring, and the question of when to trust LLM-as-judge.
