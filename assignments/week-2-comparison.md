@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 2: Tool Setup and Benchmarking Report"
-subtitle: "~2 pages + code · Due before class, Week 3 Monday · Submit via Canvas"
+subtitle: "~2 pages + code | Due before class, Week 3 Monday | Submit via Canvas"
 permalink: /assignments/week-2-comparison/
 ---
 
