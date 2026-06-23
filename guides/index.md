@@ -4,7 +4,7 @@ title: Guides
 subtitle: Setup references and technical resources for the course
 ---
 
-These guides support the technical work in INFO 4340. They're meant to be bookmarked and returned to - not read once and forgotten.
+These guides support the technical work in INFO 4340. They're meant to be bookmarked and returned to, not read once and forgotten!
 
 <div class="guide-list">
 
