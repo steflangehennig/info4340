@@ -8,7 +8,6 @@ layout: default
     <p class="home-desc">A graduate course on using, evaluating, and governing AI tools in applied professional settings.</p>
     <div class="home-meta">
       <span class="meta-pill">{{ site.term }}</span>
-      <span class="meta-pill">{{ site.instructor }}</span>
       <span class="meta-pill">{{ site.meeting }}</span>
     </div>
   </div>
