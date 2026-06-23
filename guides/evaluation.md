@@ -7,7 +7,7 @@ permalink: /guides/evaluation/
 
 ## What this guide covers
 
-This guide collects the evaluation tools and frameworks introduced across Weeks 7–8 into a single reference. Use it when designing evaluations for your final project or any professional AI workflow.
+This guide collects the evaluation tools and frameworks introduced across Weeks 7-8 into a single reference. Use it when designing evaluations for your final project or any professional AI workflow.
 
 ## The five evaluation targets
 
@@ -27,7 +27,7 @@ A rubric makes evaluation systematic, defensible, and repeatable. Every rubric h
 
 ### Step 1: Choose dimensions
 
-Select 4–6 from this menu based on your specific task:
+Select 4-6 from this menu based on your specific task:
 
 | Dimension | What it assesses | Best for |
 |---|---|---|
@@ -44,15 +44,15 @@ Select 4–6 from this menu based on your specific task:
 
 ### Step 2: Define the scale
 
-Use a 0–4 scale with three defined anchors:
+Use a 0-4 scale with three defined anchors:
 
 | Score | Meaning |
 |---|---|
-| 0 | Unacceptable — unusable, wrong, or harmful |
-| 1 | Poor — major issues requiring substantial revision |
-| 2 | Adequate — usable with revision |
-| 3 | Good — minor issues, usable with light editing |
-| 4 | Excellent — no issues found, ready for use |
+| 0 | Unacceptable - unusable, wrong, or harmful |
+| 1 | Poor - major issues requiring substantial revision |
+| 2 | Adequate - usable with revision |
+| 3 | Good - minor issues, usable with light editing |
+| 4 | Excellent - no issues found, ready for use |
 
 ### Step 3: Write anchors for your specific task
 
@@ -63,7 +63,7 @@ Generic anchors ("good accuracy") are useless. Make them task-specific:
 | Score | Accuracy anchor |
 |---|---|
 | 0 | Contains fabricated statistics or misattributes quotes |
-| 2 | Most claims are correct but 1–2 minor errors present |
+| 2 | Most claims are correct but 1-2 minor errors present |
 | 4 | All claims verified against the source document, no errors found |
 
 ### Rubric template
@@ -101,11 +101,11 @@ kappa = cohen_kappa_score(rater_1_labels, rater_2_labels)
 | κ value | Meaning |
 |---|---|
 | < 0 | Less than chance agreement |
-| 0.01–0.20 | Slight agreement |
-| 0.21–0.40 | Fair agreement |
-| 0.41–0.60 | Moderate agreement |
-| 0.61–0.80 | Substantial agreement |
-| 0.81–1.00 | Near-perfect agreement |
+| 0.01-0.20 | Slight agreement |
+| 0.21-0.40 | Fair agreement |
+| 0.41-0.60 | Moderate agreement |
+| 0.61-0.80 | Substantial agreement |
+| 0.81-1.00 | Near-perfect agreement |
 
 For most analytic tasks, aim for κ > 0.6 (substantial agreement) before trusting automated labels.
 
@@ -139,11 +139,11 @@ p, r, f1, support = precision_recall_fscore_support(y_true, y_pred, labels=label
 
 Every evaluation should include at least one of each:
 
-**Typical case** — a straightforward, representative input. This tests the happy path. If the system fails here, it's not ready.
+**Typical case** - a straightforward, representative input. This tests the happy path. If the system fails here, it's not ready.
 
-**Edge case** — an unusual, ambiguous, or boundary input. Tests whether the system handles uncertainty gracefully rather than guessing confidently.
+**Edge case** - an unusual, ambiguous, or boundary input. Tests whether the system handles uncertainty gracefully rather than guessing confidently.
 
-**Adversarial case** — an input designed to make the system fail. Tests robustness and whether the system knows what it doesn't know.
+**Adversarial case** - an input designed to make the system fail. Tests robustness and whether the system knows what it doesn't know.
 
 ### Test case template
 
@@ -179,7 +179,7 @@ Pass criteria: [what counts as acceptable]
 
 Trust it for: format compliance, basic factual checks, consistency across outputs, preliminary scoring before human review.
 
-Don't trust it alone for: high-stakes decisions, fairness assessments, domain-specific accuracy, anything where being wrong causes real harm.
+Don't trust it alone for: high-stakes decisions, fairness assessments, domain-specific accuracy, anything where being wrong causes real harm (what might this look like?).
 
 Always validate: run LLM-as-judge on your human-scored test set first and compute κ. If agreement is below 0.6, the LLM judge isn't reliable enough for your task.
 
@@ -187,10 +187,10 @@ Always validate: run LLM-as-judge on your human-scored test set first and comput
 
 For your final project evaluation:
 
-1. **Design the rubric** — 4–6 dimensions with task-specific anchors
-2. **Write test cases** — at least 1 typical, 1 edge, 1 adversarial
-3. **Score with the rubric** — human scores with justifications
-4. **Compute agreement** — if you have a second rater or LLM-as-judge, compute κ
-5. **Analyze subgroups** — check whether performance varies by input type, category, or group
-6. **Make a recommendation** — acceptable, acceptable with revision, or unacceptable, with evidence
-7. **Document everything** — rubric, scores, test cases, and agreement metrics in your AI use log
+1. **Design the rubric** - 4-6 dimensions with task-specific anchors
+2. **Write test cases** - at least 1 typical, 1 edge, 1 adversarial
+3. **Score with the rubric** - human scores with justifications
+4. **Compute agreement** - if you have a second rater or LLM-as-judge, compute κ
+5. **Analyze subgroups** - check whether performance varies by input type, category, or group
+6. **Make a recommendation** - acceptable, acceptable with revision, or unacceptable, with evidence
+7. **Document everything** - rubric, scores, test cases, and agreement metrics in your AI use log
