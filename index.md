@@ -24,7 +24,7 @@ layout: default
       </a>
       <a href="{{ site.baseurl }}/schedule/" class="nav-card">
         <div class="nav-card-title">Schedule</div>
-        <div class="nav-card-desc">10-week plan with topics & deliverables</div>
+        <div class="nav-card-desc">Quarter-based schedule with topics & deliverables</div>
       </a>
       <a href="{{ site.baseurl }}/guides/" class="nav-card">
         <div class="nav-card-title">Guides</div>
