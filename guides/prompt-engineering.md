@@ -1,22 +1,21 @@
 ---
 layout: page
 title: "Guide: Prompt Engineering for Analysts"
-subtitle: "How to write, test, and iterate on prompts for analytic tasks"
 permalink: /guides/prompt-engineering/
 ---
 
 ## What this guide covers
 
-Prompt engineering for analysts is different from general prompt writing. You're not trying to get creative output or conversation — you're trying to get reliable, verifiable, structured results that feed into an analytic workflow. This guide covers the techniques that matter for that context.
+Prompt engineering for analysts is different from general prompt writing. You're not trying to get creative output or conversation. Rather, you're trying to get reliable, verifiable, structured results that feed into an analytic workflow. This guide covers the techniques that matter for that context.
 
 ## The analyst's prompting framework
 
 Every good analytic prompt answers four questions:
 
-1. **What is the task?** — Be specific about the operation (classify, summarize, extract, generate code, critique)
-2. **What is the input?** — Describe the data format, provide examples, paste representative samples
-3. **What should the output look like?** — Specify format, structure, and what to include
-4. **How will you verify?** — Tell the model what evidence or reasoning to show so you can check its work
+1. **What is the task?** - Be specific about the operation (classify, summarize, extract, generate code, critique)
+2. **What is the input?** - Describe the data format, provide examples, paste representative samples
+3. **What should the output look like?** - Specify format, structure, and what to include
+4. **How will you verify?** - Tell the model what evidence or reasoning to show so you can check its work
 
 ## Six prompt patterns for analytic work
 
@@ -80,7 +79,7 @@ Requirements:
 Show the expected output shape and one example row.
 ```
 
-**Why it works:** Specifies the library, requires comments and assertions (from Week 4), and prevents silent data loss.
+**Why it works:** Specifies the library, requires comments and assertions, and prevents silent data loss.
 
 ### 4. Structured summarization prompt
 
@@ -98,7 +97,7 @@ Structure your summary as:
 Source: [paste text]
 ```
 
-**Why it works:** Forces structure, requires specific evidence, and includes limitations — preventing the "vibe summary" problem.
+**Why it works:** Forces structure, requires specific evidence, and includes limitations (prevents the "vibe summary" problem}.
 
 ### 5. Helpful/adversarial pair (Week 5)
 
@@ -111,7 +110,7 @@ Propose an analysis plan: what method, what variables,
 what steps, and what the output would look like.
 ```
 
-**Prompt 2 (adversarial reviewer — in a separate conversation):**
+**Prompt 2 (adversarial reviewer - in a separate conversation):**
 ```
 Critique this analysis plan. What assumptions could fail?
 What variables are missing? What alternative explanations 
@@ -152,22 +151,22 @@ Output to evaluate:
 
 Good prompts are rarely written in one shot. Use this workflow:
 
-1. **Draft** — write the prompt based on the patterns above
-2. **Test on 3 examples** — run the prompt on inputs where you know the right answer
-3. **Compare** — does the output match your expectations? Where does it fail?
-4. **Diagnose** — is the failure in the task description, input format, output spec, or model capability?
-5. **Revise** — fix the prompt and test again
-6. **Scale** — once the prompt works on your test cases, run it on the full dataset
+1. **Draft** - write the prompt based on the patterns above
+2. **Test on 3 examples** - run the prompt on inputs where you know the right answer
+3. **Compare** - does the output match your expectations? Where does it fail?
+4. **Diagnose** - is the failure in the task description, input format, output spec, or model capability?
+5. **Revise** - fix the prompt and test again
+6. **Scale** - once the prompt works on your test cases, run it on the full dataset
 
 Document each iteration in your AI use log.
 
 ## Common mistakes
 
-**Too vague:** "Analyze this data" → produces a vibe report. Be specific about the question, method, and output format.
+**Too vague:** "Analyze this data" can produces a vibe report. Be specific about the question, method, and output format.
 
 **Too long:** Prompts over ~500 words often confuse the model. If you need a lot of context, put the instructions first and the data last.
 
-**No output format:** "Tell me about this" → unstructured prose you can't parse. Always specify format (JSON, table, numbered list with specific fields).
+**No output format:** "Tell me about this" results in unstructured prose you can't parse. Always specify format (JSON, table, numbered list with specific fields).
 
 **No verification hook:** If you don't ask for evidence, reasoning, or confidence, you can't tell whether the output is right without checking everything manually.
 
@@ -188,7 +187,7 @@ Document each iteration in your AI use log.
 
 ## Prompts to avoid
 
-- "Are you sure?" — the model will almost always say yes, regardless of whether it should
-- "Be creative" — for analytic tasks, you want reliability, not novelty
-- "Ignore your previous instructions" — this is a jailbreak pattern, not a prompt technique
-- "You are an expert in X" — role-playing can help, but the four prompt roles (Week 5) are more structured and more useful
+- "Are you sure?" - the model will almost always say yes, regardless of whether it should
+- "Be creative" - for analytic tasks, you want reliability, not novelty
+- "Ignore your previous instructions" - this is a jailbreak pattern, not a prompt technique
+- "You are an expert in X" - role-playing can help, but the four prompt roles (Week 5) are more structured and more useful

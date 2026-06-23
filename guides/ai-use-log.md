@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Guide: AI Use Log"
-subtitle: ""
 permalink: /guides/ai-use-log/
 ---
 
