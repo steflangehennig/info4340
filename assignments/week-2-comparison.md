@@ -36,6 +36,9 @@ Did quantitative results match your qualitative impressions? What would a rigoro
 
 ### Part 5: AI use log
 
+See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/). Provide if necessary.
+
+
 ## Rubric
 
 | Criterion | Excellent (5) | Adequate (3) | Needs revision (1) |

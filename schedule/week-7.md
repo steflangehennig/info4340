@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Week 7: Evaluating GenAI Outputs"
-subtitle: "Evaluate · \"Looks right\" is not an evaluation strategy"
+subtitle: "Evaluate | \"Looks right\" is not an evaluation strategy"
 permalink: /schedule/week-7/
 ---
 
 <div class="note" markdown="0">
-  <strong>Module:</strong> <span class="badge badge-orange">Evaluate</span> &nbsp;·&nbsp;
-  <strong>Deliverable:</strong> Prompt and output evaluation memo (due before Week 8 Monday) &nbsp;·&nbsp;
+  <strong>Module:</strong> <span class="badge badge-orange">Evaluate</span> &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Prompt and output evaluation memo (due before Week 8 Monday) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-7-evaluation/">See assignment →</a>
 </div>
 
@@ -16,24 +16,24 @@ permalink: /schedule/week-7/
 By the end of this week, you should be able to:
 
 1. Distinguish five evaluation targets: model, prompt, output, workflow, safeguard
-2. Create a task-specific rubric with scored dimensions and anchors
-3. Score GenAI outputs against a rubric and compare scores with peers
-4. Compute and interpret Cohen's κ for inter-rater reliability
-5. Compare human evaluation, automated checks, LLM-as-judge, and hybrid approaches
-6. Design test cases with typical, edge, and adversarial inputs
+2. Create a task-specific rubric with scored dimensions and calibrated anchors
+3. Score GenAI outputs independently and compute multi-rater agreement
+4. Compute Cohen's κ across multiple rater pairs (human-human and human-LLM)
+5. Test prompt sensitivity: does the LLM-as-judge produce consistent scores?
+6. Compute minimum detectable difference (MDD) and determine whether score differences are meaningful
+7. Design test cases with typical, edge, and adversarial inputs linked to rubric criteria
 
 ## Sessions
 
 <div class="session-block" markdown="0">
   <div class="session-label">Monday</div>
   <div class="session-content">
-    <div class="session-title">What does "good" mean? Rubric design and scoring</div>
-    <p>We enter the Evaluate module with a core question: how do you know whether AI output is good enough? You'll learn five evaluation targets, a 10-dimension evaluation template, design a task-specific rubric, and score three AI outputs in a bake-off — then compare scores with your classmates.</p>
+    <div class="session-title">What does "good" mean? Rubric design and calibrated scoring</div>
+    <p>Five evaluation targets, a 10-dimension evaluation template, and rubric design for a specific task. Then a calibrated bake-off: 3+ students score the same three AI outputs independently, producing the data you'll analyze on Wednesday.</p>
     <div class="session-topics">
       <span class="topic-tag">Five evaluation targets</span>
-      <span class="topic-tag">Evaluation dimensions</span>
       <span class="topic-tag">Rubric design</span>
-      <span class="topic-tag">Prompt/output bake-off</span>
+      <span class="topic-tag">Calibrated multi-rater bake-off</span>
     </div>
   </div>
 </div>
@@ -41,12 +41,12 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Wednesday</div>
   <div class="session-content">
-    <div class="session-title">Measuring agreement and designing test cases</div>
-    <p>We'll put numbers on scoring disagreement with Cohen's κ, compare LLM-as-judge vs. human evaluation, and design test cases for your final project — including typical, edge, and adversarial inputs.</p>
+    <div class="session-title">Measuring reliability and designing test cases</div>
+    <p>Put numbers on Monday's disagreements: multi-rater Cohen's κ (human-human and human-LLM), prompt sensitivity testing (is the LLM judge consistent?), and minimum detectable difference — the threshold below which score differences are just rater noise. Then design test cases for your final project.</p>
     <div class="session-topics">
-      <span class="topic-tag">Cohen's κ</span>
-      <span class="topic-tag">Python: agreement scores</span>
-      <span class="topic-tag">LLM-as-judge</span>
+      <span class="topic-tag">Multi-rater kappa</span>
+      <span class="topic-tag">Prompt sensitivity (3 runs)</span>
+      <span class="topic-tag">Minimum detectable difference</span>
       <span class="topic-tag">Test case design</span>
     </div>
   </div>
@@ -56,33 +56,31 @@ By the end of this week, you should be able to:
 
 **Before Monday:**
 
-- Read the Evidently AI guide on [LLM evaluation](https://www.evidentlyai.com/blog/llm-evaluation) — focus on the distinction between evaluation targets
-- Think about what task from your final project domain you'd want to evaluate
+- Review the [evaluation frameworks guide]({{ site.baseurl }}/guides/evaluation/) - rubric building and kappa interpretation
+- Think about what task from your final project you'd want to evaluate
 
 **Before Wednesday:**
 
-- Review your Monday rubric and scores — you'll use them for the kappa exercise
-- Start thinking about your final project: what AI workflow will you evaluate?
+- Bring your Monday rubric and scores - you'll use them for the kappa and MDD exercises
 
 ## Key concepts
 
 | Concept | What it means |
 |---|---|
-| **Evaluation target** | What you're assessing: the model, the prompt, a single output, the full workflow, or a safeguard |
-| **Rubric** | A structured scoring tool with dimensions, scales, and anchors that makes evaluation systematic and defensible |
-| **Cohen's κ** | A measure of agreement between two raters that corrects for chance agreement — ranges from -1 to 1 |
-| **LLM-as-judge** | Using a second LLM to evaluate the first — fast and cheap, but needs human validation |
-| **Test cases** | Specific inputs designed to probe system behavior: typical (common case), edge (ambiguous), adversarial (designed to fail) |
+| **Multi-rater kappa** | Cohen's κ computed across multiple rater pairs (human-human and human-LLM) to test whether agreement is consistent |
+| **Prompt sensitivity** | Running LLM-as-judge 3x on the same output at temp=0. If scores vary, the evaluation itself is unreliable. |
+| **Minimum detectable difference (MDD)** | The smallest score difference that exceeds inter-rater noise. Differences below MDD are not meaningful. |
+| **Calibrated bake-off** | 3+ raters score independently before comparing - produces data for quantitative agreement analysis |
 
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Prompt and Output Evaluation Memo</div>
-  <div class="assignment-preview-meta">7 components · 30 points · Due before class, Week 8 Monday · Submit via Canvas</div>
-  <p>Choose a task, generate three outputs, design a rubric, score with justifications, analyze failure modes, and make an evidence-based recommendation about workflow acceptability.</p>
+  <div class="assignment-preview-meta">8 components | 30 points | Due before class, Week 8 Monday | Submit via Canvas</div>
+  <p>Rubric, scored outputs with justifications, multi-rater agreement (human-human and human-LLM κ), prompt sensitivity analysis, minimum detectable difference, and evidence-based recommendation.</p>
   <a href="{{ site.baseurl }}/assignments/week-7-evaluation/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week: **Failures, Incidents, and Risk** — you'll study real AI failures, analyze subgroup error rates, and write an AI incident brief. The shift: from evaluating your own outputs to learning from others' failures.
+Next week: **Failures, Incidents, and Risk** - real AI incidents, subgroup error analysis with formal disparity metrics, and the sociotechnical failure chain.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 4: Debugging and Review Log"
-subtitle: "3 components · Due before class, Week 5 Monday · Submit via Canvas"
+subtitle: "3 components | Due before class, Week 5 Monday | Submit via Canvas"
 permalink: /assignments/week-4-debugging/
 ---
 
@@ -25,7 +25,7 @@ Review a classmate's Week 3 notebook using both the manual checklist and your au
 
 | Criterion | Excellent (5) | Adequate (3) | Needs revision (1) |
 |---|---|---|---|
-| Bug identification | 5+ bugs with clear descriptions | 3–4 bugs | Fewer than 3 |
+| Bug identification | 5+ bugs with clear descriptions | 3-4 bugs | Fewer than 3 |
 | Quantitative impact | Dollar and % impact for each bug with comparison table | Some impact but incomplete | No quantitative impact |
 | Test suite quality | 8+ checks, reusable function, passes on fixed data | Some checks but not structured | No test suite |
 | Fix quality | All fixed, code runs with test suite passing | Most fixed | Incomplete |

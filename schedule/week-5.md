@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Week 5: AI as Analytic Companion"
-subtitle: "Use · Using AI to reason about design — not just execute code"
+subtitle: "Use | Using AI to reason about design - not just execute code"
 permalink: /schedule/week-5/
 ---
 
 <div class="note" markdown="0">
-  <strong>Module:</strong> <span class="badge badge-green">Use</span> &nbsp;·&nbsp;
-  <strong>Deliverable:</strong> Analytic design critique + implementation (due before Week 6 Monday) &nbsp;·&nbsp;
+  <strong>Module:</strong> <span class="badge badge-green">Use</span> &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Analytic design critique + implementation (due before Week 6 Monday) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-5-design/">See assignment →</a>
 </div>
 
@@ -55,7 +55,7 @@ By the end of this week, you should be able to:
 
 **Before Monday:**
 
-- Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) — focus on the helpful/adversarial prompt pattern
+- Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) - focus on the helpful/adversarial prompt pattern
 - Think about a business question for the 185-customer dataset
 
 **Before Wednesday:**
@@ -68,8 +68,8 @@ By the end of this week, you should be able to:
 | Concept | What it means |
 |---|---|
 | **Helpful/adversarial pairing** | Two separate AI interactions: one proposes, the other attacks. You reconcile. |
-| **Gap statistic** | Compares clustering quality to random data — tests whether clusters are real or noise |
-| **Holdout validation** | Fit on 70%, evaluate on 30% — tests whether clusters generalize |
+| **Gap statistic** | Compares clustering quality to random data - tests whether clusters are real or noise |
+| **Holdout validation** | Fit on 70%, evaluate on 30% - tests whether clusters generalize |
 | **AIC/BIC** | Information criteria for model comparison: lower is better, BIC penalizes complexity more |
 | **ICC** | Intraclass correlation: proportion of variance that's between-group vs. within-group |
 
@@ -77,11 +77,11 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Analytic Design Critique + Implementation</div>
-  <div class="assignment-preview-meta">3 components · 30 points · Due before class, Week 6 Monday · Submit via Canvas</div>
+  <div class="assignment-preview-meta">3 components | 30 points | Due before class, Week 6 Monday | Submit via Canvas</div>
   <p>Design document with adversarial critique, Python implementation with formal model selection (3 metrics or AIC/BIC), holdout validation, and AI use log.</p>
   <a href="{{ site.baseurl }}/assignments/week-5-design/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week closes out the Use module with **Text as Data with LLMs** — classification, network analysis, and the question of when an LLM adds value over a simpler method.
+Next week closes out the Use module with **Text as Data with LLMs** - classification, network analysis, and the question of when an LLM adds value over a simpler method.

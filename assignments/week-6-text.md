@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 6: Text Classification Pipeline"
-subtitle: "4 components · Due before class, Week 7 Monday · Submit via Canvas"
+subtitle: "4 components | Due before class, Week 7 Monday | Submit via Canvas"
 permalink: /assignments/week-6-text/
 ---
 
@@ -19,7 +19,7 @@ sklearn baseline with cross-validation, LLM classifier on full corpus, precision
 
 ### Component 3: Network analysis
 
-Co-occurrence network, weighted centrality, community detection, modularity significance tested against 100-permutation null model, visualization.
+Using nextworkx, generate co-occurrence network, weighted centrality, community detection, modularity significance tested against 100-permutation null model, visualization.
 
 ### Component 4: Comparison memo (2–3 pages) + AI use log
 
