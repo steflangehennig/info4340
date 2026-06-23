@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Schedule
-subtitle: 10-week course plan · Fall 2026
+subtitle: Fall 2026
 ---
 
 Readings and materials for each week are posted to Canvas. This page shows the topic, module, and deliverable due before each class session.
 
 ## Module overview
 
-<span class="badge badge-blue">Understand</span> weeks 1–2 &nbsp;·&nbsp;
-<span class="badge badge-green">Use</span> weeks 3–6 &nbsp;·&nbsp;
-<span class="badge badge-orange">Evaluate</span> weeks 7–8 &nbsp;·&nbsp;
-<span class="badge badge-orange">Govern + Integrate</span> weeks 9–10
+<span class="badge badge-blue">Understand</span> weeks 1-2 &nbsp;|&nbsp;
+<span class="badge badge-green">Use</span> weeks 3-6 &nbsp;|&nbsp;
+<span class="badge badge-orange">Evaluate</span> weeks 7-8 &nbsp;|&nbsp;
+<span class="badge badge-orange">Govern + Integrate</span> weeks 9-10
 
 ---
 
@@ -19,7 +19,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 1</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-1/">Generative AI for analysts</a> <span class="badge badge-blue">Understand</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-1-reflection/">use case reflection</a> · risk-ranking activity</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-1-reflection/">use case reflection</a> | risk-ranking activity</div>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 2</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-2/">LLMs, harnesses, and setup</a> <span class="badge badge-blue">Understand</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-2-comparison/">tool setup and comparison note</a> · <a href="{{ site.baseurl }}/guides/dev-setup/">setup guide →</a></div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-2-comparison/">tool setup and comparison note</a> | <a href="{{ site.baseurl }}/guides/dev-setup/">setup guide →</a></div>
   </div>
 </div>
 
@@ -35,7 +35,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 3</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-3/">From raw data to report</a> <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-3-report/">directed report with AI use log</a> · Python: pandas, data cleaning</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-3-report/">directed report with AI use log</a> | Python: pandas, data cleaning</div>
   </div>
 </div>
 
@@ -43,7 +43,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 4</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-4/">Debugging AI's work</a> <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-4-debugging/">debugging and review log</a> · Python: assertions, code review</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-4-debugging/">debugging and review log</a> | Python: assertions, code review</div>
   </div>
 </div>
 
@@ -51,7 +51,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 5</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-5/">AI as analytic companion</a> <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-5-design/">analytic design critique + implementation</a> · Python: sklearn k-means</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-5-design/">analytic design critique + implementation</a> | Python: sklearn k-means</div>
   </div>
 </div>
 
@@ -59,7 +59,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 6</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-6/">Text as data with LLMs</a> <span class="badge badge-green">Use</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-6-text/">text classification pipeline</a> · Python: sklearn, LLM classifier, networkx</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-6-text/">text classification pipeline</a> | Python: sklearn, LLM classifier, networkx</div>
   </div>
 </div>
 
@@ -67,7 +67,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 7</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-7/">Evaluating GenAI outputs</a> <span class="badge badge-orange">Evaluate</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-7-evaluation/">prompt and output evaluation memo</a> · Python: scoring, Cohen's κ</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-7-evaluation/">prompt and output evaluation memo</a> | Python: scoring, Cohen's κ</div>
   </div>
 </div>
 
@@ -75,7 +75,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 8</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-8/">Failures, incidents, and risk</a> <span class="badge badge-orange">Evaluate</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-8-incident/">AI incident brief</a> · Python: subgroup error rates, precision/recall</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-8-incident/">AI incident brief</a> | Python: subgroup error rates, precision/recall</div>
   </div>
 </div>
 
@@ -83,7 +83,7 @@ Readings and materials for each week are posted to Canvas. This page shows the t
   <div class="week-num">Wk 9</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-9/">Governing GenAI in organizations</a> <span class="badge badge-orange">Govern</span></div>
-    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-9-governance/">governance memo</a> · Framework: NIST AI RMF</div>
+    <div class="week-meta">Deliverable: <a href="{{ site.baseurl }}/assignments/week-9-governance/">governance memo</a> | Framework: NIST AI RMF</div>
   </div>
 </div>
 
