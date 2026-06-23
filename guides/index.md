@@ -4,7 +4,7 @@ title: Guides
 subtitle: Setup references and technical resources for the course
 ---
 
-These guides support the technical work in INFO 4340. They're meant to be bookmarked and returned to — not read once and forgotten.
+These guides support the technical work in INFO 4340. They're meant to be bookmarked and returned to - not read once and forgotten.
 
 <div class="guide-list">
 
@@ -19,7 +19,7 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
   <a href="{{ site.baseurl }}/guides/ai-use-log/" class="guide-card">
     <div class="guide-card-left">
       <div class="guide-card-title">AI use log guide</div>
-      <div class="guide-card-desc">What an AI use log is, why it matters, what to include, and three format options with examples. Required for all weekly deliverables.</div>
+      <div class="guide-card-desc">What an AI use log is, why it matters, what to include, and three format options with examples. Required for most weekly deliverables.</div>
     </div>
     <div class="guide-card-arrow">→</div>
   </a>
@@ -27,7 +27,7 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
   <a href="{{ site.baseurl }}/guides/python-analysts/" class="guide-card">
     <div class="guide-card-left">
       <div class="guide-card-title">Python for analysts</div>
-      <div class="guide-card-desc">pandas, statsmodels, sklearn, networkx, and Anthropic API essentials — the specific operations you need for AI-assisted analytic workflows.</div>
+      <div class="guide-card-desc">pandas, statsmodels, sklearn, networkx, and Anthropic API essentials - the specific operations you need for AI-assisted analytic workflows.</div>
     </div>
     <div class="guide-card-arrow">→</div>
   </a>
@@ -43,7 +43,7 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
   <a href="{{ site.baseurl }}/guides/evaluation/" class="guide-card">
     <div class="guide-card-left">
       <div class="guide-card-title">Evaluation frameworks</div>
-      <div class="guide-card-desc">Rubric design, Cohen's κ, precision/recall, test case templates, and when to trust LLM-as-judge. Everything you need for systematic AI output evaluation.</div>
+      <div class="guide-card-desc">Rubric design, Cohen's κ, precision/recall, test case templates, and when to trust LLM-as-judge.</div>
     </div>
     <div class="guide-card-arrow">→</div>
   </a>
