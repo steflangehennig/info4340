@@ -1,19 +1,19 @@
 ---
 layout: page
 title: "Guide: Python for Analysts"
-subtitle: "pandas, statsmodels, and sklearn essentials with AI-assisted workflows"
+subtitle: "pandas, statsmodels, and sklearn tips for AI-assisted workflows"
 permalink: /guides/python-analysts/
 ---
 
 ## Who this guide is for
 
-This guide covers the Python tools you'll use in INFO 4340. It's not a full Python course — it's a reference for the specific operations you need as an analyst working with AI tools. Bookmark it and come back throughout the quarter.
+This guide covers the Python tools you'll use in INFO 4340. It's not a full Python course, but rather a reference for the specific operations you need as an analyst working with AI tools. Bookmark it and come back throughout the quarter.
 
 If you're new to Python, start with the [developer setup guide]({{ site.baseurl }}/guides/dev-setup/) to get your environment working first.
 
 ## pandas: data loading, cleaning, and analysis
 
-pandas is the workhorse of data analysis in Python. You'll use it in every week from Week 3 onward.
+pandas is the workhorse of data analysis in Python. You'll use it in every class from Week 3 onward.
 
 ### Loading data
 
@@ -35,7 +35,7 @@ df = pd.read_csv("https://example.com/data.csv")
 
 ### First look at your data
 
-Run these every time you load a new dataset — before asking AI anything about it.
+Run these every time you load a new dataset before asking AI anything about it.
 
 ```python
 df.shape              # (rows, columns)
@@ -52,12 +52,12 @@ df.dtypes             # data types
 # Count missing values per column
 df.isnull().sum()
 
-# Drop rows with any missing values (use cautiously)
+# Drop rows with any missing values (use cautiously!!!)
 df_clean = df.dropna()
 
 # Fill missing values
-df["discount"] = df["discount"].fillna(0)          # fill with a value
-df["score"] = df["score"].fillna(df["score"].mean()) # fill with mean
+df["discount"] = df["discount"].fillna(0)          # fill with a value (use cautiously!!!)
+df["score"] = df["score"].fillna(df["score"].mean()) # fill with mean (use cautiously!!!)
 
 # Check: how many rows did you lose?
 print(f"Before: {len(df)}, After: {len(df_clean)}, Dropped: {len(df) - len(df_clean)}")
@@ -65,7 +65,7 @@ print(f"Before: {len(df)}, After: {len(df_clean)}, Dropped: {len(df) - len(df_cl
 
 ### Standardizing text columns
 
-A common data quality issue — and one AI often misses.
+A common data quality issue and one AI often misses.
 
 ```python
 # Standardize casing
@@ -129,11 +129,12 @@ df["days_since"] = (pd.Timestamp.now() - df["date"]).dt.days
 
 ```python
 # Left join (keep all rows from left, match from right)
+# Default is INNER if not defined
 merged = pd.merge(orders, customers, on="customer_id", how="left")
 
 # ALWAYS check row counts after merging
 print(f"Orders: {len(orders)}, Customers: {len(customers)}, Merged: {len(merged)}")
-assert len(merged) == len(orders), "Merge created unexpected rows — check for duplicates"
+assert len(merged) == len(orders), "Merge created unexpected rows - check for duplicates"
 ```
 
 ### Removing duplicates
@@ -151,7 +152,7 @@ df_clean = df.drop_duplicates(subset=["order_id"])
 
 ## Verification checks (assertions)
 
-From Week 4 onward, add these to every notebook. They cost seconds to write and save hours of debugging.
+From Week 4 onward, add these to every notebook. They take seconds to write and save hours of debugging.
 
 ```python
 # After loading
@@ -197,7 +198,7 @@ plt.show()
 
 ## sklearn: machine learning essentials
 
-Used in Weeks 5–7 for clustering, classification, and evaluation.
+Used in Weeks 5-7 for clustering, classification, and evaluation.
 
 ### K-means clustering (Week 5)
 
@@ -310,6 +311,6 @@ text = response.content[0].text
 
 - **Show AI your data first.** Paste `df.head(10).to_string()` and `df.info()` into your prompt so AI knows what it's working with.
 - **Run each step separately.** Don't paste a 50-line AI-generated script and run it all at once. Run line by line and check intermediate outputs.
-- **Add assertions after every AI-generated block.** AI doesn't verify its own code — that's your job.
+- **Add assertions after every AI-generated block.** AI doesn't verify its own code. That's your job!
 - **Check the pandas version.** AI sometimes suggests deprecated syntax. If something doesn't work, check the docs.
 - **Don't blindly accept `.dropna()`.** AI loves to drop missing values. Always ask: how many rows did I just lose, and should those rows have been dropped?
