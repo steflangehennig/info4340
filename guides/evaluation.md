@@ -54,6 +54,28 @@ Use a 0-4 scale with three defined anchors:
 | 3 | Good - minor issues, usable with light editing |
 | 4 | Excellent - no issues found, ready for use |
 
+
+#### What is an anchor?
+An anchor is the concrete description of what a specific score level looks like for a given dimension. It ties the abstract number to something observable so that two different raters reading the same output would arrive at a similar score.
+
+Without anchors, "accuracy = 3" is subjective - one rater's 3 is another's 2. With anchors, both raters share a reference point that describes what they'd actually see in the output at that level. A common mistake is writing anchors that just restate the dimension name with an adjective:
+
+| Score | Weak anchor (don't do this!) |
+|---|---|
+| 0 | Very inaccurate |
+| 2 | Somewhat accurate |
+| 4 | Very accurate |
+
+These don't help, as they describe how the rater feels about accuracy, not what they'd observe. A good anchor describes the output itself:
+
+| Score | Strong anchor (do this!) |
+|---|---|
+| 0 | Contains fabricated statistics, invented citations, or misattributed claims |
+| 2 | Most claims are correct but 1–2 minor factual errors are present |
+| 4 | All factual claims verified against source data; no errors found |
+
+A good thing to ask yourself: could two people who've never spoken to each other read these anchors and score the same output within 1 point of each other? If yes, the anchors are doing their job. If not, they need to be more specific.
+
 ### Step 3: Write anchors for your specific task
 
 Generic anchors ("good accuracy") are useless. Make them task-specific:
