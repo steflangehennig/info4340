@@ -44,7 +44,7 @@ Select 4-6 from this menu based on your specific task:
 
 ### Step 2: Define the scale
 
-Use a 0-4 scale with three defined anchors:
+Use a 0-4 scale:
 
 | Score | Meaning |
 |---|---|
@@ -54,7 +54,7 @@ Use a 0-4 scale with three defined anchors:
 | 3 | Good - minor issues, usable with light editing |
 | 4 | Excellent - no issues found, ready for use |
 
-
+### Step 3: Write anchors for your specific task
 #### What is an anchor?
 An anchor is the concrete description of what a specific score level looks like for a given dimension. It ties the abstract number to something observable so that two different raters reading the same output would arrive at a similar score.
 
@@ -66,7 +66,9 @@ Without anchors, "accuracy = 3" is subjective - one rater's 3 is another's 2. Wi
 | 2 | Somewhat accurate |
 | 4 | Very accurate |
 
-These don't help, as they describe how the rater feels about accuracy, not what they'd observe. A good anchor describes the output itself:
+These don't help, as they describe how the rater feels about accuracy, not what they'd observe. You also don't need to anchor all five levels. Define what 0, 2, and 4 look like for your specific task, with scores of 1 and 3 fall naturally between them. A good anchor describes the output itself:
+
+**Example for a customer feedback summary task:**
 
 | Score | Strong anchor (do this!) |
 |---|---|
@@ -75,18 +77,6 @@ These don't help, as they describe how the rater feels about accuracy, not what 
 | 4 | All factual claims verified against source data; no errors found |
 
 A good thing to ask yourself: could two people who've never spoken to each other read these anchors and score the same output within 1 point of each other? If yes, the anchors are doing their job. If not, they need to be more specific.
-
-### Step 3: Write anchors for your specific task
-
-Generic anchors ("good accuracy") are useless. Make them task-specific:
-
-**Example for a customer feedback summary task:**
-
-| Score | Accuracy anchor |
-|---|---|
-| 0 | Contains fabricated statistics or misattributes quotes |
-| 2 | Most claims are correct but 1-2 minor errors present |
-| 4 | All claims verified against the source document, no errors found |
 
 ### Rubric template
 
