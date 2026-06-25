@@ -15,7 +15,7 @@ Business question, AI-proposed plan (helpful analyst), adversarial critique, you
 
 ### Component 2: Python implementation
 
-**Segmentation track:** RFM features from 185 customers, outlier analysis, train/test split, model selection with three metrics (elbow, silhouette, gap), justified k, holdout validation, ANOVA, cluster profiles.
+**Segmentation track:** RFM features from a customers dataset, outlier analysis, train/test split, model selection with three metrics (elbow, silhouette, gap), justified k, holdout validation, ANOVA, cluster profiles.
 
 **LMM track:** 4+ specifications, AIC/BIC comparison table, justified final model, residual diagnostics, ICC, effect sizes with 95% confidence intervals.
 

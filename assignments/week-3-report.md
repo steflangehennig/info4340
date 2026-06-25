@@ -7,7 +7,7 @@ permalink: /assignments/week-3-report/
 
 ## Assignment
 
-Using the 2,000-row orders dataset, create a directed report demonstrating data engineering and formal statistical analysis.
+Using a provided dataset, create a directed report demonstrating data engineering and formal statistical analysis.
 
 ### Component 1: README and data dictionary
 
