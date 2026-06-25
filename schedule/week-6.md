@@ -17,7 +17,7 @@ By the end of this week, you should be able to:
 
 1. Hand-code a validation set and compute inter-annotator reliability (Cohen's κ)
 2. Build and cross-validate an sklearn text classifier
-3. Run an LLM classifier with structured JSON output at scale (143 texts)
+3. Run an LLM classifier with structured JSON output at scale
 4. Evaluate classifiers formally: precision, recall, F1 per class, confusion matrix
 5. Compute LLM classification costs and project to production scale
 6. Construct a topic co-occurrence network and test community structure against a null model
@@ -29,7 +29,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">Turning text into data</div>
-    <p>The text-as-data pipeline with a 143-text corpus: hand-code 25+ texts for validation, build an sklearn baseline with cross-validation, and run an LLM classifier with structured output - tracking tokens and timing for Wednesday's cost analysis.</p>
+    <p>The text-as-data pipeline with a text corpus: hand-code 25+ texts for validation, build an sklearn baseline with cross-validation, and run an LLM classifier with structured output - tracking tokens and timing for Wednesday's cost analysis.</p>
     <div class="session-topics">
       <span class="topic-tag">Hand-coding + calibration</span>
       <span class="topic-tag">Python: sklearn with cross-validation</span>

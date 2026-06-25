@@ -16,7 +16,7 @@ permalink: /schedule/week-3/
 By the end of this week, you should be able to:
 
 1. Distinguish a vibe report from a directed report
-2. Explore a 2,000-row dataset using AI + pandas, identifying data quality issues that require code - not just eyeballing
+2. Explore the provided dataset using AI + pandas, identifying data quality issues that require code - not just eyeballing
 3. Build a verified data dictionary documenting variables, missingness patterns, and cleaning decisions
 4. Clean data at scale with assertions after every step
 5. Conduct a formal statistical test and report results with effect sizes and confidence intervals

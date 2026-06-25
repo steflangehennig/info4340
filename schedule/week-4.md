@@ -28,7 +28,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">Why AI code breaks - quantifying the damage</div>
-    <p>Five failure modes of AI-generated code, the three test habits, then a bug hunt on a 2,000-row dataset: you'll find bugs in an AI-generated script and compute the exact dollar and percentage impact of each one. "Revenue is wrong" is not enough - you need to say by how much.</p>
+    <p>Five failure modes of AI-generated code, the three test habits, then a bug hunt on a provided dataset: you'll find bugs in an AI-generated script and compute the exact dollar and percentage impact of each one. "Revenue is wrong" is not enough - you need to say by how much.</p>
     <div class="session-topics">
       <span class="topic-tag">Five failure modes</span>
       <span class="topic-tag">Three test habits</span>

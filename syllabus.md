@@ -46,5 +46,5 @@ This course is explicitly about using AI tools, therefor you are expected to use
 No prior Python experience is required, but you are expected to learn as you go (note: this is not a coding class). The Week 2 setup guide and my office hours will be useful if you need support. All final deliverables require a reproducible Python notebook.
 
 ### Late work
-Deliverables are due before class on the week listed. Late submissions lose 10% per day.
+Deliverables are due before class on the week listed. Late submissions will be penalized - see Canvas.
 

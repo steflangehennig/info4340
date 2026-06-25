@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Week 8: Failures, Incidents, and Risk"
-subtitle: "Evaluate · AI failures are usually sociotechnical — not just technical"
+subtitle: "Evaluate | AI failures are usually sociotechnical - not just technical"
 permalink: /schedule/week-8/
 ---
 
 <div class="note" markdown="0">
-  <strong>Module:</strong> <span class="badge badge-orange">Evaluate</span> &nbsp;·&nbsp;
-  <strong>Deliverable:</strong> AI incident brief (due before Week 9 Monday) &nbsp;·&nbsp;
+  <strong>Module:</strong> <span class="badge badge-orange">Evaluate</span> &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> AI incident brief (due before Week 9 Monday) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-8-incident/">See assignment →</a>
 </div>
 
@@ -53,7 +53,7 @@ permalink: /schedule/week-8/
 | Concept | What it means |
 |---|---|
 | **Disparate impact ratio** | Error rate for one group divided by the reference group's rate. If > 1.25x (inverse 4/5 rule), flags potential bias. |
-| **Equalized odds** | Whether the classifier has the same recall for each subgroup — equal accuracy across groups |
+| **Equalized odds** | Whether the classifier has the same recall for each subgroup - equal accuracy across groups |
 | **Quantitative harm estimation** | Project error rates to production volume: X errors/month × $Y cost = $Z monthly impact |
 | **Safeguard threshold** | A quantitative trigger for intervention: "human review when confidence < 0.7" or "alert when subgroup error rate > 15%" |
 
@@ -61,11 +61,11 @@ permalink: /schedule/week-8/
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">AI Incident Brief</div>
-  <div class="assignment-preview-meta">~2–3 pages · 30 points · Due before class, Week 9 Monday · Submit via Canvas</div>
+  <div class="assignment-preview-meta">~2–3 pages | 30 points | Due before class, Week 9 Monday | Submit via Canvas</div>
   <p>Analyze a real AI incident with failure chain, quantitative harm estimation, disparity analysis, and a recommended safeguard with a quantitative trigger threshold.</p>
   <a href="{{ site.baseurl }}/assignments/week-8-incident/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week: **Governing GenAI in Organizations** — translating evaluation and failure analysis into practical governance rules with quantitative risk scoring.
+Next week: **Governing GenAI in Organizations** - translating evaluation and failure analysis into practical governance rules with quantitative risk scoring.

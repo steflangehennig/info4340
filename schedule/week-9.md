@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 9: Governing GenAI in Organizations"
-subtitle: "Govern | From principles to operating rules — with numbers"
+subtitle: "Govern | From principles to operating rules - with numbers"
 permalink: /schedule/week-9/
 ---
 
@@ -27,7 +27,7 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Monday</div>
   <div class="session-content">
-    <div class="session-title">From principles to operating rules — with numbers</div>
+    <div class="session-title">From principles to operating rules - with numbers</div>
     <p>The governance gap between "use AI responsibly" and specific operating rules. NIST AI RMF mapped to the quantitative tools you've built (rubrics, kappa, disparity metrics, cost analysis). Then a governance checklist workshop with a quantitative risk scoring matrix: likelihood × impact for each domain.</p>
     <div class="session-topics">
       <span class="topic-tag">Principles vs. operating rules</span>
@@ -55,7 +55,7 @@ By the end of this week, you should be able to:
 
 **Before Monday:**
 
-- Review your Week 8 incident brief — the safeguard thresholds you wrote connect directly to this week
+- Review your Week 8 incident brief - the safeguard thresholds you wrote connect directly to this week
 - Skim the [NIST AI RMF overview](https://www.nist.gov/artificial-intelligence/executive-order-safe-secure-and-trustworthy-artificial-intelligence)
 
 **Before Wednesday:**
@@ -68,7 +68,7 @@ By the end of this week, you should be able to:
 | Concept | What it means |
 |---|---|
 | **Quantitative risk matrix** | Likelihood (1–5) × Impact (1–5) for each governance domain, producing a risk score (1–25) |
-| **Governance threshold** | A measurable trigger for action: "human review when confidence < 0.7" — not "review when needed" |
+| **Governance threshold** | A measurable trigger for action: "human review when confidence < 0.7" - not "review when needed" |
 | **NIST AI RMF** | Four functions (Govern, Map, Measure, Manage) mapped to the quantitative tools students have built |
 | **Acceptable-use policy** | Operating document: approved, restricted, and prohibited uses with specific triggers and escalation |
 
@@ -83,4 +83,4 @@ By the end of this week, you should be able to:
 
 ## Looking ahead
 
-Next week: **Final Project Presentations** — demonstrate all four competencies (understand, use, evaluate, govern) in a 10-minute presentation.
+Next week: **Final Project Presentations** - demonstrate all four competencies (understand, use, evaluate, govern) in a 10-minute presentation.
