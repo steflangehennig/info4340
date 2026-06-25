@@ -28,7 +28,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">From messy data to understanding - at scale</div>
-    <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. You'll work with a 2,000-row business orders dataset - large enough that you can't eyeball every row. Use AI + pandas to discover data quality issues, compare what AI finds to what your code reveals, and build a verified data dictionary.</p>
+    <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. You'll work with a business dataset - large enough that you can't eyeball every row. Use AI + pandas to discover data quality issues, compare what AI finds to what your code reveals, and build a verified data dictionary.</p>
     <div class="session-topics">
       <span class="topic-tag">Vibe vs. directed reports</span>
       <span class="topic-tag">Data-to-report pipeline</span>
