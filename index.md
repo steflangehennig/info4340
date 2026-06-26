@@ -7,8 +7,6 @@ layout: default
     <h1 class="home-title">INFO 4340: Analytics and AI</h1>
     <p class="home-desc">A graduate course on using, evaluating, and governing AI tools in applied business settings.</p>
     <div class="home-meta">
-      <span class="meta-pill">{{ site.term }}</span>
-      <span class="meta-pill">{{ site.meeting }}</span>
     </div>
   </div>
 </div>
