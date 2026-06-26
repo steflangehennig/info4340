@@ -6,13 +6,13 @@ subtitle: INFO 4340 | Fall 2026
 
 ## Course description
 
-INFO 4340 prepares graduate analysts to work alongside generative AI systems in applied professional settings. Rather than treating AI as a black box or a magical solution, the course develops four practical competencies: understanding what LLMs are and where they fail, using GenAI in applied analytic workflows, evaluating AI outputs systematically, and governing AI in organizational contexts.
+INFO 4340 prepares graduate analysts to work alongside generative AI systems in applied business settings. Rather than treating AI as a black box or a magical solution, the course develops four practical competencies: understanding what LLMs are and where they fail, using GenAI in applied analytic workflows, evaluating AI outputs systematically, and governing AI in organizational contexts.
 
-The course uses Python throughout, not to build production-level AI systems, but to use them as an analyst would. This includes cleaning data, classifying text, building evaluation pipelines, and creating reproducible work.
+The course uses Python throughout as an analyst would. This includes cleaning data, classifying text, building evaluation pipelines, and creating reproducible work.
 
 ## Learning outcomes
 
-By the end of the course, students will be able to:
+By the end of the course, you will be able to:
 
 1. Explain how large language models work and characterize their failure modes
 2. Use AI-assisted workflows to complete real analytic tasks in Python
