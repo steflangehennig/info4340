@@ -42,7 +42,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Wednesday</div>
   <div class="session-content">
     <div class="session-title">Measuring reliability and designing test cases</div>
-    <p>Put numbers on Monday's disagreements: multi-rater Cohen's κ (human-human and human-LLM), prompt sensitivity testing (is the LLM judge consistent?), and minimum detectable difference — the threshold below which score differences are just rater noise. Then design test cases for your final project.</p>
+    <p>Put numbers on Monday's disagreements: multi-rater Cohen's κ (human-human and human-LLM), prompt sensitivity testing (is the LLM judge consistent?), and minimum detectable difference - the threshold below which score differences are just rater noise. Then design test cases for your final project.</p>
     <div class="session-topics">
       <span class="topic-tag">Multi-rater kappa</span>
       <span class="topic-tag">Prompt sensitivity (3 runs)</span>
