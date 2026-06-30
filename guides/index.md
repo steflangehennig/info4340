@@ -27,7 +27,7 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
     <a href="{{ site.baseurl }}/guides/git-github/" class="guide-card">
     <div class="guide-card-left">
       <div class="guide-card-title">Git and GitHub 101</div>
-      <div class="guide-card-desc">Version control basics for analysts who've never used it. The four commands you need, daily workflow, commit messages, and common fixes.</div>
+      <div class="guide-card-desc">Version control basics, including the four commands you need, daily workflow, commit messages, and common fixes.</div>
     </div>
     <div class="guide-card-arrow">→</div>
   </a>

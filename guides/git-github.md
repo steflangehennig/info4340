@@ -5,8 +5,6 @@ subtitle: "Version control basics"
 permalink: /guides/git-github/
 ---
 
-## What this guide covers
-
 This guide teaches you the minimum git and GitHub you need for this course, including tracking changes to your notebooks, pushing your work to a repository (repo), and understanding what version control is actually doing. This is where to start if you've never touched git.
 
 ## What is git + why should you care
@@ -43,7 +41,7 @@ git config --global user.email "your.email@du.edu"
 
 Go to [github.com](https://github.com) and create a free account if you don't already have one. Use your DU email or a personal email, either is fine.
 
-## The four commands you'll use 90% of the time
+## The four commands you'll use most of the time
 
 Almost everything you do with git uses these four commands:
 
@@ -54,7 +52,7 @@ git commit -m "message"   # Save a snapshot with a description
 git push        # Send my commits to GitHub
 ```
 
-That's it. If you learn nothing else, learn these four!
+If you learn nothing else, learn these four!
 
 ## Your first repository (step by step)
 
@@ -279,7 +277,7 @@ You don't need to learn any of this right now:
 | Clone a repository | `git clone URL` |
 | Initialize a new repo | `git init` |
 
-## Connection to this course
+## Where you'll see it in INFO 4340
 
 - **Week 4:** You'll learn about versioning as a debugging practice. Git is the most powerful option, but change logs and before/after screenshots work too.
 - **Final project:** Your reproducible notebook should be in a git repo. Your commit history shows how the project evolved.
