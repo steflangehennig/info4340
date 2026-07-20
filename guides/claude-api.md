@@ -133,13 +133,13 @@ def classify(text):
 The essentials:
 
 - **Specify the exact JSON schema** in the system prompt, including allowed values
-- **Say "ONLY valid JSON, no other text"** - otherwise you'll get preamble
-- **Always wrap `json.loads()` in try/except** - parse failures happen and shouldn't crash a 143-item batch
-- **Record parse errors as data** - a parse error rate is itself a quality metric (Week 7)
+- **Say "ONLY valid JSON, no other text"** otherwise you'll get preamble
+- **Always wrap `json.loads()` in try/except** parse failures happen and shouldn't crash a 143-item batch
+- **Record parse errors as data** a parse error rate is itself a quality metric (Week 7)
 
 ## XML tags for complex prompts
 
-When a prompt contains multiple parts - instructions, data, examples - Anthropic recommends XML tags to mark the boundaries:
+When a prompt contains multiple parts (instructions, data, examples) Anthropic recommends XML tags to mark the boundaries:
 
 ```python
 prompt = f"""<instructions>
@@ -156,11 +156,11 @@ Caveats: excludes returns; Q4 partially estimated.
 </example>"""
 ```
 
-The tags aren't magic syntax - they're just unambiguous delimiters the model recognizes well. Use them whenever the model might confuse your instructions with your data (which happens more than you'd expect when pasting CSV rows or report text).
+The tags aren't magic syntax, they're just unambiguous delimiters the model recognizes well. Use them whenever the model might confuse your instructions with your data (which happens more than you'd expect when pasting CSV rows or report text).
 
 ## Error handling and retries
 
-API calls fail: rate limits, timeouts, transient errors. In a batch job, one failure shouldn't kill the run. The pattern:
+API calls fail because of things like rate limits, timeouts, transient errors. In a batch job, one failure shouldn't obliterate the run! Use this:
 
 ```python
 import time
@@ -176,7 +176,7 @@ def call_with_retry(prompt, max_retries=3):
             )
             return response
         except anthropic.RateLimitError:
-            wait = 2 ** attempt          # exponential backoff: 1s, 2s, 4s
+            wait = 2 ** attempt          # exponential backoff - 1s, 2s, 4s
             time.sleep(wait)
         except anthropic.APIError as e:
             if attempt == max_retries - 1:
@@ -185,17 +185,17 @@ def call_with_retry(prompt, max_retries=3):
     raise RuntimeError("Max retries exceeded")
 ```
 
-For course-sized batches (30–150 items), a simple try/except that logs failures and continues is usually enough. For production scale, exponential backoff is standard.
+For course-sized batches (30–150 items), a simple try/except that logs failures and continues is usually enough. For production scale, exponential backoff is standard and you'll see it out in the wild.
 
 ## Batch processing pattern
 
-The canonical loop you've used since Week 1, with everything above assembled:
+The standard loop you've used since Week 1, with everything above assembled:
 
 ```python
 results = []
 for i, (_, row) in enumerate(df.iterrows()):
     try:
-        parsed = classify(row["text"])          # includes retry + defensive parsing
+        parsed = classify(row["text"])          # includes retry + parsing defensively
         parsed["feedback_id"] = row["feedback_id"]
         parsed["error"] = None
     except Exception as e:
@@ -209,22 +209,22 @@ results_df = pd.DataFrame(results)
 print(f"Done. Errors: {results_df['error'].notna().sum()}")
 ```
 
-Habits that matter at scale:
+Habits that matter when you need to scale:
 
-- **Save intermediate results** (`results_df.to_csv("checkpoint.csv")`) every 50 items - a crash at item 140 of 143 shouldn't cost you the whole run
+- **Save intermediate results** (`results_df.to_csv("checkpoint.csv")`) every 50 items. A crash at item 140 of 143 shouldn't cost you the whole run
 - **Log progress** so you know the loop is alive
 - **Track errors as rows, not crashes** - analyze them afterward
 
 ## Tracking tokens and cost
 
-Every response reports its token usage - use it:
+Every response reports its token usage so you should use it!
 
 ```python
 response.usage.input_tokens     # tokens you sent
 response.usage.output_tokens    # tokens the model generated
 ```
 
-Cost calculation (Sonnet pricing as used in this course):
+Cost calculation (Sonnet pricing):
 
 ```python
 INPUT_RATE = 3.00 / 1_000_000    # $ per input token
@@ -234,9 +234,9 @@ cost = (response.usage.input_tokens * INPUT_RATE +
         response.usage.output_tokens * OUTPUT_RATE)
 ```
 
-You did this formally in Week 6's cost analysis. The habit to build: **track actuals, then project.** "This 143-text batch cost $0.11, so 100,000 texts ≈ $77" is an analyst's answer; "the API is cheap" is not.
+You did this formally in Week 6's cost analysis. The habit to build is **track actuals, then project.** "This 143-text batch cost $0.11, so 100,000 texts ≈ $77" is an analyst's answer. Don't just say "the API is cheap"!
 
-Cost-control levers, in order of impact:
+Cost-control measures in order of impact:
 
 1. **Shorter prompts** - the system prompt is re-sent with every batch item
 2. **Lower max_tokens** - caps worst-case output cost
@@ -245,12 +245,12 @@ Cost-control levers, in order of impact:
 
 ## API keys and security
 
-- **Never hardcode keys** in notebooks or scripts
+- **Never hardcode keys** in notebooks or scripts!!!
 - **Never commit keys to git** - add `.env` to your `.gitignore` (see the [Git guide]({{ site.baseurl }}/guides/git-github/))
 - In Colab: use Secrets (`userdata.get("ANTHROPIC_API_KEY")`)
 - Locally: use environment variables (`os.environ.get("ANTHROPIC_API_KEY")`)
 
-If a key leaks, rotate it (delete and create a new one in the console). Course keys have low limits, but the habit matters - in professional settings a leaked key is a security incident.
+If a key leaks, rotate it (delete and create a new one in the console). Course keys have low limits, but the habit matters because in professional settings a leaked key is a security incident.
 
 ## Quick reference
 
