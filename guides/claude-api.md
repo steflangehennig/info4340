@@ -189,7 +189,7 @@ For course-sized batches (30–150 items), a simple try/except that logs failure
 
 ## Batch processing pattern
 
-The standard loop you've used since Week 1, with everything above assembled:
+The standard loop you've used since Week 1, with everything above pulled together:
 
 ```python
 results = []
