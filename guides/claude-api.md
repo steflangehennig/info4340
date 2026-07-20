@@ -81,7 +81,7 @@ Rule of thumb: **role, rules, and format go in the system prompt; data goes in t
 
 ## Multi-turn conversations
 
-The API is stateless - it has no memory between calls. A "conversation" is just the full message history you send each time:
+The API is stateless, which means it has no memory between calls. A "conversation" is just the full message history you send each time:
 
 ```python
 messages = [
@@ -100,11 +100,11 @@ response = client.messages.create(
 Each call sends the entire history. Two implications for analysts:
 
 - **Cost grows with conversation length.** Every prior turn is re-sent (and re-billed) as input tokens.
-- **You control the context.** You can edit history, drop irrelevant turns, or start fresh. This is why the helpful/adversarial pairing (Week 5) uses *separate* conversations - the adversarial reviewer shouldn't see that the plan came from the same model.
+- **You control the context.** You can edit history, drop irrelevant turns, or start fresh. This is why the helpful/adversarial pairing (Week 5) uses separate conversations - the adversarial reviewer shouldn't see that the plan came from the same model.
 
 ## Structured output (JSON) patterns
 
-You've used this pattern since Week 1. Here's the reliable version:
+A reliable version you can use:
 
 ```python
 SYSTEM = """Return ONLY valid JSON, no other text, no markdown fences:
@@ -120,7 +120,7 @@ def classify(text):
     )
     raw = response.content[0].text.strip()
 
-    # Defensive parsing: strip markdown fences if present
+    # Parsing defensively - strip markdown fences if present
     if raw.startswith("```"):
         raw = raw.strip("`").removeprefix("json").strip()
 
