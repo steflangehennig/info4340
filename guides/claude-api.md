@@ -50,13 +50,11 @@ Controls randomness in the response. At `temperature=0`, the model picks the mos
 | Summarization | 0–0.3 |
 | Brainstorming, creative work | 0.7–1.0 |
 
-For analytic work, **default to 0**. You want reproducibility.
+For analytic work, default to 0. You want reproducibility.
 
 ## System prompts vs. user messages
 
-This is the most important distinction you haven't been formally taught yet - even though you've been using it since Week 6.
-
-The **system prompt** sets the model's role, constraints, and standing instructions for the whole conversation. The **user message** contains the specific request or data.
+The system prompt sets the model's role, constraints, and standing instructions for the whole conversation. The user message contains the specific request or data.
 
 ```python
 response = client.messages.create(
@@ -75,7 +73,7 @@ Never include text outside the JSON object.""",
 
 **Why split them?** Three reasons:
 
-1. **Consistency.** The system prompt applies to every message in the conversation. When you're classifying 143 texts in a loop, put the task definition and output format in the system prompt and only the text in the user message - the instructions can't drift.
+1. **Consistency.** The system prompt applies to every message in the conversation. When you're classifying 143 texts in a loop, put the task definition and output format in the system prompt and only the text in the user message. The instructions can't drift.
 2. **Reliability.** Models weight system prompts heavily for behavioral instructions like output format.
 3. **Cost.** With the same system prompt across a batch, your per-item user messages stay short.
 
