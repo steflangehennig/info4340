@@ -167,7 +167,7 @@ Identify data quality issues in this sample. List each issue with the affected c
 </data>
 ```
 
-The tags aren't special syntax - they're unambiguous delimiters. Without them, models sometimes treat pasted data as instructions (or vice versa). Use tags any time you paste CSV rows, report text, or another prompt into your prompt.
+The tags aren't special syntax, they're unambiguous delimiters. Without them, models sometimes treat pasted data as instructions (or vice versa). Use tags any time you paste CSV rows, report text, or another prompt into your prompt.
 
 ### Multishot examples
 
@@ -185,7 +185,7 @@ Output: {"category": "onboarding", "confidence": "medium"}
 Now classify: "{text}"
 ```
 
-Two or three examples that span your edge cases (a clear case, an ambiguous case) calibrate the model better than a paragraph of rules. This is exactly how you calibrate human coders in Week 6 - same principle.
+2-3 examples that span your edge cases (a clear case, an ambiguous case) calibrate the model better than a paragraph of rules. This is exactly how you calibrate human coders in Week 6.
 
 ### Chain-of-thought prompting
 
