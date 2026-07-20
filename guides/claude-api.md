@@ -265,11 +265,11 @@ If a key leaks, rotate it (delete and create a new one in the console). Course k
 | Know what this costs | `response.usage` × published rates, then project |
 | Keep keys safe | Colab Secrets or env vars; never in git |
 
-## Where this shows up in the course
+## Where you'll see this in the course
 
 - **Week 1:** batch loop, JSON parsing, temperature
 - **Week 2:** benchmarking with `response.usage` for time/token/cost measurement
 - **Week 5:** separate conversations for helpful/adversarial roles (context control)
 - **Week 6:** system prompts for classification, cost analysis at scale
 - **Week 7:** LLM-as-judge with structured scoring output
-- **Final project:** all of the above in one reproducible pipeline
+- **Final project:** all of the above in your reproducible pipeline
