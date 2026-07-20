@@ -32,15 +32,13 @@ response = client.messages.create(
 text = response.content[0].text       # the response text
 ```
 
-Let's break down each piece.
-
 ### model
 
-Which Claude model handles the request. In this course we use `claude-sonnet-4-6` - a strong balance of capability, speed, and cost. Smaller models (Haiku) are faster and cheaper; larger models are more capable but slower and more expensive. Model choice is an empirical question - that's what Week 2's benchmarking taught you.
+This is which Claude model handles the request. In this course we use `claude-sonnet-4-6` most of the time. It's a strong balance of capability, speed, and cost. Smaller models (Haiku) are faster and cheaper; larger models are more capable, but slower and more expensive. Model choice is an empirical question (see Week 2's benchmarking discussion).
 
 ### max_tokens
 
-The maximum length of the response, in tokens. This is a **cap, not a target** - the model stops when it's done or when it hits the cap, whichever comes first. If your responses are getting cut off mid-sentence, raise it. If you only need a short JSON object, keep it low (100–200) to bound your costs.
+The maximum length of the response, in tokens. This is a cap, not a target - the model stops when it's done or when it hits the cap, whichever comes first. If your responses are getting cut off mid-sentence, raise it. If you only need a short JSON object, keep it low (100–200) to put bounds around your costs.
 
 ### temperature
 
