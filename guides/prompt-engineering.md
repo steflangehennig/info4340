@@ -147,6 +147,74 @@ Output to evaluate:
 
 **Why it works:** Mirrors your human rubric, produces structured output you can aggregate, and identifies specific failure modes.
 
+## Core techniques from Anthropic
+
+*Adapted from Anthropic's Building with the Claude API course.*
+
+Beyond the six patterns above, four techniques from Anthropic's own guidance measurably improve output quality for analytic tasks:
+
+### XML tags for structure
+
+When a prompt mixes instructions, data, and examples, mark the boundaries with XML tags:
+
+```
+<instructions>
+Identify data quality issues in this sample. List each issue with the affected column.
+</instructions>
+
+<data>
+[paste df.head(15).to_string()]
+</data>
+```
+
+The tags aren't special syntax - they're unambiguous delimiters. Without them, models sometimes treat pasted data as instructions (or vice versa). Use tags any time you paste CSV rows, report text, or another prompt into your prompt.
+
+### Multishot examples
+
+One or more worked examples outperform longer instructions. Instead of describing the output format in prose, show it:
+
+```
+Classify feedback into categories. Examples:
+
+Input: "Charged twice for the same month"
+Output: {"category": "billing", "confidence": "high"}
+
+Input: "Setup took three weeks and support never responded"
+Output: {"category": "onboarding", "confidence": "medium"}
+
+Now classify: "{text}"
+```
+
+Two or three examples that span your edge cases (a clear case, an ambiguous case) calibrate the model better than a paragraph of rules. This is exactly how you calibrate human coders in Week 6 - same principle.
+
+### Chain-of-thought prompting
+
+For reasoning-heavy tasks, ask the model to work through the problem before answering:
+
+```
+Before giving your final classification, briefly reason through:
+1. What is the customer's core complaint?
+2. Which categories could plausibly apply?
+3. Which fits best and why?
+
+Then output the JSON.
+```
+
+This costs more tokens but reduces errors on ambiguous inputs. Use for edge cases and evaluation tasks; skip for high-volume simple classification where cost matters.
+
+### Prefilling the response
+
+You can start the assistant's response for it, forcing the output format:
+
+```python
+messages=[
+    {"role": "user", "content": "Classify: 'Charged twice for March.'"},
+    {"role": "assistant", "content": "{"}   # response must continue this JSON
+]
+```
+
+The model continues from the `{` - no preamble possible. A blunt but effective way to guarantee JSON when "ONLY valid JSON" instructions aren't enough.
+
 ## Prompt iteration workflow
 
 Good prompts are rarely written in one shot. Use this workflow:

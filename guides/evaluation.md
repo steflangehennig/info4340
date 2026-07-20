@@ -195,6 +195,19 @@ Don't trust it alone for: high-stakes decisions, fairness assessments, domain-sp
 
 Always validate: run LLM-as-judge on your human-scored test set first and compute κ. If agreement is below 0.6, the LLM judge isn't reliable enough for your task.
 
+## The eval pipeline pattern
+
+*Adapted from Anthropic's Building with the Claude API course.*
+
+Professional AI evaluation is organized as a pipeline, not a one-time scoring session:
+
+1. **Cases** - a stored set of inputs with expected behavior (your test cases: typical, edge, adversarial)
+2. **Run** - execute every case programmatically against the model or workflow
+3. **Grade** - score each output using the cheapest reliable grader: code graders for anything rule-checkable (format, allowed values), model graders (LLM-as-judge) for quality dimensions, humans for a validation sample
+4. **Aggregate** - pass rates, mean rubric scores, agreement metrics (κ), and a decision
+
+The pipeline mindset changes two things. First, evaluation becomes repeatable. When you change a prompt or model, you re-run the same cases and compare. Second, it becomes affordable. Code graders are free, so you reserve expensive human judgment for what actually needs it. Your Week 7 kappa and MDD work answers the pipeline's most important question e.g., can the grader itself be trusted?
+
 ## Putting it all together
 
 For your final project evaluation:
