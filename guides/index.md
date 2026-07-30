@@ -24,7 +24,7 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
     <div class="guide-card-arrow">→</div>
   </a>
 
-    <a href="{{ site.baseurl }}/guides/git-github/" class="guide-card">
+  <a href="{{ site.baseurl }}/guides/git-github/" class="guide-card">
     <div class="guide-card-left">
       <div class="guide-card-title">Git and GitHub 101</div>
       <div class="guide-card-desc">Version control basics, including the four commands you need, daily workflow, commit messages, and common fixes.</div>
@@ -35,7 +35,7 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
   <a href="{{ site.baseurl }}/guides/claude-api/" class="guide-card">
     <div class="guide-card-left">
       <div class="guide-card-title">Claude API for analysts</div>
-      <div class="guide-card-desc">Best practices for using Claude's API.</div>
+      <div class="guide-card-desc">Message anatomy, system prompts, structured JSON output, error handling, batch patterns, cost tracking, and key security.</div>
     </div>
     <div class="guide-card-arrow">→</div>
   </a>
@@ -66,3 +66,5 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
   </a>
 
 </div>
+
+**Optional deep-dive:** [LLM Visual Cards](https://llmsresearch.github.io/llm-flashcards/) - a free reference covering the technical concepts behind the lecture material. One idea per card, no math required. Unassessed; referenced throughout the course.
