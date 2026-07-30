@@ -19,7 +19,7 @@ sklearn baseline with cross-validation, LLM classifier on full corpus, precision
 
 ### Component 3: Network analysis
 
-Using nextworkx, generate co-occurrence network, weighted centrality, community detection, modularity significance tested against 100-permutation null model, visualization.
+Using networkx, generate a topic co-occurrence network, weighted centrality, community detection, modularity significance tested against a 100-permutation null model, and a visualization.
 
 ### Component 4: Comparison memo (2–3 pages) + AI use log
 

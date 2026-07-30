@@ -28,7 +28,7 @@ Include the raw results table, not just aggregates.
 
 ### Part 3: Quantitative recommendation
 
-Write a 3–5 sentence recommendation citing specific numbers: quality scores, response times, cost differences, and which configuration you'd choose for different task types.
+Write a 3-5 sentence recommendation citing specific numbers: quality scores, response times, cost differences, and which configuration you'd choose for different task types.
 
 ### Part 4: Reflection
 

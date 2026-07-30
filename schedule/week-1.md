@@ -85,7 +85,7 @@ This week's readings are optional background - the main learning happens in clas
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">GenAI Use Case Reflection</div>
-  <div class="assignment-preview-meta">~1 page | Due before class, Week 2 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">~1 page + scoring table | 30 points | Due before class, Week 2 Monday | Submit via Canvas</div>
   <p>Describe one realistic GenAI use case in a future analyst role. Explain what AI would do, what the human analyst would still be responsible for, what would need to be verified, and the risk level - including a quantitative score on the five risk dimensions.</p>
   <a href="{{ site.baseurl }}/assignments/week-1-reflection/" class="assignment-link">Full prompt and rubric →</a>
 </div>
