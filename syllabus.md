@@ -24,6 +24,7 @@ By the end of the course, you will be able to:
 
 - Békés, Gábor. [*Data Analysis with AI*](https://gabors-data-analysis.com/ai-course/) (free online)
 - NIST AI Risk Management Framework (free, [nist.gov](https://www.nist.gov/itl/ai-risk-management-framework))
+- LLMs Research Lab [LLMsVisual Cards](https://llmsresearch.github.io/llm-flashcards/)
 - AI Incident Database ([incidentdatabase.ai](https://incidentdatabase.ai/))
 - Additional readings will be posted to Canvas
 

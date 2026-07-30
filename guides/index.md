@@ -67,4 +67,3 @@ These guides support the technical work in INFO 4340. They're meant to be bookma
 
 </div>
 
-**Optional deep-dive:** [LLM Visual Cards](https://llmsresearch.github.io/llm-flashcards/) - a free reference covering the technical concepts behind the lecture material. One idea per card, no math required. Unassessed; referenced throughout the course.
