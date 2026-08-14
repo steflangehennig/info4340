@@ -161,7 +161,7 @@ print("=" * 68)
 ```
 
 <div class="note" markdown="0">
-  <strong>What to submit:</strong> the entire output, from the first <code>====</code> line to the last, pasted as text into the Canvas Week 0 assignment. Not a screenshot - text, so I can search it. A result with <code>FAIL</code> rows still earns full credit as long as you say what you tried.
+  <strong>What to submit:</strong> the entire output, from the first line to the last, pasted as text into the Canvas Week 0 assignment. Not a screenshot - text, so I can search it. A result with <code>FAIL</code> rows still earns full credit as long as you say what you tried.
 </div>
 
 Optional rows marked `SKIP` are fine. You are aiming for **zero `FAIL` rows**.
