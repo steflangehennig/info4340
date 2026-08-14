@@ -46,7 +46,7 @@ None of this requires prior Python experience, and none of it requires you to sp
 </div>
 
 <div class="note" markdown="0">
-  <strong>While you are there:</strong> apply for the <a href="https://education.github.com/discount_requests/application" target="_blank">GitHub Student Developer Pack</a> with your DU email. It is free, takes two minutes, and approval can take a few days, so start it now rather than in Week 3.
+  <strong>While you are there:</strong> apply for the <a href="https://education.github.com/discount_requests/application" target="_blank">GitHub Student Developer Pack</a> with your DU email. It's free, takes two minutes, and approval can take a few days, so start it now rather than in Week 3.
 </div>
 
 ## 2 &nbsp;Install Python, VS Code, and Git
@@ -161,7 +161,7 @@ print("=" * 68)
 ```
 
 <div class="note" markdown="0">
-  <strong>What to submit:</strong> the entire output, from the first line to the last, pasted as text into the Canvas Week 0 assignment. Not a screenshot - text, so I can search it. A result with <code>FAIL</code> rows still earns full credit as long as you say what you tried.
+  <strong>What to submit:</strong> the entire output, from the first line to the last, pasted as text into the Canvas Week 0 assignment. Not a screenshot! Submit text so I can search it. A result with <code>FAIL</code> rows still earns full credit as long as you say what you tried.
 </div>
 
 Optional rows marked `SKIP` are fine. You are aiming for **zero `FAIL` rows**.
