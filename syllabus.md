@@ -14,11 +14,12 @@ The course uses Python throughout as an analyst would. This includes cleaning da
 
 By the end of the course, you will be able to:
 
-1. Explain how large language models work and characterize their failure modes
-2. Use AI-assisted workflows to complete real analytic tasks in Python
-3. Design and apply evaluation frameworks for GenAI outputs
-4. Analyze AI incidents and assess organizational risk
-5. Draft governance policies grounded in frameworks like the NIST AI RMF
+1. Students will understand the architecture behind AI systems and LLMs, including how such systems are trained and assessed.
+2. Students will be proficient in the implementation of AI systems through programming environments, including Python.
+3. Students will implement analytical techniques through traditional methodologies and libraries and through AI solutions.
+4. Students will assess the effectiveness of using AI tools as an alternative to traditional programming techniques and will demonstrate proficiency in determining the correctness and utility of AI models.
+5. Students will assess the ethical considerations of implementing AI solutions in a business environment.
+
 
 ## Required materials
 
