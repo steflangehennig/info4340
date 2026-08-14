@@ -21,6 +21,12 @@ By the end of the course, you will be able to:
 5. Students will assess the ethical considerations of implementing AI solutions in a business environment.
 
 
+## Before the first class
+
+Complete [Week 0]({{ site.baseurl }}/schedule/week-0/) before our first meeting. It takes about 90 minutes and covers account setup (Canvas, Google, GitHub), installing Python, VS Code, and Git, and running a setup check script whose output you submit to Canvas. It counts toward your participation grade.
+
+Nothing in Week 0 costs money or assumes prior Python experience. If a step breaks, submit the setup check output anyway and post in the Week 0 discussion thread. Troubleshooting a broken install is a normal part of this work, and doing it before the term starts protects our class time.
+
 ## Required materials
 
 - Békés, Gábor. [*Data Analysis with AI*](https://gabors-data-analysis.com/ai-course/) (free online)

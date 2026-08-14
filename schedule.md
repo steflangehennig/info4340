@@ -6,6 +6,8 @@ subtitle: Fall 2026
 
 Every week includes hands-on Python work. Readings and materials are posted to Canvas. This page shows the topic, module, and deliverable due before each class session.
 
+**Start with [Week 0]({{ site.baseurl }}/schedule/week-0/)** - account and software setup to complete before our first meeting.
+
 ## Module overview
 
 <span class="badge badge-blue">Understand</span> weeks 1-2 &nbsp;|&nbsp;
@@ -14,6 +16,14 @@ Every week includes hands-on Python work. Readings and materials are posted to C
 <span class="badge badge-orange">Govern + Integrate</span> weeks 9-10
 
 ---
+
+<div class="week-row">
+  <div class="week-num">Wk 0</div>
+  <div class="week-content">
+    <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-0/">Before the first class</a> <span class="badge badge-gray">Prepare</span></div>
+    <div class="week-meta">Due before Week 1 Monday: accounts, software install, setup check output, and pre-course survey | <a href="{{ site.baseurl }}/schedule/week-0/">start here →</a></div>
+  </div>
+</div>
 
 <div class="week-row">
   <div class="week-num">Wk 1</div>

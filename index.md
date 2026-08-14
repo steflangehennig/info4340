@@ -13,6 +13,10 @@ layout: default
 
 <div class="home-grid">
   <div class="home-main">
+    <div class="note" style="margin-bottom:24px;">
+      <strong>New students, start here.</strong> Complete <a href="{{ site.baseurl }}/schedule/week-0/">Week 0</a> before our first meeting - accounts, software setup, and a setup check you submit to Canvas. About 90 minutes, no cost, no prior Python needed.
+    </div>
+
     <div class="section-label">Course materials</div>
     <div class="card-grid">
       <a href="{{ site.baseurl }}/syllabus/" class="nav-card">

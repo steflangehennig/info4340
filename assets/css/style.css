@@ -378,6 +378,7 @@ main.page-content {
 .badge-orange { background: var(--accent-bg); color: #9a3e10; }
 .badge-blue   { background: var(--blue-bg);   color: #1a4080; }
 .badge-green  { background: var(--green-bg);  color: #0a5230; }
+.badge-gray   { background: var(--bg);        color: var(--muted); border: 1px solid var(--border); }
 
 /* ── Schedule week rows ── */
 .week-row { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--border); }
