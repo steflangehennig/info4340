@@ -17,7 +17,7 @@ This is a 10-week quarter. If we spend the first two class sessions troubleshoot
 
 None of this requires prior Python experience, and none of it requires you to spend money. If something breaks, that is expected and fine - submit the output anyway and say what you tried. 
 
-## The checklist
+## Checklist
 
 | # | Task | Time | Required? |
 |---|---|---|---|
