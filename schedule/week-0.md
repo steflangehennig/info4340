@@ -40,7 +40,7 @@ None of this requires prior Python experience, and none of it requires you to sp
     <ul style="font-size:14px; color:var(--muted); line-height:1.7; margin:0 0 0 18px;">
       <li><strong>Canvas</strong> - confirm INFO 4340 appears in your course list and you can open the Week 0 assignment.</li>
       <li><strong>Google account</strong> - open <a href="https://colab.research.google.com" target="_blank">Google Colab</a> and confirm you can create a new notebook. Colab is our fallback if a local install fights you and some in-class work runs there.</li>
-      <li><strong>GitHub</strong> - create a free account at <a href="https://github.com/signup" target="_blank">github.com/signup</a> if you do not have one. Use an email you will keep after graduation. You will version your project work here starting in Week 3.</li>
+      <li><strong>GitHub</strong> - create a free account at <a href="https://github.com/signup" target="_blank">github.com/signup</a> if you don't have one. Use an email you will keep after graduation. You will version your project work here starting in Week 3.</li>
     </ul>
   </div>
 </div>
