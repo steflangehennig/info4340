@@ -156,7 +156,7 @@ else:
     print("  pip install pandas numpy matplotlib scikit-learn statsmodels "
           "anthropic requests networkx jupyter")
     print("\nStuck for more than 20 minutes? Submit this output anyway and post")
-    print("it in the Week 0 discussion thread. We will fix it together.")
+    print("it in the Week 0 discussion thread.")
 print("=" * 68)
 ```
 
