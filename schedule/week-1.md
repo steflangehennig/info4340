@@ -44,9 +44,9 @@ By the end of this week, you should be able to:
   <div class="session-label">Wednesday</div>
   <div class="session-content">
     <div class="session-title">First hands-on: seeing what GenAI does</div>
-    <p>We'll introduce the course spine (understand, use, evaluate, govern), then get hands-on with Python. You'll make your first API calls, experiment with temperature, and then process a batch of 10 texts programmatically - parsing structured JSON output and analyzing the results as a dataset. We'll also do a prompt diagnosis exercise.</p>
+    <p>We'll introduce the course structure (understand, use, evaluate, govern), then get hands-on with Python. You'll make your first API calls, experiment with temperature, and process a batch of 10 texts programmatically by parsing structured JSON output and analyzing the results as a dataset. We'll also do a prompt diagnosis exercise.</p>
     <div class="session-topics">
-      <span class="topic-tag">Course architecture</span>
+      <span class="topic-tag">Course structure</span>
       <span class="topic-tag">Python: API calls and temperature</span>
       <span class="topic-tag">Python: batch processing with structured output</span>
       <span class="topic-tag">Prompt diagnosis activity</span>
@@ -61,7 +61,7 @@ By the end of this week, you should be able to:
 - Think about one time AI was useful and one time it failed or surprised you
 
 **Before Wednesday:**
-- Check that you can access [Google Colab](https://colab.research.google.com) with your DU account
+- Check that you can access [Google Colab](https://colab.research.google.com)
 - The Python notebook link will be posted on Canvas
 
 ## Key concepts
@@ -76,7 +76,7 @@ By the end of this week, you should be able to:
 
 ## Readings and resources
 
-This week's readings are optional background - the main learning happens in class activities.
+This week's readings are optional with the main learning happening in class activities. That said, I highly recommend reading them.
 
 - Békés, Gábor. [Data Analysis with AI: Course overview](https://gabors-data-analysis.com/ai-course/) - skim the course philosophy to understand the applied backbone we'll build on
 - Microsoft. [Generative AI for Beginners, Lesson 1](https://github.com/microsoft/generative-ai-for-beginners) - accessible introduction to GenAI concepts
@@ -86,7 +86,7 @@ This week's readings are optional background - the main learning happens in clas
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">GenAI Use Case Reflection</div>
   <div class="assignment-preview-meta">~1 page + scoring table | 30 points | Due before class, Week 2 Monday | Submit via Canvas</div>
-  <p>Describe one realistic GenAI use case in a future analyst role. Explain what AI would do, what the human analyst would still be responsible for, what would need to be verified, and the risk level - including a quantitative score on the five risk dimensions.</p>
+  <p>Describe one realistic GenAI use case in a future analyst role. Explain what AI would do, what the human analyst would still be responsible for, what would need to be verified, and the risk level. This will include a quantitative score on the five risk dimensions.</p>
   <a href="{{ site.baseurl }}/assignments/week-1-reflection/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
