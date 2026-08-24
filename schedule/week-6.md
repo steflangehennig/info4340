@@ -29,7 +29,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Monday</div>
   <div class="session-content">
     <div class="session-title">Turning text into data</div>
-    <p>The text-as-data pipeline with a text corpus: hand-code 25+ texts for validation, build an sklearn baseline with cross-validation, and run an LLM classifier with structured output - tracking tokens and timing for Wednesday's cost analysis.</p>
+    <p>The text-as-data pipeline with a text corpus: hand-code 25+ texts for validation, build an sklearn baseline with cross-validation, and run an LLM classifier with structured output. You will be tracking tokens and timing for the next class's cost analysis.</p>
     <div class="session-topics">
       <span class="topic-tag">Hand-coding + calibration</span>
       <span class="topic-tag">Python: sklearn with cross-validation</span>
@@ -68,10 +68,10 @@ By the end of this week, you should be able to:
 
 | Concept | What it means |
 |---|---|
-| **Inter-annotator reliability** | Cohen's κ between two human coders on the same texts - if κ < 0.6, the coding scheme needs revision |
-| **Precision/recall/F1 per class** | Not just overall accuracy - performance broken down by category to identify systematic weaknesses |
+| **Inter-annotator reliability** | Cohen's κ between two human coders on the same texts; if κ < 0.6, the coding scheme needs revision |
+| **Precision/recall/F1 per class** | Not just overall accuracy, performance broken down by category to identify systematic weaknesses |
 | **Cost analysis** | Per-text LLM cost from actual token counts, projected to production scale, compared to human coding |
-| **Modularity** | How well a network's communities separate - tested against a random null model to check significance |
+| **Modularity** | How well a network's communities separate tested against a random null model to check significance |
 
 ## Deliverable
 
