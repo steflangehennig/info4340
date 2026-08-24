@@ -27,8 +27,8 @@ By the end of this week, you should be able to:
 <div class="session-block" markdown="0">
   <div class="session-label">Monday</div>
   <div class="session-content">
-    <div class="session-title">From messy data to understanding - at scale</div>
-    <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. You'll work with a business dataset - large enough that you can't eyeball every row. Use AI + pandas to discover data quality issues, compare what AI finds to what your code reveals, and build a verified data dictionary.</p>
+    <div class="session-title">From messy data to understanding (at scale)</div>
+    <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. You'll work with a business dataset that's large enough that you can't eyeball every row. Use AI + pandas to discover data quality issues, compare what AI finds to what your code reveals, and build a verified data dictionary.</p>
     <div class="session-topics">
       <span class="topic-tag">Vibe vs. directed reports</span>
       <span class="topic-tag">Data-to-report pipeline</span>
@@ -55,7 +55,7 @@ By the end of this week, you should be able to:
 
 **Before Monday:**
 
-- Skim Békés, [Data Analysis with AI, Week 2](https://gabors-data-analysis.com/ai-course/) - focus on the discover → document → clean → report pipeline
+- Skim Békés, [Data Analysis with AI, Week 2](https://gabors-data-analysis.com/ai-course/) - focus on the discover > document > clean > report pipeline
 - Make sure your Python environment and AI tools are working (see the [setup guide]({{ site.baseurl }}/guides/dev-setup/) if needed)
 - Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) for pandas reference
 
@@ -63,17 +63,17 @@ By the end of this week, you should be able to:
 
 - Review your Monday data quality findings
 - Choose which analysis question you want to pursue
-- Brush up on basic hypothesis testing if needed (t-test, ANOVA, chi-square)
+- Brush up on basic hypothesis testing if needed
 
 ## Key concepts
 
 | Concept | What it means |
 |---|---|
 | **Vibe report** | An unfocused "analysis" with no clear question - what AI produces when you say "analyze this data" |
-| **Directed report** | Analysis driven by a specific question, with a methods section, verified evidence, formal statistical tests, and stated limitations |
+| **Directed report** | Analysis driven by a specific question, with a methods section, verified evidence, formal statistical tests, and limitations |
 | **Data dictionary** | Documentation of every variable: name, type, description, missingness pattern, issues, and cleaning decisions |
-| **Methods section** | How you cleaned the data, what you computed, what test you used and why, sample size, and exclusions |
-| **Effect size** | How large the difference or relationship is - not just whether it's statistically significant |
+| **Methods section** | How you cleaned the data, what you computed, what test you used/ why, sample size, and exclusions |
+| **Effect size** | How large the difference or relationship is, not just whether it's statistically significant |
 
 ## Deliverable
 
@@ -86,4 +86,4 @@ By the end of this week, you should be able to:
 
 ## Looking ahead
 
-Next week: **Debugging AI's Work** - you'll learn to find bugs in AI-generated code, quantify their impact, and build an automated test suite. The central lesson: output that looks right is not necessarily right.
+Next week: **Debugging AI's Work** - you'll learn to find bugs in AI-generated code, quantify their impact, and build an automated test function. The central lesson is that output that looks right isn't necessarily right.
