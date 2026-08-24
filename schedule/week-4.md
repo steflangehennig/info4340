@@ -41,9 +41,9 @@ By the end of this week, you should be able to:
   <div class="session-label">Wednesday</div>
   <div class="session-content">
     <div class="session-title">Test suites, versioning, and review discipline</div>
-    <p>Build an automated test suite function that runs 10+ validation checks and produces a pass/fail report. Then peer-review a classmate's Week 3 notebook using both manual inspection and your test suite - comparing what each method catches.</p>
+    <p>Build an automated test function that runs 10+ validation checks and produces a pass/fail report. Then peer-review a classmate's Week 3 notebook using both manual inspection and your test suite comparing what each method catches.</p>
     <div class="session-topics">
-      <span class="topic-tag">Automated test suite</span>
+      <span class="topic-tag">Automated test function</span>
       <span class="topic-tag">Lightweight versioning</span>
       <span class="topic-tag">Peer review: manual + automated</span>
     </div>
@@ -66,9 +66,9 @@ By the end of this week, you should be able to:
 
 | Concept | What it means |
 |---|---|
-| **Three test habits** | Row-count checks, data-description checks, code/unit checks - run every time you use AI code |
+| **Three test routines** | Row-count checks, data-description checks, code/unit checks - run every time you use AI code |
 | **Quantitative impact** | Not "the bug made revenue wrong" but "the bug overstated revenue by $12,400 (8.3%)" |
-| **Test suite** | A reusable `run_validation()` function with 8+ checks that produces a pass/fail report - infrastructure, not one-off assertions |
+| **Test function** | A reusable `run_validation()` function with 8+ checks that produces a pass/fail report - infrastructure, not one-off assertions |
 | **Peer review** | Manual checklist + automated test suite, comparing what each catches |
 
 ## Deliverable
@@ -76,10 +76,10 @@ By the end of this week, you should be able to:
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Debugging and Review Log</div>
   <div class="assignment-preview-meta">3 components | 30 points | Due before class, Week 5 Monday | Submit via Canvas</div>
-  <p>Bug report with quantitative impact analysis, fixed script with an automated test suite, and peer review combining manual and automated checks.</p>
+  <p>Bug report with quantitative impact analysis, fixed script with an automated test function, and peer review combining manual and automated checks.</p>
   <a href="{{ site.baseurl }}/assignments/week-4-debugging/" class="assignment-link">Full prompt and rubric →</a>
 </div>
 
 ## Looking ahead
 
-Next week: **AI as Analytic/Research Companion** - you'll use AI to help design an analysis, not just execute one. The shift: from "write me code" to "help me think through an approach."
+Next week: **AI as Analytic/Research Companion** - you'll use AI to help design an analysis, not just execute one. Shifting from "write me code" to "help me think through an approach."
