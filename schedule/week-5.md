@@ -41,7 +41,7 @@ By the end of this week, you should be able to:
   <div class="session-label">Wednesday</div>
   <div class="session-content">
     <div class="session-title">From design to rigorous implementation</div>
-    <p>Implement your analysis with formal model selection: for clustering, that means three metrics (elbow, silhouette, gap statistic), outlier analysis, and holdout validation. For the LMM track, AIC/BIC comparison across 4+ specifications with residual diagnostics and confidence intervals. Then a group design critique.</p>
+    <p>Implement your analysis with formal model selection: for clustering, we'll focus on three metrics (elbow, silhouette, gap statistic), outlier analysis, and holdout validation. For the LMM track, AIC/BIC comparison across 4+ specifications with residual diagnostics and confidence intervals. Then a group design critique.</p>
     <div class="session-topics">
       <span class="topic-tag">Python: segmentation or LMM</span>
       <span class="topic-tag">Formal model selection</span>
@@ -56,7 +56,7 @@ By the end of this week, you should be able to:
 **Before Monday:**
 
 - Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) - focus on the helpful/adversarial prompt pattern
-- Think about a business question for the 185-customer dataset
+- Think about a business question for the customer dataset
 
 **Before Wednesday:**
 
@@ -67,11 +67,11 @@ By the end of this week, you should be able to:
 
 | Concept | What it means |
 |---|---|
-| **Helpful/adversarial pairing** | Two separate AI interactions: one proposes, the other attacks. You reconcile. |
+| **Helpful/adversarial pairing** | Two separate AI interactions: one proposes, the other attacks and you get to reconcile |
 | **Gap statistic** | Compares clustering quality to random data - tests whether clusters are real or noise |
 | **Holdout validation** | Fit on 70%, evaluate on 30% - tests whether clusters generalize |
 | **AIC/BIC** | Information criteria for model comparison: lower is better, BIC penalizes complexity more |
-| **ICC** | Intraclass correlation: proportion of variance that's between-group vs. within-group |
+| **ICC** | Intraclass correlation (ICC): proportion of variance that's between-group vs. within-group |
 
 ## Deliverable
 
