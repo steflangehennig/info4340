@@ -7,7 +7,7 @@ permalink: /schedule/week-5/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-green">Use</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Analytic design critique + implementation (due before Week 6 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Analytic design critique + implementation (due before Week 6 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-5-design/">See assignment →</a>
 </div>
 
@@ -25,7 +25,7 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 9</div>
   <div class="session-content">
     <div class="session-title">AI as design critic</div>
     <p>The shift from "write me code" to "help me think." Four prompt roles (helpful analyst, adversarial reviewer, domain expert, methods reviewer), the helpful/adversarial pairing technique, and an activity where you propose and attack an analysis plan.</p>
@@ -38,7 +38,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 10</div>
   <div class="session-content">
     <div class="session-title">From design to rigorous implementation</div>
     <p>Implement your analysis with formal model selection: for clustering, we'll focus on three metrics (elbow, silhouette, gap statistic), outlier analysis, and holdout validation. For the LMM track, AIC/BIC comparison across 4+ specifications with residual diagnostics and confidence intervals. Then a group design critique.</p>
@@ -53,14 +53,14 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) - focus on the helpful/adversarial prompt pattern
 - Think about a business question for the customer dataset
 
-**Before Wednesday:**
+**Before Session 2:**
 
-- Review your Monday reconciliation
+- Review your Session 1 reconciliation
 - Skim the [sklearn KMeans docs](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) or [statsmodels mixedlm docs](https://www.statsmodels.org/stable/mixed_linear.html) depending on your track
 
 ## Key concepts
@@ -77,7 +77,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Analytic Design Critique + Implementation</div>
-  <div class="assignment-preview-meta">3 components | 30 points | Due before class, Week 6 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">3 components | 30 points | Due before Week 6's first class | Submit via Canvas</div>
   <p>Design document with adversarial critique, Python implementation with formal model selection (3 metrics or AIC/BIC), holdout validation, and AI use log.</p>
   <a href="{{ site.baseurl }}/assignments/week-5-design/" class="assignment-link">Full prompt and rubric →</a>
 </div>

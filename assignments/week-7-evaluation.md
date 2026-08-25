@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 7: Prompt and Output Evaluation Memo"
-subtitle: "8 components | Due before class, Week 8 Monday | Submit via Canvas"
+subtitle: "8 components | Due before Week 8's first class | Submit via Canvas"
 permalink: /assignments/week-7-evaluation/
 ---
 

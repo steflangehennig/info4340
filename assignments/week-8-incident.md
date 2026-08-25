@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 8: AI Incident Brief"
-subtitle: "~2–3 pages | Due before class, Week 9 Monday | Submit via Canvas"
+subtitle: "~2–3 pages | Due before Week 9's first class | Submit via Canvas"
 permalink: /assignments/week-8-incident/
 ---
 

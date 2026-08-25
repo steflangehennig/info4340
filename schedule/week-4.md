@@ -7,7 +7,7 @@ permalink: /schedule/week-4/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-green">Use</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Debugging and review log (due before Week 5 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Debugging and review log (due before Week 5 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-4-debugging/">See assignment →</a>
 </div>
 
@@ -25,7 +25,7 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 7</div>
   <div class="session-content">
     <div class="session-title">Why AI code breaks - quantifying the damage</div>
     <p>Five failure trends in AI-generated code, the three test routines, then a bug hunt on a provided dataset: you'll find bugs in an AI-generated script and compute the exact dollar and percentage impact of each one. "Revenue is wrong" is not enough, you need to say by how much.</p>
@@ -38,7 +38,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 8</div>
   <div class="session-content">
     <div class="session-title">Test suites, versioning, and review discipline</div>
     <p>Build an automated test function that runs 10+ validation checks and produces a pass/fail report. Then peer-review a classmate's Week 3 notebook using both manual inspection and your test suite comparing what each method catches.</p>
@@ -52,12 +52,12 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Make sure you have access to the Week 3 v2 dataset (`week3-orders-v2.csv`)
-- Review your Week 3 notebook - you'll use it during Wednesday's peer review
+- Review your Week 3 notebook - you'll use it during Session 2's peer review
 
-**Before Wednesday:**
+**Before Session 2:**
 
 - Bring your Week 3 notebook ready to share with a partner
 - Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) section on assertions
@@ -75,7 +75,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Debugging and Review Log</div>
-  <div class="assignment-preview-meta">3 components | 30 points | Due before class, Week 5 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">3 components | 30 points | Due before Week 5's first class | Submit via Canvas</div>
   <p>Bug report with quantitative impact analysis, fixed script with an automated test function, and peer review combining manual and automated checks.</p>
   <a href="{{ site.baseurl }}/assignments/week-4-debugging/" class="assignment-link">Full prompt and rubric →</a>
 </div>

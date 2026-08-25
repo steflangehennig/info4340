@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 1: Use Case Reflection"
-subtitle: "~1 page + scoring table | Due before class, Week 2 Monday | Submit via Canvas"
+subtitle: "~1 page + scoring table | Due before Week 2's first class | Submit via Canvas"
 permalink: /assignments/week-1-reflection/
 ---
 

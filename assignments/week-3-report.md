@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 3: Directed Report with AI Use Log"
-subtitle: "4 components | Due before class, Week 4 Monday | Submit via Canvas"
+subtitle: "4 components | Due before Week 4's first class | Submit via Canvas"
 permalink: /assignments/week-3-report/
 ---
 

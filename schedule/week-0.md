@@ -26,7 +26,7 @@ None of this requires prior Python experience, and none of it requires you to sp
 | 3 | Install the course Python packages | 10 min | Yes |
 | 4 | Run the setup check and submit the output | 10 min | Yes |
 | 5 | Complete the pre-course survey | 10 min | Yes |
-| 6 | Bring two stories to Monday | 15 min | Yes |
+| 6 | Bring two stories to our first class | 15 min | Yes |
 | 7 | Install the AI coding CLIs | 20 min | Optional - we do this in Week 2 |
 
 ---
@@ -36,7 +36,7 @@ None of this requires prior Python experience, and none of it requires you to sp
 <div class="session-block" markdown="0">
   <div class="session-label">Accounts</div>
   <div class="session-content">
-    <div class="session-title">Three logins you need working before Monday</div>
+    <div class="session-title">Three logins you need working before our first class</div>
     <ul style="font-size:14px; color:var(--muted); line-height:1.7; margin:0 0 0 18px;">
       <li><strong>Canvas</strong> - confirm INFO 4340 appears in your course list and you can open the Week 0 assignment.</li>
       <li><strong>Google account</strong> - open <a href="https://colab.research.google.com" target="_blank">Google Colab</a> and confirm you can create a new notebook. Colab is our fallback if a local install fights you and some in-class work runs there.</li>
@@ -170,7 +170,7 @@ Optional rows marked `SKIP` are fine. You are aiming for **zero `FAIL` rows**.
 
 Ten minutes, on Canvas. It asks about your Python background, which AI tools you already use, what you want out of the course, and what industry you are heading into/already in. I use it to form project groups and to calibrate how fast we move through the technical material, so please answer honestly rather than aspirationally.
 
-## 6 &nbsp;Bring two stories to Monday
+## 6 &nbsp;Bring two stories to our first class
 
 No readings this week. Instead, come to the first session with two specific examples:
 
@@ -200,5 +200,5 @@ Give it a genuine 20 minutes, then stop. Post in the **Week 0 discussion thread 
 - the exact command you ran
 - the complete error message, copied as text
 
-I check that thread daily the week before class, and setup problems are almost always quick fixes once someone else looks at them. Anything unresolved by Monday we handle in the first class.
+I check that thread daily the week before class, and setup problems are almost always quick fixes once someone else looks at them. Anything still unresolved, we handle in the first class.
 

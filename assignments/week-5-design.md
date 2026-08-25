@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 5: Analytic Design Critique + Implementation"
-subtitle: "3 components | Due before class, Week 6 Monday | Submit via Canvas"
+subtitle: "3 components | Due before Week 6's first class | Submit via Canvas"
 permalink: /assignments/week-5-design/
 ---
 

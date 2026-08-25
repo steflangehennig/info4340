@@ -7,6 +7,11 @@ permalink: /schedule/week-10/
 
 ## Presentations
 
+<div class="note" markdown="0">
+  <strong>Spans two class meetings:</strong> Class 19 and Class 20 &nbsp;|&nbsp;
+  Presentations run across both sessions to fit every group.
+</div>
+
 Each group presents their final project in a 10-minute slot (8 minutes presenting + 2 minutes Q&A). Your presentation should demonstrate all four course competencies with quantitative evidence.
 
 ### What to cover

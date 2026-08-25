@@ -8,6 +8,29 @@ Every week includes hands-on Python work. Readings and materials are posted to C
 
 **Start with [Week 0]({{ site.baseurl }}/schedule/week-0/)** - account and software setup to complete before our first meeting.
 
+<!-- START PER-OFFERING CALENDAR — replace this whole block when the term's meeting pattern changes; nothing above or below it (or in the week-N pages) needs to change. -->
+
+## Fall 2026 calendar
+
+<div class="note" markdown="0">
+  This offering starts on a Wednesday and ends on a Monday, so the 11 calendar weeks of the quarter don't map one-to-one onto the 10 content units. <strong>Next time this course starts on a Monday</strong>, each content unit's two sessions will fall in the same calendar week with no drift (Class 1 = Week 1 Monday, Class 2 = Week 1 Wednesday, Class 3 = Week 2 Monday, and so on - Class number = 2 × (Week − 1) + session number). When that's true, this table is unnecessary and can be deleted; rebuild it only when the pattern is irregular like this term's.
+</div>
+
+| Content unit | Session 1 | Session 2 |
+|---|---|---|
+| [Week 1]({{ site.baseurl }}/schedule/week-1/) | Class 1 - term Week 1 (only meeting) | Class 2 - term Week 2, first meeting |
+| [Week 2]({{ site.baseurl }}/schedule/week-2/) | Class 3 - term Week 2, second meeting | Class 4 - term Week 3, first meeting |
+| [Week 3]({{ site.baseurl }}/schedule/week-3/) | Class 5 - term Week 3, second meeting | Class 6 - term Week 4, first meeting |
+| [Week 4]({{ site.baseurl }}/schedule/week-4/) | Class 7 - term Week 4, second meeting | Class 8 - term Week 5, first meeting |
+| [Week 5]({{ site.baseurl }}/schedule/week-5/) | Class 9 - term Week 5, second meeting | Class 10 - term Week 6, first meeting |
+| [Week 6]({{ site.baseurl }}/schedule/week-6/) | Class 11 - term Week 6, second meeting | Class 12 - term Week 7, first meeting |
+| [Week 7]({{ site.baseurl }}/schedule/week-7/) | Class 13 - term Week 7, second meeting | Class 14 - term Week 8, first meeting |
+| [Week 8]({{ site.baseurl }}/schedule/week-8/) | Class 15 - term Week 8, second meeting | Class 16 - term Week 9, first meeting |
+| [Week 9]({{ site.baseurl }}/schedule/week-9/) | Class 17 - term Week 9, second meeting | Class 18 - term Week 10, first meeting |
+| [Week 10]({{ site.baseurl }}/schedule/week-10/) (presentations) | Class 19 - term Week 10, second meeting | Class 20 - term Week 11 (only meeting) |
+
+<!-- END PER-OFFERING CALENDAR -->
+
 ## Module overview
 
 <span class="badge badge-blue">Understand</span> weeks 1-2 &nbsp;|&nbsp;
@@ -21,7 +44,7 @@ Every week includes hands-on Python work. Readings and materials are posted to C
   <div class="week-num">Wk 0</div>
   <div class="week-content">
     <div class="week-title"><a href="{{ site.baseurl }}/schedule/week-0/">Before the first class</a> <span class="badge badge-gray">Prepare</span></div>
-    <div class="week-meta">Due before Week 1 Monday: accounts, software install, setup check output, and pre-course survey | <a href="{{ site.baseurl }}/schedule/week-0/">start here →</a></div>
+    <div class="week-meta">Due before Week 1 begins: accounts, software install, setup check output, and pre-course survey | <a href="{{ site.baseurl }}/schedule/week-0/">start here →</a></div>
   </div>
 </div>
 

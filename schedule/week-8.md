@@ -7,7 +7,7 @@ permalink: /schedule/week-8/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-orange">Evaluate</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> AI incident brief (due before Week 9 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> AI incident brief (due before Week 9 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-8-incident/">See assignment →</a>
 </div>
 
@@ -22,7 +22,7 @@ permalink: /schedule/week-8/
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 15</div>
   <div class="session-content">
     <div class="session-title">When AI goes wrong</div>
     <p>Eight failure modes, the AI Incident Database, and an incident diagnosis workshop. Groups analyze real incidents and estimate harm quantitatively: how many affected, for how long, at what cost.</p>
@@ -35,7 +35,7 @@ permalink: /schedule/week-8/
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 16</div>
   <div class="session-content">
     <div class="session-title">Subgroup analysis, disparity metrics, and safeguards</div>
     <p>Using your Week 6 classification results: compute accuracy by subgroup, disparate impact ratios, equalized odds, and chi-square tests. Then project error rates to production scale with dollar-cost harm estimation. Safeguard mapping with quantitative trigger thresholds.</p>
@@ -61,7 +61,7 @@ permalink: /schedule/week-8/
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">AI Incident Brief</div>
-  <div class="assignment-preview-meta">~2–3 pages | 30 points | Due before class, Week 9 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">~2–3 pages | 30 points | Due before Week 9's first class | Submit via Canvas</div>
   <p>Analyze a real AI incident with failure chain, quantitative harm estimation, disparity analysis, and a recommended safeguard with a quantitative trigger threshold.</p>
   <a href="{{ site.baseurl }}/assignments/week-8-incident/" class="assignment-link">Full prompt and rubric →</a>
 </div>

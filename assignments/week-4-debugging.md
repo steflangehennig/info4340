@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 4: Debugging and Review Log"
-subtitle: "3 components | Due before class, Week 5 Monday | Submit via Canvas"
+subtitle: "3 components | Due before Week 5's first class | Submit via Canvas"
 permalink: /assignments/week-4-debugging/
 ---
 

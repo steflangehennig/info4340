@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 9: GenAI Governance Memo"
-subtitle: "~2–3 pages | Due before class, Week 10 Monday | Submit via Canvas"
+subtitle: "~2–3 pages | Due before Week 10's first class | Submit via Canvas"
 permalink: /assignments/week-9-governance/
 ---
 

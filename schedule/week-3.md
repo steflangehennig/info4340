@@ -7,7 +7,7 @@ permalink: /schedule/week-3/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-green">Use</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Directed report with AI use log (due before Week 4 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Directed report with AI use log (due before Week 4 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-3-report/">See assignment →</a>
 </div>
 
@@ -25,7 +25,7 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 5</div>
   <div class="session-content">
     <div class="session-title">From messy data to understanding (at scale)</div>
     <p>We enter the Use module with a core distinction: vibe reports vs. directed reports. You'll work with a business dataset that's large enough that you can't eyeball every row. Use AI + pandas to discover data quality issues, compare what AI finds to what your code reveals, and build a verified data dictionary.</p>
@@ -39,7 +39,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 6</div>
   <div class="session-content">
     <div class="session-title">Cleaning, analysis, and statistical evidence</div>
     <p>You'll write your own cleaning pipeline (the notebook gives requirements, not step-by-step code), learn how to include formal statistical tests in a directed report (t-test, ANOVA, chi-square, confidence intervals), and start building the report with a proper methods section.</p>
@@ -53,15 +53,15 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Skim Békés, [Data Analysis with AI, Week 2](https://gabors-data-analysis.com/ai-course/) - focus on the discover > document > clean > report pipeline
 - Make sure your Python environment and AI tools are working (see the [setup guide]({{ site.baseurl }}/guides/dev-setup/) if needed)
 - Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) for pandas reference
 
-**Before Wednesday:**
+**Before Session 2:**
 
-- Review your Monday data quality findings
+- Review your Session 1 data quality findings
 - Choose which analysis question you want to pursue
 - Brush up on basic hypothesis testing if needed
 
@@ -79,7 +79,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Directed Report with AI Use Log</div>
-  <div class="assignment-preview-meta">4 components | 30 points | Due before class, Week 4 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">4 components | 30 points | Due before Week 4's first class | Submit via Canvas</div>
   <p>README + data dictionary, reproducible notebook with assertions, a 3–4 page directed report with methods section and formal statistical test, and an AI use log.</p>
   <a href="{{ site.baseurl }}/assignments/week-3-report/" class="assignment-link">Full prompt and rubric →</a>
 </div>

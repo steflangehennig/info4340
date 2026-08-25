@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Week 6: Text Classification Pipeline"
-subtitle: "4 components | Due before class, Week 7 Monday | Submit via Canvas"
+subtitle: "4 components | Due before Week 7's first class | Submit via Canvas"
 permalink: /assignments/week-6-text/
 ---
 

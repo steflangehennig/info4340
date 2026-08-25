@@ -7,7 +7,7 @@ permalink: /schedule/week-1/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-blue">Understand</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Use case reflection (due before Week 2 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Use case reflection (due before Week 2 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-1-reflection/">See assignment →</a>
 </div>
 
@@ -27,7 +27,7 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 1</div>
   <div class="session-content">
     <div class="session-title">What does GenAI change about analytic work?</div>
     <p>We'll start with introductions and a discussion of where you've already used AI tools. Then a short lecture on how GenAI is reshaping analyst workflows - and why fluency is not the same as accuracy. The core activity is a quantitative risk-scoring exercise: you'll rate use cases on five dimensions (1-5 each), compute composite scores, and compare your ratings with another group's.</p>
@@ -41,7 +41,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 2</div>
   <div class="session-content">
     <div class="session-title">First hands-on: seeing what GenAI does</div>
     <p>We'll introduce the course structure (understand, use, evaluate, govern), then get hands-on with Python. You'll make your first API calls, experiment with temperature, and process a batch of 10 texts programmatically by parsing structured JSON output and analyzing the results as a dataset. We'll also do a prompt diagnosis exercise.</p>
@@ -56,11 +56,11 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 - No readings this week - come ready to discuss where you've already used AI tools (ChatGPT, Claude, Copilot, Gemini, or others)
 - Think about one time AI was useful and one time it failed or surprised you
 
-**Before Wednesday:**
+**Before Session 2:**
 - Check that you can access [Google Colab](https://colab.research.google.com)
 - The Python notebook link will be posted on Canvas
 
@@ -85,7 +85,7 @@ This week's readings are optional with the main learning happening in class acti
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">GenAI Use Case Reflection</div>
-  <div class="assignment-preview-meta">~1 page + scoring table | 30 points | Due before class, Week 2 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">~1 page + scoring table | 30 points | Due before Week 2's first class | Submit via Canvas</div>
   <p>Describe one realistic GenAI use case in a future analyst role. Explain what AI would do, what the human analyst would still be responsible for, what would need to be verified, and the risk level. This will include a quantitative score on the five risk dimensions.</p>
   <a href="{{ site.baseurl }}/assignments/week-1-reflection/" class="assignment-link">Full prompt and rubric →</a>
 </div>

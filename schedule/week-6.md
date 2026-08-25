@@ -7,7 +7,7 @@ permalink: /schedule/week-6/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-green">Use</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Text classification pipeline (due before Week 7 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Text classification pipeline (due before Week 7 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-6-text/">See assignment →</a>
 </div>
 
@@ -26,7 +26,7 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 11</div>
   <div class="session-content">
     <div class="session-title">Turning text into data</div>
     <p>The text-as-data pipeline with a text corpus: hand-code 25+ texts for validation, build an sklearn baseline with cross-validation, and run an LLM classifier with structured output. You will be tracking tokens and timing for the next class's cost analysis.</p>
@@ -39,7 +39,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 12</div>
   <div class="session-content">
     <div class="session-title">Evaluation, costs, and networks</div>
     <p>Compute inter-annotator reliability with a partner, run formal evaluation (precision/recall/F1 per class), analyze LLM costs projected to production scale, then build a topic co-occurrence network with community detection tested against a random null model.</p>
@@ -54,14 +54,14 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Read Békés, [Data Analysis with AI, Week 5](https://gabors-data-analysis.com/ai-course/) - text-to-data pipelines and evaluation
 - Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) sections on sklearn and networkx
 
-**Before Wednesday:**
+**Before Session 2:**
 
-- Review your Monday classification results
+- Review your Session 1 classification results
 - Coordinate with a partner: you'll both need to independently code the same 20 texts for the kappa exercise
 
 ## Key concepts
@@ -77,7 +77,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Text Classification Pipeline</div>
-  <div class="assignment-preview-meta">4 components | 30 points | Due before class, Week 7 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">4 components | 30 points | Due before Week 7's first class | Submit via Canvas</div>
   <p>Hand-coded validation with inter-annotator kappa, sklearn + LLM classifiers with formal per-class evaluation, cost analysis projected to production scale, topic co-occurrence network with modularity significance testing, and comparison memo.</p>
   <a href="{{ site.baseurl }}/assignments/week-6-text/" class="assignment-link">Full prompt and rubric →</a>
 </div>

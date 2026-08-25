@@ -7,7 +7,7 @@ permalink: /schedule/week-2/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-blue">Understand</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Tool setup and benchmarking report (due before Week 3 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Tool setup and benchmarking report (due before Week 3 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-2-comparison/">See assignment →</a>
 </div>
 
@@ -26,10 +26,10 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 3</div>
   <div class="session-content">
     <div class="session-title">What LLMs are and why it matters for your work</div>
-    <p>We'll look inside LLMs (tokens, next-token prediction, context windows) and explore the model landscape (closed vs. open-weights). Then we'll unpack the harness concept: same model, very different experience depending on the interface. Includes a tokenization activity and a qualitative surface comparison that previews Wednesday's quantitative benchmarking.</p>
+    <p>We'll look inside LLMs (tokens, next-token prediction, context windows) and explore the model landscape (closed vs. open-weights). Then we'll unpack the harness concept: same model, very different experience depending on the interface. Includes a tokenization activity and a qualitative surface comparison that previews Session 2's quantitative benchmarking.</p>
     <div class="session-topics">
       <span class="topic-tag">Tokens and prediction</span>
       <span class="topic-tag">Context windows</span>
@@ -41,7 +41,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 4</div>
   <div class="session-content">
     <div class="session-title">Setting up and benchmarking your tools</div>
     <p>We'll finish setting up your development environment, then run a systematic benchmarking experiment. It includes 5 analytic prompts × 2 model configurations, measuring response time, token usage, cost, and output quality scored against a rubric. You'll compute summary statistics and make a data-driven tool recommendation.</p>
@@ -56,12 +56,12 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Read your Week 1 use case reflection feedback (posted on Canvas)
 - Skim Békés, [Data Analysis with AI, Week 1](https://gabors-data-analysis.com/ai-course/unit1/index.html) - focus on the "LLMs and harnesses" framing
 
-**Before Wednesday:**
+**Before Session 2:**
 
 - **Start the [developer setup guide]({{ site.baseurl }}/guides/dev-setup/)** - install VS Code and get Python working before class (hopefully this is already complete from Week 0). We'll finish the AI tool setup and troubleshoot in class, but arriving with the basics ready saves time for the benchmarking experiment.
 
@@ -87,7 +87,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Tool Setup and Benchmarking Report</div>
-  <div class="assignment-preview-meta">~2 pages + code | 25 points | Due before class, Week 3 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">~2 pages + code | 25 points | Due before Week 3's first class | Submit via Canvas</div>
   <p>Confirm your dev environment works, run a systematic benchmarking experiment with quantitative metrics (response time, token usage, cost, quality scores), and make a data-driven tool recommendation citing specific numbers.</p>
   <a href="{{ site.baseurl }}/assignments/week-2-comparison/" class="assignment-link">Full prompt and rubric →</a>
 </div>

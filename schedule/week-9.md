@@ -7,7 +7,7 @@ permalink: /schedule/week-9/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-orange">Govern</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> GenAI governance memo (due before Week 10 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> GenAI governance memo (due before Week 10 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-9-governance/">See assignment →</a>
 </div>
 
@@ -25,7 +25,7 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 17</div>
   <div class="session-content">
     <div class="session-title">From principles to operating rules - with numbers</div>
     <p>The governance gap between "use AI responsibly" and specific operating rules. NIST AI RMF mapped to the quantitative tools you've built (rubrics, kappa, disparity metrics, cost analysis). Then a governance checklist workshop with a quantitative risk scoring matrix: likelihood × impact for each domain.</p>
@@ -39,7 +39,7 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 18</div>
   <div class="session-content">
     <div class="session-title">Drafting policy and preparing to present</div>
     <p>Draft an acceptable-use policy where every section includes at least one measurable threshold. Peer-critique another group's policy for measurability and realism. Then dedicated final project work time.</p>
@@ -53,14 +53,14 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Review your Week 8 incident brief - the safeguard thresholds you wrote connect directly to this week
 - Skim the [NIST AI RMF overview](https://www.nist.gov/artificial-intelligence/executive-order-safe-secure-and-trustworthy-artificial-intelligence)
 
-**Before Wednesday:**
+**Before Session 2:**
 
-- Review your Monday risk matrix and governance rules
+- Review your Session 1 risk matrix and governance rules
 - Have your final project workflow defined well enough to write governance rules for it
 
 ## Key concepts
@@ -76,7 +76,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">GenAI Governance Memo</div>
-  <div class="assignment-preview-meta">~2–3 pages | 30 points | Due before class, Week 10 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">~2–3 pages | 30 points | Due before Week 10's first class | Submit via Canvas</div>
   <p>Quantitative risk matrix, governance rules with measurable thresholds referencing course metrics, data and review rules, escalation process, and connection to your final project.</p>
   <a href="{{ site.baseurl }}/assignments/week-9-governance/" class="assignment-link">Full prompt and rubric →</a>
 </div>

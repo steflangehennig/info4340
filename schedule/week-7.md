@@ -7,7 +7,7 @@ permalink: /schedule/week-7/
 
 <div class="note" markdown="0">
   <strong>Module:</strong> <span class="badge badge-orange">Evaluate</span> &nbsp;|&nbsp;
-  <strong>Deliverable:</strong> Prompt and output evaluation memo (due before Week 8 Monday) &nbsp;|&nbsp;
+  <strong>Deliverable:</strong> Prompt and output evaluation memo (due before Week 8 begins) &nbsp;|&nbsp;
   <a href="{{ site.baseurl }}/assignments/week-7-evaluation/">See assignment →</a>
 </div>
 
@@ -26,10 +26,10 @@ By the end of this week, you should be able to:
 ## Sessions
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Monday</div>
+  <div class="session-label">Session 1 · Class 13</div>
   <div class="session-content">
     <div class="session-title">What does "good" mean? Rubric design and calibrated scoring</div>
-    <p>Five evaluation targets, a 10-dimension evaluation template, and rubric design for a specific task. Then a calibrated bake-off: 3+ students score the same three AI outputs independently, producing the data you'll analyze on Wednesday.</p>
+    <p>Five evaluation targets, a 10-dimension evaluation template, and rubric design for a specific task. Then a calibrated bake-off: 3+ students score the same three AI outputs independently, producing the data you'll analyze in Session 2.</p>
     <div class="session-topics">
       <span class="topic-tag">Five evaluation targets</span>
       <span class="topic-tag">Rubric design</span>
@@ -39,10 +39,10 @@ By the end of this week, you should be able to:
 </div>
 
 <div class="session-block" markdown="0">
-  <div class="session-label">Wednesday</div>
+  <div class="session-label">Session 2 · Class 14</div>
   <div class="session-content">
     <div class="session-title">Measuring reliability and designing test cases</div>
-    <p>Put numbers on Monday's disagreements: multi-rater Cohen's κ (human-human and human-LLM), prompt sensitivity testing (is the LLM judge consistent?), and minimum detectable difference - the threshold below which score differences are just rater noise. Then design test cases for your final project.</p>
+    <p>Put numbers on Session 1's disagreements: multi-rater Cohen's κ (human-human and human-LLM), prompt sensitivity testing (is the LLM judge consistent?), and minimum detectable difference - the threshold below which score differences are just rater noise. Then design test cases for your final project.</p>
     <div class="session-topics">
       <span class="topic-tag">Multi-rater kappa</span>
       <span class="topic-tag">Prompt sensitivity (3 runs)</span>
@@ -54,14 +54,14 @@ By the end of this week, you should be able to:
 
 ## Prepare before class
 
-**Before Monday:**
+**Before Session 1:**
 
 - Review the [evaluation frameworks guide]({{ site.baseurl }}/guides/evaluation/) - rubric building and kappa interpretation
 - Think about what task from your final project you'd want to evaluate
 
-**Before Wednesday:**
+**Before Session 2:**
 
-- Bring your Monday rubric and scores - you'll use them for the kappa and MDD exercises
+- Bring your Session 1 rubric and scores - you'll use them for the kappa and MDD exercises
 
 ## Key concepts
 
@@ -76,7 +76,7 @@ By the end of this week, you should be able to:
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Prompt and Output Evaluation Memo</div>
-  <div class="assignment-preview-meta">8 components | 30 points | Due before class, Week 8 Monday | Submit via Canvas</div>
+  <div class="assignment-preview-meta">8 components | 30 points | Due before Week 8's first class | Submit via Canvas</div>
   <p>Rubric, scored outputs with justifications, multi-rater agreement (human-human and human-LLM κ), prompt sensitivity analysis, minimum detectable difference, and evidence-based recommendation.</p>
   <a href="{{ site.baseurl }}/assignments/week-7-evaluation/" class="assignment-link">Full prompt and rubric →</a>
 </div>
