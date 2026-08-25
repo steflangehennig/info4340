@@ -13,7 +13,7 @@ Every week includes hands-on Python work. Readings and materials are posted to C
 ## Fall 2026 calendar
 
 <div class="note" markdown="0">
-  This offering starts on a Wednesday and ends on a Monday, so the 11 calendar weeks of the quarter don't map one-to-one onto the 10 content units. <strong>Next time this course starts on a Monday</strong>, each content unit's two sessions will fall in the same calendar week with no drift (Class 1 = Week 1 Monday, Class 2 = Week 1 Wednesday, Class 3 = Week 2 Monday, and so on - Class number = 2 × (Week − 1) + session number). When that's true, this table is unnecessary and can be deleted; rebuild it only when the pattern is irregular like this term's.
+  This course starts on a Wednesday and ends on a Monday, so the 11 calendar weeks of the quarter don't map one-to-one onto the 10 content units. <strong>Next time this course starts on a Monday</strong>, each content unit's two sessions will fall in the same calendar week.
 </div>
 
 | Content unit | Session 1 | Session 2 |
