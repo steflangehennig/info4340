@@ -14,7 +14,7 @@ Starting Week 3, every weekly deliverable in this course requires one.
 
 The AI use log serves three purposes:
 
-1. **Accountability.** In professional settings, analysts are responsible for their work products, even when AI helped produce them. The log makes that chain of responsibility visible: here's what AI did, here's what I verified, here's what I changed.
+1. **Accountability.** In professional settings, analysts are responsible for their work products, even when AI helped produce them. The log makes that chain of responsibility visible (e.g., here's what AI did, here's what I verified, here's what I changed).
 
 2. **Learning.** Writing a log forces you to notice when you're relying on AI vs. exercising your own judgment. Over 10 weeks, your logs will show you how your relationship with AI tools evolves. This includes where you trust them more, where you trust them less, and where you've learned to verify.
 
@@ -28,9 +28,9 @@ For each meaningful AI interaction during the assignment, record:
 |---|---|
 | **Tool** | Which AI tool you used (e.g., Claude.ai, ChatGPT, GitHub Copilot, Claude Code, Python API) |
 | **Task** | What you were trying to accomplish (e.g., "generate a data dictionary," "debug a pandas error," "draft the limitations section") |
-| **Prompt** | What you asked - include the full prompt for important interactions, or summarize for routine ones |
-| **Output** | What the tool produced - summarize, quote key parts, or note "code that did X" |
-| **Your decision** | What you did with the output: used as-is, modified, partially used, or rejected - and why |
+| **Prompt** | What you asked. Include the full prompt for important interactions, or summarize for routine ones |
+| **Output** | What the tool produced. Summarize, quote key parts, or note "code that did X" |
+| **Your decision** | What you did with the output: used as-is, modified, partially used, or rejected, and why |
 | **Verification** | How you checked the output: ran the code, compared to documentation, checked against source data, etc. |
 
 You don't need to log every single interaction. Focus on the interactions that shaped your work, e.g., the ones where AI generated something you built on, or where you caught an error, or where AI's suggestion changed your approach.
