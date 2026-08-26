@@ -17,7 +17,7 @@ By the end of this week, you should be able to:
 
 1. Explain what generative AI and LLMs are at a high level
 2. Distinguish using AI as a tool from delegating judgment to AI
-3. Identify analyst tasks where GenAI can be useful - and where it can go wrong
+3. Identify analyst tasks where GenAI can be useful and where it can go wrong
 4. Score GenAI use cases on five risk dimensions quantitatively and compute a composite risk score
 5. Compare risk scores across groups and identify sources of disagreement
 6. Describe the course architecture: **understand, use, evaluate, govern**
