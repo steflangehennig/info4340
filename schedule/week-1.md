@@ -78,7 +78,7 @@ By the end of this week, you should be able to:
 
 This week's readings are optional with the main learning happening in class activities. That said, I highly recommend reading them.
 
-- Békés, Gábor. [Data Analysis with AI: Course overview](https://gabors-data-analysis.com/ai-course/) - skim the course philosophy to understand the applied backbone we'll build on
+- Békés, Gábor. [Data Analysis with AI: Course overview](https://gabors-data-analysis.com/ai-course/) - skim the course philosophy to understand the applied framework we'll build on
 - Microsoft. [Generative AI for Beginners, Lesson 1](https://github.com/microsoft/generative-ai-for-beginners) - accessible introduction to GenAI concepts
 
 ## Deliverable
