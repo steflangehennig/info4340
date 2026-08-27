@@ -63,7 +63,7 @@ By the end of this week, you should be able to:
 
 **Before Session 2:**
 
-- **Start the [developer setup guide]({{ site.baseurl }}/guides/dev-setup/)** - install VS Code and get Python working before class (hopefully this is already complete from Week 0). We'll finish the AI tool setup and troubleshoot in class, but arriving with the basics ready saves time for the benchmarking experiment.
+- **Start the [developer setup guide]({{ site.baseurl }}/guides/dev-setup/)** - install VS Code and get Python working before class (hopefully this is already complete from Week 0). We'll finish the AI tool setup and troubleshoot in class, but arriving with the basics ready saves time for the benchmarking activity.
 
 ## Key concepts
 
