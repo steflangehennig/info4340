@@ -54,7 +54,7 @@ By the end of this week, you should be able to:
 
 **Before Session 1:**
 
-- Make sure you have access to the Week 3 v2 dataset (`week3-orders-v2.csv`)
+- Make sure you have access to the Week 3 v2 dataset (`class5-orders-data.csv`)
 - Review your Week 3 notebook - you'll use it during Session 2's peer review
 
 **Before Session 2:**
