@@ -11,14 +11,18 @@ Conduct a rigorous evaluation of AI-generated outputs with multi-rater agreement
 
 ### Components
 
+Submit as one PDF memo, using the numbered items below as your section headings in order.
+
 1. **Task description and prompt(s)** - what, why, full prompts, model, settings
 2. **Three outputs** - different prompts, models, or settings
-3. **Rubric** - 4–6 dimensions with 0–4 anchors specific to this task
+3. **Rubric** - 4-6 dimensions with 0–4 anchors specific to this task
 4. **Score table with justifications** - each output on each dimension
 5. **Multi-rater agreement** - human-human κ AND human-LLM κ, compared
 6. **Prompt sensitivity** - LLM-as-judge run 3x at temp=0, variance reported
 7. **Meaningful difference analysis** - MDD computed, applied to output comparisons
-8. **Recommendation + AI use log** - acceptable / with revision / unacceptable, citing scores, κ, and MDD
+8. **Recommendation + AI use log** - acceptable / with revision / unacceptable, citing scores, κ, and MDD. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/) for the log itself - attach it as an appendix.
+
+Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as .html. 
 
 ## Rubric
 
