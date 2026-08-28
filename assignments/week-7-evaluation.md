@@ -22,7 +22,7 @@ Submit as one PDF memo, using the numbered items below as your section headings 
 7. **Meaningful difference analysis** - MDD computed, applied to output comparisons
 8. **Recommendation + AI use log** - acceptable / with revision / unacceptable, citing scores, κ, and MDD. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/) for the log itself - attach it as an appendix.
 
-Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as .html. 
+Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as `.html`. 
 
 ## Rubric
 

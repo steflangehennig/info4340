@@ -9,6 +9,8 @@ permalink: /assignments/week-2-comparison/
 
 Set up your development environment and run a systematic benchmarking experiment. Model and tool selection should be based on measured performance, not impressions.
 
+Submit as a PDF report (Parts 1-4, with your AI use log appended) plus the benchmarking notebook (`.ipynb`) you ran, rendered as `.html`.
+
 ### Part 1: Setup confirmation
 
 Confirm your tools are working: VS Code, Python, at least one AI coding tool, and API access. Include screenshots or descriptions. Note any unresolved issues.

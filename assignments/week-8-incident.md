@@ -21,7 +21,7 @@ Submit as one PDF, using the numbered items below as your section headings in or
 6. **Recommended safeguard with quantitative threshold** - concrete measure with a measurable trigger
 7. **Connection to your work** - could this happen in your domain, with estimated scale impact
 
-Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as .html. **Also include** your AI use log covering the harm-estimate check in Component 3 - see the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
+Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as `.html`. **Also include** your AI use log covering the harm-estimate check in Component 3 - see the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
 
 ## Rubric
 

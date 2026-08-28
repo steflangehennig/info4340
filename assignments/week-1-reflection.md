@@ -32,6 +32,7 @@ Every dimension needs a one-sentence justification - a number with no reasoning 
 
 ## Format
 
+- Submit as a PDF.
 - Approximately 1 page of prose (400-600 words), plus the scoring table
 - Prose, not bullet points. Write this as a short professional memo - the table is the one exception.
 - No AI use log required for this assignment, but you may use AI to help. If you do, note what you used and what you changed.

@@ -21,7 +21,7 @@ Submit as one PDF, using the numbered items below as your section headings, in o
 6. **Prohibited uses and escalation** - what's not allowed, what happens when a threshold is breached
 7. **Connection to final project** - reference specific metrics from your Weeks 6–8 work
 
-Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as .html. **Also include** your AI use log covering the harm-estimate check in Component 3 - see the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
+Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as `.html`. **Also include** your AI use log covering the harm-estimate check in Component 3 - see the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
 
 ## Rubric
 

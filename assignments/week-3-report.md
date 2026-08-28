@@ -9,17 +9,16 @@ permalink: /assignments/week-3-report/
 
 Using a provided dataset, create a directed report demonstrating data engineering and formal statistical analysis.
 
-### Component 1: README and data dictionary
+### Components 1-2: Data documentation and analysis notebook
 
-Document the dataset: source, unit of analysis, every variable (name, type, description, missingness pattern, issues, cleaning applied), transformations, and exclusions. Verify AI-drafted entries against your code output.
+Submit as a single Jupyter notebook (`.ipynb`) rendered as `.html` that runs top to bottom without errors.
 
-### Component 2: Reproducible Python notebook
-
-Runs end-to-end: import, cleaning with assertions after each step, formal statistical test, at least two visualizations, and a cross-check verifying your key finding.
+1. **README and data dictionary** - as markdown cells at the top of the notebook: document the dataset's source, unit of analysis, every variable (name, type, description, missingness pattern, issues, cleaning applied), transformations, and exclusions. Verify AI-drafted entries against your code output.
+2. **Reproducible analysis** - import, cleaning with assertions after each step, formal statistical test, at least two visualizations, and a cross-check verifying your key finding.
 
 ### Component 3: Directed report (3-4 pages)
 
-Five sections: question, methods (cleaning decisions, sample size, test choice and assumptions), results (effect sizes, confidence intervals, visualizations), interpretation (what it means in context), and limitations.
+Submit as a PDF. Five sections: question, methods (cleaning decisions, sample size, test choice and assumptions), results (effect sizes, confidence intervals, visualizations), interpretation (what it means in context), and limitations.
 
 ### Component 4: AI use log
 

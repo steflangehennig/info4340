@@ -20,7 +20,7 @@ Four sections, in this order:
 
 ### Component 2: Python implementation (choose one track)
 
-**Submit as:** a single Jupyter notebook (`.ipynb`) that runs top to bottom without errors. Use markdown cells to label each required piece (model selection, validation, etc.) so it's easy to find.
+Submit as a single Jupyter notebook (`.ipynb`) rendered as `.html` that runs top to bottom without errors. Use markdown cells to label each required piece (model selection, validation, etc.) so it's easy to find.
 
 **Segmentation track:** RFM features from a customers dataset, outlier analysis, train/test split, model selection with three metrics (elbow, silhouette, gap), justified k, holdout validation, ANOVA, cluster profiles.
 

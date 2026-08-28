@@ -11,7 +11,7 @@ Find bugs in AI-generated code, quantify their impact, build an automated test s
 
 ### Components 1-2: Bug report and fixed script
 
-Submit as a single Jupyter notebook (`.ipynb`) with rendered .html that runs top to bottom without errors.
+Submit as a single Jupyter notebook (`.ipynb`) with rendered `.html` that runs top to bottom without errors.
 
 1. **Bug report** - as a markdown table at the top of the notebook, columns: bug description, which test habit caught it, the fix, and the exact numerical impact (dollar difference, percentage error, whether key metrics like top segment or growth rates change)
 2. **Fixed script with automated test suite** - your corrected code, followed by a `run_validation(df_raw, df_clean, delivered)` function containing 8+ checks that produce a pass/fail DataFrame report. The suite must pass when run on your fixed data.
