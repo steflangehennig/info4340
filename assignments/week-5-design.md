@@ -9,11 +9,18 @@ permalink: /assignments/week-5-design/
 
 Use AI as a design partner, then implement with formal model selection and validation.
 
-### Component 1: Design document (1–2 pages)
+### Component 1: Design document (1–2 pages, submit as PDF)
 
-Business question, AI-proposed plan (helpful analyst), adversarial critique, your reconciliation with reasoning.
+Four sections, in this order:
 
-### Component 2: Python implementation
+1. **Business question** - the question your analysis will answer, framed for a business audience
+2. **AI-proposed plan** - prompt an AI tool as a helpful analyst; include its proposed approach
+3. **Adversarial critique** - prompt an AI tool (the same one or a different one) as an adversarial reviewer attacking the plan; include its critique
+4. **Your reconciliation** - what you kept, changed, or rejected from each round, and why
+
+### Component 2: Python implementation (choose one track)
+
+**Submit as:** a single Jupyter notebook (`.ipynb`) that runs top to bottom without errors. Use markdown cells to label each required piece (model selection, validation, etc.) so it's easy to find.
 
 **Segmentation track:** RFM features from a customers dataset, outlier analysis, train/test split, model selection with three metrics (elbow, silhouette, gap), justified k, holdout validation, ANOVA, cluster profiles.
 

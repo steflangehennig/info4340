@@ -9,17 +9,16 @@ permalink: /assignments/week-4-debugging/
 
 Find bugs in AI-generated code, quantify their impact, build an automated test suite, and review a classmate's work.
 
-### Component 1: Bug report with quantitative impact
+### Components 1-2: Bug report and fixed script
 
-For each bug: what's wrong, which test habit caught it, the fix, and the exact numerical impact (dollar difference, percentage error, whether key metrics like top segment or growth rates change). Present as a comparison table.
+**Submit as:** a single Jupyter notebook (`.ipynb`) that runs top to bottom without errors.
 
-### Component 2: Fixed script with automated test suite
-
-Corrected code with a `run_validation(df_raw, df_clean, delivered)` function containing 8+ checks that produce a pass/fail DataFrame report. The suite must pass on your fixed data.
+1. **Bug report** - as a markdown table at the top of the notebook, columns: bug description, which test habit caught it, the fix, and the exact numerical impact (dollar difference, percentage error, whether key metrics like top segment or growth rates change)
+2. **Fixed script with automated test suite** - your corrected code, followed by a `run_validation(df_raw, df_clean, delivered)` function containing 8+ checks that produce a pass/fail DataFrame report. The suite must pass when run on your fixed data.
 
 ### Component 3: Peer review (manual + automated)
 
-Review a classmate's Week 3 notebook using both the manual checklist and your automated test suite. Report what each method caught and what would fix the issues.
+**Submit as:** a short PDF (1 page is enough). Review a classmate's Week 3 notebook using both a manual checklist and the automated test suite you built in Component 2. Include the pass/fail output from running your test suite on their notebook, and report what each method caught that the other missed.
 
 ## Rubric
 
