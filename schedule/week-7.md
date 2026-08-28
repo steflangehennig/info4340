@@ -72,6 +72,10 @@ By the end of this week, you should be able to:
 | **Minimum detectable difference (MDD)** | The smallest score difference that exceeds inter-rater noise. Differences below MDD are not meaningful. |
 | **Calibrated bake-off** | 3+ raters score independently before comparing - produces data for quantitative agreement analysis |
 
+## Readings and resources
+
+- LLMs Visual Cards: [LLM-as-a-Judge](https://llmsresearch.github.io/llm-flashcards/card/llm-as-a-judge) - the position, length, and style biases this week's prompt-sensitivity test is designed to catch
+
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">

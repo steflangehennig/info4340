@@ -55,7 +55,7 @@ By the end of this week, you should be able to:
 
 **Before Session 1:**
 
-- Skim Békés, [Data Analysis with AI, Week 2](https://gabors-data-analysis.com/ai-course/) - focus on the discover > document > clean > report pipeline
+- Skim Békés, [Data Analysis with AI, Week 2: From Raw Data to Report](https://gabors-data-analysis.com/ai-course/unit2/index.html) - focus on the discover > document > clean > report pipeline
 - Make sure your Python environment and AI tools are working (see the [setup guide]({{ site.baseurl }}/guides/dev-setup/) if needed)
 - Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) for pandas reference
 
@@ -74,6 +74,10 @@ By the end of this week, you should be able to:
 | **Data dictionary** | Documentation of every variable: name, type, description, missingness pattern, issues, and cleaning decisions |
 | **Methods section** | How you cleaned the data, what you computed, what test you used/ why, sample size, and exclusions |
 | **Effect size** | How large the difference or relationship is, not just whether it's statistically significant |
+
+## Readings and resources
+
+- Békés, Gábor. [Data Analysis with AI, Week 2: From Raw Data to Report](https://gabors-data-analysis.com/ai-course/unit2/index.html) - the discover/document/clean/report pipeline this week is built on, including the data dictionary and vibe-vs-directed report distinction
 
 ## Deliverable
 

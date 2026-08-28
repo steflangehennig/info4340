@@ -56,7 +56,7 @@ By the end of this week, you should be able to:
 **Before Session 1:**
 
 - Review your Week 8 incident brief - the safeguard thresholds you wrote connect directly to this week
-- Skim the [NIST AI RMF overview](https://www.nist.gov/artificial-intelligence/executive-order-safe-secure-and-trustworthy-artificial-intelligence)
+- Skim the [NIST AI RMF overview](https://www.nist.gov/itl/ai-risk-management-framework)
 
 **Before Session 2:**
 
@@ -71,6 +71,10 @@ By the end of this week, you should be able to:
 | **Governance threshold** | A measurable trigger for action: "human review when confidence < 0.7" - not "review when needed" |
 | **NIST AI RMF** | Four functions (Govern, Map, Measure, Manage) mapped to the quantitative tools students have built |
 | **Acceptable-use policy** | Operating document: approved, restricted, and prohibited uses with specific triggers and escalation |
+
+## Readings and resources
+
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - overview and links to the full AI RMF 1.0 document; the four functions (Govern, Map, Measure, Manage) are detailed in the [AI RMF 1.0 PDF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) and [Playbook](https://airc.nist.gov/airmf-resources/playbook/) if you want more than the overview
 
 ## Deliverable
 

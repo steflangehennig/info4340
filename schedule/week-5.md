@@ -55,7 +55,7 @@ By the end of this week, you should be able to:
 
 **Before Session 1:**
 
-- Read Békés, [Data Analysis with AI, Week 4](https://gabors-data-analysis.com/ai-course/) - focus on the helpful/adversarial prompt pattern
+- Read Békés, [Data Analysis with AI, Week 4: Econometrics with AI](https://gabors-data-analysis.com/ai-course/unit4/index.html) - focus on the helpful/adversarial prompt pattern (the controls section walks through it directly)
 - Think about a business question for the customer dataset
 
 **Before Session 2:**
@@ -72,6 +72,11 @@ By the end of this week, you should be able to:
 | **Holdout validation** | Fit on 70%, evaluate on 30% - tests whether clusters generalize |
 | **AIC/BIC** | Information criteria for model comparison: lower is better, BIC penalizes complexity more |
 | **ICC** | Intraclass correlation (ICC): proportion of variance that's between-group vs. within-group |
+
+## Readings and resources
+
+- Békés, Gábor. [Data Analysis with AI, Week 4: Econometrics with AI](https://gabors-data-analysis.com/ai-course/unit4/index.html) - explicitly teaches the helpful/adversarial pairing this week's design activity is built on: one AI session proposes, a second attacks, you reconcile
+- [sklearn KMeans docs](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) or [statsmodels mixedlm docs](https://www.statsmodels.org/stable/mixed_linear.html), depending on your track (Session 2)
 
 ## Deliverable
 

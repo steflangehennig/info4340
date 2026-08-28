@@ -56,7 +56,7 @@ By the end of this week, you should be able to:
 
 **Before Session 1:**
 
-- Read Békés, [Data Analysis with AI, Week 5](https://gabors-data-analysis.com/ai-course/) - text-to-data pipelines and evaluation
+- Read Békés, [Data Analysis with AI, Week 5: Text as Data](https://gabors-data-analysis.com/ai-course/unit5/index.html) - text-to-data pipelines and evaluation
 - Review the [Python for analysts guide]({{ site.baseurl }}/guides/python-analysts/) sections on sklearn and networkx
 
 **Before Session 2:**
@@ -72,6 +72,11 @@ By the end of this week, you should be able to:
 | **Precision/recall/F1 per class** | Not just overall accuracy, performance broken down by category to identify systematic weaknesses |
 | **Cost analysis** | Per-text LLM cost from actual token counts, projected to production scale, compared to human coding |
 | **Modularity** | How well a network's communities separate tested against a random null model to check significance |
+
+## Readings and resources
+
+- Békés, Gábor. [Data Analysis with AI, Week 5: Text as Data](https://gabors-data-analysis.com/ai-course/unit5/index.html) - the classification and validation pipeline for Session 1: hand-rating first, structured-output prompting, agreement against a labeled sample
+- [networkx community detection docs](https://networkx.org/documentation/stable/reference/algorithms/community.html) - modularity and the detection algorithms behind Session 2's network analysis
 
 ## Deliverable
 

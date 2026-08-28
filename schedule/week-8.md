@@ -57,6 +57,11 @@ permalink: /schedule/week-8/
 | **Quantitative harm estimation** | Project error rates to production volume: X errors/month × $Y cost = $Z monthly impact |
 | **Safeguard threshold** | A quantitative trigger for intervention: "human review when confidence < 0.7" or "alert when subgroup error rate > 15%" |
 
+## Readings and resources
+
+- [AI Incident Database - Discover](https://incidentdatabase.ai/apps/discover/) - browse real incidents here before Session 1; you'll need one for your brief
+- LLMs Visual Cards: [Bias in LLMs](https://llmsresearch.github.io/llm-flashcards/card/bias-in-llms) - how bias shows up as a statistical pattern rather than an explicit rule, and the benchmarks (BBQ, StereoSet) used to detect it
+
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
