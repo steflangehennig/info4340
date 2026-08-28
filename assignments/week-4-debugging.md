@@ -18,7 +18,7 @@ Submit as a single Jupyter notebook (`.ipynb`) with rendered .html that runs top
 
 ### Component 3: Peer review (manual + automated)
 
-**Submit as:** a short PDF (1 page is enough). Review a classmate's Week 3 notebook using both a manual checklist and the automated test suite you built in Component 2. Include the pass/fail output from running your test suite on their notebook, and report what each method caught that the other missed.
+Submit as a short PDF (1 page is enough). Review a classmate's Week 3 notebook using both a manual checklist and the automated test suite you built in Component 2. Include the pass/fail output from running your test suite on their notebook, and report what each method caught that the other missed.
 
 ## Rubric
 
