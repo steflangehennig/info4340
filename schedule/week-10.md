@@ -5,14 +5,35 @@ subtitle: "Bringing it all together - understand, use, evaluate, govern"
 permalink: /schedule/week-10/
 ---
 
-## Presentations
+## Sessions
 
-<div class="note" markdown="0">
-  <strong>Spans two class meetings:</strong> Class 19 and Class 20 &nbsp;|&nbsp;
-  Presentations run across both sessions to fit every group.
+<div class="session-block" markdown="0">
+  <div class="session-label">Session 1 · Class 19</div>
+  <div class="session-content">
+    <div class="session-title">Dedicated final project work time</div>
+    <p>No new content this session. Work with your partner on your notebook, written summary, governance memo, and slides. I'm available for questions - use this time to get unstuck before presentations.</p>
+    <div class="session-topics">
+      <span class="topic-tag">Pair work session</span>
+      <span class="topic-tag">Office hours / troubleshooting</span>
+    </div>
+  </div>
 </div>
 
-Each group presents their final project in a 10-minute slot (8 minutes presenting + 2 minutes Q&A). Your presentation should demonstrate all four course competencies with quantitative evidence.
+<div class="session-block" markdown="0">
+  <div class="session-label">Session 2 · Class 20</div>
+  <div class="session-content">
+    <div class="session-title">Final project presentations</div>
+    <p>Each pair presents in a 10-minute slot (8 minutes presenting + 2 minutes Q&A). 7 pairs fit in one session. Your presentation should demonstrate all four course competencies with quantitative evidence.</p>
+    <div class="session-topics">
+      <span class="topic-tag">Final presentations</span>
+      <span class="topic-tag">Peer evaluation</span>
+    </div>
+  </div>
+</div>
+
+## Presentations
+
+Each pair presents their final project in a 10-minute slot (8 minutes presenting + 2 minutes Q&A). Split speaking time so both partners present part of the work - I'll direct Q&A to each of you individually. Your presentation should demonstrate all four course competencies with quantitative evidence.
 
 ### What to cover
 
@@ -23,7 +44,7 @@ Each group presents their final project in a 10-minute slot (8 minutes presentin
 
 ### Peer evaluation
 
-Each student scores 2–3 presentations using a simplified rubric (workflow clarity, evaluation rigor, governance substance, presentation quality). Peer scores are a calibration check and are one input alongside the my grading.
+Each student scores 2–3 other pairs' presentations using a simplified rubric (workflow clarity, evaluation rigor, governance substance, presentation quality). Peer scores are a calibration check and are one input alongside my grading.
 
 ## Final project submission
 

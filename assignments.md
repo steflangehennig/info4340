@@ -108,7 +108,7 @@ All weekly deliverables must include an **AI use log** - a brief record of what 
   </div>
 </div>
 
-The final project is a reproducible workflow package demonstrating your ability to use, evaluate, and govern GenAI in an applied analytic context. It is introduced in Week 1 and developed throughout the course - the Week 9 governance memo becomes part of it, and the Week 4 validation suite carries into the notebook. Presentations are peer-evaluated on four dimensions. See the [full rubric]({{ site.baseurl }}/assignments/final-project/) for details.
+The final project is a reproducible workflow package demonstrating your ability to use, evaluate, and govern GenAI in an applied analytic context, completed in pairs. It is introduced in Week 1 and developed throughout the course - your two individual Week 9 governance memos get reconciled into one for the project, and the Week 4 validation suite carries into the notebook. Presentations are peer-evaluated on four dimensions. See the [full rubric]({{ site.baseurl }}/assignments/final-project/) for details.
 
 ## Submission
 

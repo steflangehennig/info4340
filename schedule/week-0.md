@@ -168,7 +168,7 @@ Optional rows marked `SKIP` are fine. You are aiming for **zero `FAIL` rows**.
 
 ## 5 &nbsp;Pre-course survey
 
-Ten minutes, on Canvas. It asks about your Python background, which AI tools you already use, what you want out of the course, and what industry you are heading into/already in. I use it to form project groups and to calibrate how fast we move through the technical material, so please answer honestly rather than aspirationally.
+Ten minutes, on Canvas. It asks about your Python background, which AI tools you already use, what you want out of the course, and what industry you are heading into/already in. I use it to form project pairs and to calibrate how fast we move through the technical material, so please answer honestly rather than aspirationally.
 
 ## 6 &nbsp;Bring two stories to our first class
 
