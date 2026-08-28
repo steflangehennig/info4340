@@ -13,6 +13,8 @@ permalink: /schedule/week-8/
 
 ## Learning objectives
 
+By the end of this week, you should be able to:
+
 1. Identify eight common AI failure modes and the sociotechnical failure chain
 2. Analyze a real AI incident using a structured diagnosis worksheet
 3. Compute subgroup error rates and formal disparity metrics (disparate impact ratio, equalized odds, chi-square)
