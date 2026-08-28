@@ -13,17 +13,17 @@ Demonstrate your ability to use, evaluate, and govern GenAI in an applied analyt
 
 One submission per pair unless noted otherwise:
 
-1. **Reproducible Python notebook** - **Submit as:** a Jupyter notebook (`.ipynb`) that runs top to bottom without errors. Runs end-to-end with assertions, documented cleaning, and formal evaluation metrics.
-2. **Written summary (3–5 pages)** - **Submit as:** a PDF. Required sections:
+1. **Reproducible Python notebook** - Submit as a Jupyter notebook (`.ipynb`) rendered as `.html` that runs top to bottom without errors. Runs end-to-end with assertions, documented cleaning, and formal evaluation metrics.
+2. **Written summary (3–5 pages)** - Submit as a PDF. Required sections:
    - Introduction (use case, question, significance)
    - Data (source, size, unit of observation, summary statistics)
    - Methods (approach justification, AI tools and settings, evaluation approach, assumptions)
    - Results (findings with effect sizes, CIs, P/R/F1, kappa, cost analysis - as applicable)
    - Governance (risk level, key rules, quantitative thresholds - a short summary; see Component 3 for the full memo)
    - Reflection (what you each learned, what you'd change)
-3. **Governance memo** - **Submit as:** a separate PDF from your written summary. Built from your two individual Week 9 governance memos, reconciled and revised for your shared final workflow, with a quantitative risk matrix and measurable thresholds. It's the full memo - more detailed than the Governance section in Component 2.
-4. **Presentation slides** - **Submit as:** a PDF export of the slides you present in Week 10.
-5. **AI use log** - **submitted individually, one per partner.** Each of you documents your own AI interactions, judgment calls, and verification - this is the one component that isn't shared, because it's meant to reflect your personal decisions, not a joint narrative. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
+3. **Governance memo** - Submit as a separate PDF from your written summary. Built from your two individual Week 9 governance memos, reconciled and revised for your shared final workflow, with a quantitative risk matrix and measurable thresholds. It's the full memo - more detailed than the Governance section in Component 2.
+4. **Presentation slides** - Submit as a PDF export of the slides you present in Week 10.
+5. **AI use log** - **submitted individually, one per partner.** Each of you documents your own AI interactions, judgment calls, and verification. This is the one component that isn't shared because it's meant to reflect your personal decisions, not a joint narrative. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
 
 ### Presentation
 
@@ -31,11 +31,11 @@ One submission per pair unless noted otherwise:
 
 ### Peer evaluation
 
-During Week 10, you'll also score 2-3 other pairs' presentations using a simplified rubric (workflow clarity, evaluation rigor, governance substance, presentation quality), submitted via Canvas the same day. This is a separate task, not part of your own submission package - your presentation will also be scored by peers as one input alongside grading.
+During Week 10, you'll also score 2-3 other pairs' presentations using a simplified rubric (workflow clarity, evaluation rigor, governance substance, presentation quality), submitted via Canvas the same day. This is a separate task, not part of your own submission. Your presentation will also be scored by peers as one input alongside grading.
 
 ## Rubric
 
-The first five criteria are scored once per pair - both partners receive the same score. **AI use log is scored individually**, since it's submitted separately by each partner.
+The first five criteria are scored once per pair - both partners receive the same score. **AI use log is scored individually** since it's submitted separately by each partner.
 
 | Criterion | Excellent (10) | Adequate (6) | Needs revision (3) |
 |---|---|---|---|
