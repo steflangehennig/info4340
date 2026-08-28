@@ -31,7 +31,7 @@ Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and re
 | Risk matrix | All domains scored with likelihood × impact | Risk assigned without matrix | No assessment |
 | Quantitative thresholds | 3+ rules with specific, measurable triggers, with AI's draft critiqued and rewritten in the use log | Some rules but thresholds vague, or AI draft not critiqued | Principles only |
 | Data and review rules | Specific with quantitative triggers | Present but generic | No specifics |
-| Escalation | Clear owner, breach → action → timeline | Some accountability | No structure |
+| Escalation | Clear owner, breach > action > timeline | Some accountability | No structure |
 | Course connection | References Weeks 6–8 metrics directly | Loosely connected | Disconnected |
 
 **Total: 30 points**
