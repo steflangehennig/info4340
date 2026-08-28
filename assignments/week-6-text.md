@@ -11,7 +11,7 @@ Build a complete text-as-data pipeline with formal evaluation, cost analysis, an
 
 ### Components 1-3: Classification and network notebook
 
-Submit as a single Jupyter notebook (`.ipynb`) rendered as .html that runs top to bottom without errors, with a markdown header for each part below.
+Submit as a single Jupyter notebook (`.ipynb`) rendered as `.html` that runs top to bottom without errors, with a markdown header for each part below.
 
 1. **Hand-coded validation (25+ texts) + inter-annotator kappa** - define categories, hand-code 25+ texts, compute Cohen's κ with a partner on 20 shared texts. If κ < 0.6, revise and document.
 2. **Classification pipeline with formal evaluation** - sklearn baseline with cross-validation, LLM classifier on full corpus, precision/recall/F1 per class, confusion matrix, weakest-class analysis, and cost analysis (per-text cost projected to 10K/100K, compared to human coding).
