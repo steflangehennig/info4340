@@ -11,7 +11,7 @@ Write a governance memo for your final project's AI workflow with quantitative r
 
 ### Components
 
-Submit as one PDF, using the numbered items below as your section headings, in order.
+Submit as one PDF, using the numbered items below as your section headings in order.
 
 1. **Workflow description** - what AI does, inputs, outputs
 2. **Quantitative risk matrix** - likelihood (1-5) × impact (1-5) for each governance domain, with justifications
@@ -19,7 +19,7 @@ Submit as one PDF, using the numbered items below as your section headings, in o
 4. **Data rules** - what data enters AI, classification, restrictions
 5. **Human review and disclosure** - who reviews, when, with at least one quantitative trigger
 6. **Prohibited uses and escalation** - what's not allowed, what happens when a threshold is breached
-7. **Connection to final project** - reference specific metrics from your Weeks 6–8 work
+7. **Connection to final project** - reference specific metrics from your Weeks 6-8 work
 
 Any code you wrote to compute κ or MDD needs to be submitted as `.ipynb` and rendered as `.html`. **Also include** your AI use log covering the harm-estimate check in Component 3 - see the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
 
