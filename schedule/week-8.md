@@ -50,6 +50,16 @@ By the end of this week, you should be able to:
   </div>
 </div>
 
+## Prepare before class
+
+**Before Session 1:**
+
+- Browse the [AI Incident Database](https://incidentdatabase.ai/apps/discover/) and pick a candidate incident for your brief
+
+**Before Session 2:**
+
+- Bring your Week 6 classification results/notebook - you'll compute subgroup accuracy and disparity metrics on them
+
 ## Key concepts
 
 | Concept | What it means |
