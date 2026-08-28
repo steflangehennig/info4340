@@ -71,6 +71,11 @@ By the end of this week, you should be able to:
 | **Test function** | A reusable `run_validation()` function with 8+ checks that produces a pass/fail report - infrastructure, not one-off assertions |
 | **Peer review** | Manual checklist + automated test suite, comparing what each catches |
 
+## Readings and resources
+
+- Békés, Gábor. [Data Analysis with AI, Week 3: Data Wrangling & Debugging](https://gabors-data-analysis.com/ai-course/unit3/index.html) - the three kinds of tests, "silent failures," and trust-but-verify discipline that this week's bug hunt and test suite are built on (Session 1)
+- [Git and GitHub 101 guide]({{ site.baseurl }}/guides/git-github/) - the lightweight versioning you'll use in Session 2
+
 ## Deliverable
 
 <div class="assignment-preview" markdown="0">
