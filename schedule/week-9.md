@@ -42,9 +42,10 @@ By the end of this week, you should be able to:
   <div class="session-label">Session 2 · Class 18</div>
   <div class="session-content">
     <div class="session-title">Drafting policy and preparing to present</div>
-    <p>Draft an acceptable-use policy where every section includes at least one measurable threshold. Peer-critique another group's policy for measurability and realism. Then dedicated final project work time.</p>
+    <p>Draft an acceptable-use policy where every section includes at least one measurable threshold. Before finalizing a threshold, back-test it against your own Week 6-8 results (Python: does the rule actually fire at a plausible rate on your data?). Peer-critique another group's policy for measurability and realism. Then dedicated final project work time.</p>
     <div class="session-topics">
       <span class="topic-tag">Acceptable-use policy with thresholds</span>
+      <span class="topic-tag">Python: threshold back-testing</span>
       <span class="topic-tag">Policy critique for measurability</span>
       <span class="topic-tag">Final project work session</span>
     </div>
@@ -62,6 +63,7 @@ By the end of this week, you should be able to:
 
 - Review your Session 1 risk matrix and governance rules
 - Have your final project workflow defined well enough to write governance rules for it
+- Bring your Week 6 and Week 8 results (classification confidence, subgroup error rates) - you'll back-test your thresholds against them in `class18-python-threshold-backtest.ipynb`
 
 ## Key concepts
 
@@ -69,6 +71,7 @@ By the end of this week, you should be able to:
 |---|---|
 | **Quantitative risk matrix** | Likelihood (1–5) × Impact (1–5) for each governance domain, producing a risk score (1–25) |
 | **Governance threshold** | A measurable trigger for action: "human review when confidence < 0.7" - not "review when needed" |
+| **Threshold back-testing** | Checking a proposed threshold against your own Week 6-8 results before finalizing it - what fraction of real cases would it actually flag? |
 | **NIST AI RMF** | Four functions (Govern, Map, Measure, Manage) mapped to the quantitative tools students have built |
 | **Acceptable-use policy** | Operating document: approved, restricted, and prohibited uses with specific triggers and escalation |
 
