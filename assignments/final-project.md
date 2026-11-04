@@ -24,7 +24,7 @@ One submission per pair unless noted otherwise:
 3. **Governance memo** - Submit as a separate PDF from your written summary. Built from your two individual Week 9 governance memos, reconciled and revised for your shared final workflow, with a quantitative risk matrix and measurable thresholds. It's the full memo - more detailed than the Governance section in Component 2.
 4. **Presentation slides** - Submit as a PDF export of the slides you present in Week 10.
 5. **AI use log** - **submitted individually, one per partner.** Each of you documents your own AI interactions, judgment calls, and verification. This is the one component that isn't shared because it's meant to reflect your personal decisions, not a joint narrative. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
-6. **GitHub repo** - One repo per pair holding all of your Python code (`.ipynb` and any `.py` files), a README, and everything needed to run it. Submit the link on Canvas. See the GitHub Repo Guidelines page on Canvas for what to include.
+6. **GitHub repo** - One repo per pair holding all of your Python code (`.ipynb` and any `.py` files), a README, and everything needed to run it. Submit the link on Canvas. See the GitHub Repo Guidance page on Canvas for what to include.
 
 ### Presentation
 
@@ -48,4 +48,4 @@ The first six criteria are scored once per pair - both partners receive the same
 | Presentation | All four competencies, quantitative evidence, engages audience; both partners speak substantively | Most elements but uneven, or one partner dominates | Missing major components |
 | AI use log (individual) | Comprehensive, shows evolving usage and judgment | Present but incomplete | Missing |
 
-**Total: 70 points** (per student - each partner is graded individually on the AI use log row, and shares the same score on the other six)
+**Total: 70 points** (per student - each partner is graded individually on the AI use log row and shares the same score on the other six)
