@@ -103,8 +103,8 @@ All weekly deliverables must include an **AI use log** - a brief record of what 
   <div class="assignment-week">Wk 10</div>
   <div class="assignment-content">
     <div class="assignment-title"><a href="{{ site.baseurl }}/assignments/final-project/">Final workflow package + presentation</a></div>
-    <div class="assignment-meta">6 criteria | 60 points | Due Week 10</div>
-    <div class="assignment-desc">Reproducible Python notebook, written summary (3-5 pages), governance memo, 10-minute presentation, and comprehensive AI use log demonstrating all four competencies.</div>
+    <div class="assignment-meta">7 criteria | 70 points | Due Week 10</div>
+    <div class="assignment-desc">Reproducible Python notebook, written summary (3-5 pages), governance memo, 10-minute presentation, comprehensive AI use log, and a GitHub repo, demonstrating all four competencies.</div>
   </div>
 </div>
 

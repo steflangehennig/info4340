@@ -26,6 +26,17 @@ Submit as a single Jupyter notebook (`.ipynb`) rendered as `.html` that runs top
 
 **LMM track:** 4+ specifications, AIC/BIC comparison table, justified final model, residual diagnostics, ICC, effect sizes with 95% confidence intervals.
 
+**Start from the Class 10 notebook, but don't stop there.** The in-class notebook is a worked example on a generic question. You may reuse its code, but your submission must implement *your* plan from Component 1, not the class defaults.
+
+- **Your question drives the analysis.** The first markdown cell restates your business question. Your final interpretation answers it.
+- **Make at least two analytic choices of your own,** each traceable to your reconciliation.
+  - *Segmentation examples:* feature set beyond basic RFM, transformation, outlier handling, scaling method, range of k tested, a different clustering algorithm as a robustness check.
+  - *LMM examples:* outcome variable, predictors, grouping structure, random slopes, interaction terms.
+- **Decision log.** Near the top, add a table with these columns: Decision \| Class default \| My choice \| Why \| Source (AI helpful / AI adversarial / my data / my judgment).
+- **Fill in every "Your decision" cell** in your own words, citing your output (specific metric values, AIC/BIC numbers, diagnostic plots).
+
+A notebook that reproduces the class defaults without its own question, choices, and justification earns at most "Adequate" on Model selection and Interpretation.
+
 ### Component 3: AI use log
 
 See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).

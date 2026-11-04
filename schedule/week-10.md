@@ -50,7 +50,7 @@ Each student scores 2–3 other pairs' presentations using a simplified rubric (
 
 <div class="assignment-preview" markdown="0">
   <div class="assignment-preview-title">Final Workflow Package</div>
-  <div class="assignment-preview-meta">6 criteria | 60 points | Due Week 10 | Submit via Canvas</div>
-  <p>Reproducible Python notebook, written summary with formal methods section (3–5 pages), governance memo with quantitative risk matrix and thresholds, presentation slides, peer evaluation forms, and comprehensive AI use log.</p>
+  <div class="assignment-preview-meta">7 criteria | 70 points | Due Week 10 | Submit via Canvas</div>
+  <p>Reproducible Python notebook, written summary with formal methods section (3–5 pages), governance memo with quantitative risk matrix and thresholds, presentation slides, peer evaluation forms, comprehensive AI use log, and a GitHub repo with your code and README.</p>
   <a href="{{ site.baseurl }}/assignments/final-project/" class="assignment-link">Full rubric →</a>
 </div>

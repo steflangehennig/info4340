@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Final Project"
-subtitle: "Reproducible workflow package | 60 points | Due Week 10"
+subtitle: "Reproducible workflow package | 70 points | Due Week 10"
 permalink: /assignments/final-project/
 ---
 
@@ -24,6 +24,7 @@ One submission per pair unless noted otherwise:
 3. **Governance memo** - Submit as a separate PDF from your written summary. Built from your two individual Week 9 governance memos, reconciled and revised for your shared final workflow, with a quantitative risk matrix and measurable thresholds. It's the full memo - more detailed than the Governance section in Component 2.
 4. **Presentation slides** - Submit as a PDF export of the slides you present in Week 10.
 5. **AI use log** - **submitted individually, one per partner.** Each of you documents your own AI interactions, judgment calls, and verification. This is the one component that isn't shared because it's meant to reflect your personal decisions, not a joint narrative. See the [AI use log guide]({{ site.baseurl }}/guides/ai-use-log/).
+6. **GitHub repo** - One repo per pair holding all of your Python code (`.ipynb` and any `.py` files), a README, and everything needed to run it. Submit the link on Canvas. See the GitHub Repo Guidelines page on Canvas for what to include.
 
 ### Presentation
 
@@ -35,15 +36,16 @@ During Week 10, you'll also score 2-3 other pairs' presentations using a simplif
 
 ## Rubric
 
-The first five criteria are scored once per pair - both partners receive the same score. **AI use log is scored individually** since it's submitted separately by each partner.
+The first six criteria are scored once per pair - both partners receive the same score. **AI use log is scored individually** since it's submitted separately by each partner.
 
 | Criterion | Excellent (10) | Adequate (6) | Needs revision (3) |
 |---|---|---|---|
 | Use case and workflow | Clear, realistic with well-designed pipeline | Identified but incomplete | Vague or no pipeline |
 | Reproducible notebook | Runs end-to-end, assertions, formal evaluation, cleaning documented | Runs but sparse documentation | Doesn't run or major gaps |
+| GitHub repo | All code, README with every section and real findings, `requirements.txt`, data or access instructions, saved AI outputs; runs from a fresh copy; no API keys committed | Code and README present, but README is missing sections or setup steps are incomplete | Missing code or README, or can't be run from a fresh copy |
 | Written summary with methods | All 6 sections, formal methods, summary stats, metrics with CIs | Most sections but methods lack rigor | Missing sections or no methods |
 | Governance memo | Risk matrix, 3+ rules with measurable thresholds, escalation | Some elements with some thresholds | Principles only |
 | Presentation | All four competencies, quantitative evidence, engages audience; both partners speak substantively | Most elements but uneven, or one partner dominates | Missing major components |
 | AI use log (individual) | Comprehensive, shows evolving usage and judgment | Present but incomplete | Missing |
 
-**Total: 60 points** (per student - each partner is graded individually on the AI use log row, and shares the same score on the other five)
+**Total: 70 points** (per student - each partner is graded individually on the AI use log row, and shares the same score on the other six)
